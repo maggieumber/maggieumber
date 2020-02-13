@@ -65,9 +65,9 @@ a {
   color: #ff4a1c;
 }
 
-a:visited {
+/* a:visited {
   color: #858C7B;
-}
+} */
 
 a:hover {
   color: #151814;
@@ -83,7 +83,7 @@ a:active {
 /* class selectors */
 .avatar {
   border-radius: 50%;
-  max-width: 70%;
+  max-width: 50%;
 }
 
 .logo {
