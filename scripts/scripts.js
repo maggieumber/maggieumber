@@ -1,71 +1,49 @@
-var bluesuit, bluesuit2, shop270, sosf, tc, inprint, sm, am4, shirleyJackson;
-var bio;
+// Shop
 
-function preload() {
-	bluesuit = loadAnimation('assets/bluesuitsmall_0000.png', 'assets/bluesuitsmall_0005.png');
-	shop270 = loadAnimation('assets/shopsmall_0001.png', 'assets/shopsmall_0009.png');
-	shop270.looping = false;
-	am4 = loadAnimation('assets/amsmall-0000.png', 'assets/amsmall-0009.png');
-	tc = loadAnimation('assets/timecapsulesmall_0000.png', 'assets/timecapsulesmall_0005.png');
-	tc.playing = false;
-	/*
-		sosf = loadAnimation('assets/sound-of-snow-fallingsmall-0000.png', 'assets/sound-of-snow-fallingsmall-0001.png');
-		inprint = loadAnimation('images/shades-of-skysmall-0000.png', 'images/shades-of-skysmall-0001.png');
-		sm = loadAnimation('images/startled-maggiesmall-0000.png', 'images/startled-maggiesmall-0001.png');
-		shirleyJackson = loadAnimation('images/the-shirley-jackson-projectsmall-0000.png', 'images/the-shirley-jackson-projectsmall-0001.png');
-		*/
-	bio = 'MAGGIE UMBER cartoonist, painter, printmaker, publisher at 2dcloud';
-}
-
-function setup() {
-	createCanvas(windowWidth, windowHeight);
-}
-
-function draw() {
-	background(255, 255, 255);
-
-	for (var i = 400; i < 1000; i += 10) {
-		line(400, i, width, i);
+filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+	var x, i;
+	x = document.getElementsByClassName("column");
+	if (c == "all") c = "";
+	// Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+	for (i = 0; i < x.length; i++) {
+		w3RemoveClass(x[i], "show");
+		if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
 	}
-
-	//playing an pausing an animation
-	if (mouseIsPressed)
-		bluesuit.play();
-	else
-		bluesuit.stop();
-
-	//reading and changing the current frame
-	if (am4.getFrame() == am4.getLastFrame())
-		am4.changeFrame(7);
-
-	//playing backward or forward toward a specific frame
-	//returns to the initial frame if click and hold
-
-	if (mouseIsPressed)
-		shop270.goToFrame(0);
-	else
-		shop270.goToFrame(shop270.getLastFrame());
-
-	animation(bluesuit, 100, 150);
-	animation(shop270, 400, 150);
-	animation(am4, 700, 150);
-	animation(tc, 1000, 150);
-	/*
-		animation(sosf, 500, 150);
-		animation(inprint, 900, 150);
-	*/
-
-	textFont("Cabin Sketch");
-	fill(50);
-	textSize(20);
-	text(bio, 50, 400, 250, 250); // Text wraps within text box
 }
 
-function mousePressed() {
-	//rewind on mouse pressed - change frame to 0
-	am4.rewind();
+// Show filtered elements
+function w3AddClass(element, name) {
+	var i, arr1, arr2;
+	arr1 = element.className.split(" ");
+	arr2 = name.split(" ");
+	for (i = 0; i < arr2.length; i++) {
+		if (arr1.indexOf(arr2[i]) == -1) {
+			element.className += " " + arr2[i];
+		}
+	}
+}
 
-	//move ahead one frame
-	tc.nextFrame();
-	//glitch.previousFrame();
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+	var i, arr1, arr2;
+	arr1 = element.className.split(" ");
+	arr2 = name.split(" ");
+	for (i = 0; i < arr2.length; i++) {
+		while (arr1.indexOf(arr2[i]) > -1) {
+			arr1.splice(arr1.indexOf(arr2[i]), 1);
+		}
+	}
+	element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+	btns[i].addEventListener("click", function () {
+		var current = document.getElementsByClassName("active");
+		current[0].className = current[0].className.replace(" active", "");
+		this.className += " active";
+	});
 }
