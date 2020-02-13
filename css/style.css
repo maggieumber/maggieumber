@@ -86,6 +86,10 @@ a:active {
   max-width: 50%;
 }
 
+.pressAvatar {
+  max-width: 20rem;
+}
+
 .logo {
   width: 16px;
 }
