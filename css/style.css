@@ -28,7 +28,7 @@
   font-weight: 700;
 }
 
-/* Header & nav bar */
+/* Main */
 body {
   background-color: #ebf1f8;
   color: #000015;
@@ -43,20 +43,6 @@ h3 {
   text-transform: uppercase;
 }
 
-header {
-  background-color: gray;
-  font-family: "League Gothic", "Gothic Medium", sans-serif;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-}
-
-nav {
-  width: 900px;
-  display: flex;
-  justify-content: space-between;
-}
-
 a {
   color: gray;
   font-size: 25px;
@@ -68,21 +54,31 @@ a:hover {
   color: #000015;
 }
 
+/* Header & Footer */
+/* top level flex container */
+header,
+footer {
+  font-family: "League Gothic", "Gothic Medium", sans-serif;
+  text-transform: uppercase;
+  background-color: gray;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* 2nd level flex container */
+nav,
+.footerContainer {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 3rd level flex container a */
 .home a {
   color: #000015;
   font-size: 50px;
-  padding: 5px 0px 5px 0px;
-}
-
-.navlinks {
-  display: flex;
-  padding: 20px 0px 20px 0px;
-  justify-content: flex-end;
-}
-
-.navLinksItem a {
-  color: #ebf1f8;
-  margin-left: 20px;
+  padding: 5px 0px;
 }
 
 .home a:hover {
@@ -90,12 +86,32 @@ a:hover {
   ;
 }
 
-.navLinksItem a:hover {
-  color: #000015;
-  ;
+small {
+  padding: 28px 0px;
+  font-size: medium;
 }
 
-/* Index Main */
+/* 3rd level flex container b */
+.navlinks,
+.socialMediaIcons {
+  display: flex;
+  padding: 20px 0px 20px 0px;
+  justify-content: flex-end;
+}
+
+/* 4th level final container items */
+.navLinksItem a,
+.socialMediaIconsItem a {
+  color: #ebf1f8;
+  margin-left: 20px;
+}
+
+.navLinksItem a:hover,
+.socialMediaIconsItem a:hover {
+  color: #000015;
+}
+
+/* Index Page Main */
 .indexMainContainer {
   display: flex;
   justify-content: center;
@@ -105,12 +121,12 @@ a:hover {
   width: 900px;
   height: 514px;
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
 .logo {
   display: flex;
-  flex-flow: row wrap;
   justify-content: flex-start;
 }
 
