@@ -126,7 +126,7 @@ small {
 
 .photoGridItem {
   /* border: 1px solid #fff; */
-  width: 450px;
+  max-width: 450px;
   height: 450px;
 }
 
@@ -136,12 +136,29 @@ small {
     sans-serif;
   font-size: 40px;
   height: 450px;
-  width: 450px;
+  max-width: 450px;
   padding: 80px 0px 0px 60px;
 }
 
-/* .responsive {
+.photoGridWordsItemFull {
+  background-color: #000015;
+  color: #ebf1f8;
+  font-family: "League Gothic",
+    "Gothic Medium",
+    sans-serif;
+  font-size: 40px;
+  height: 350px;
+  max-width: 900px;
+  padding: 80px 0px 0px 60px;
+}
+
+.photoGridWordsItemFull :hover {
+  color: #ebf1f8;
+}
+
+/* 
+.responsive {
   width: 100%;
-  max-width: 512px;
+  max-width: 450px;
   height: auto;
 } */
