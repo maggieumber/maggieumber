@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blackletter {
+  font-family: 'Grenze Gotisch', cursive;
+}
+
+.grayletterLight {
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+.grayletterRegular {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  background-color: lightgray;
+  color: #000002;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  /* this sets the font size for the entire page */
+  font-size: 18px;
+  padding: 50px 0;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+nav,
+footer {
+  text-align: left;
+}
+
+.blogNav {
+  padding: 40px 40px;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  top: 25px;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 25px;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+small {
+  font-size: small;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  line-height: 1.5em;
+  padding: 75px 25px 15px 25px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.3em;
+  border-bottom: 3px dashed #000002;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+ul,
+li {
+  display: inline;
+}
+
+p {
+  padding: 50px 0 25px 0;
+  text-align: justify;
+  line-height: 2.2em;
+}
+
+time {
+  display: block;
+  padding: 15px 25px 50px 25px;
+}
+
+a:link {
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 2.5px;
+  line-height: 2.5em;
+  color: orangered;
+}
+
+/* This is for the head title link color */
+.title {
+  border: 3px dashed #000002;
+  padding: 10px 0;
+}
+
+a:visited {
+  color: orangered;
+}
+
+a:hover {
+  background-color: snow;
+}
+
+a:active {
+  color: #f3f3f3;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* Images */
+img {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  text-align: right;
+}
+
+article figcaption {
+  width: 600px;
+}
+
+.friendsGrid .bio a {
+  margin: 2.5px;
+}
+
+.litParagraphGray {
+  background-color: lightgray;
+  padding: 20px;
+  font-size: .9em;
+  line-height: 1.5em;
+  max-width: 100%;
+  height: auto;
+}
+
+.litParagraphBlack {
+  background-color: #000002;
+  color: #f3f3f3;
+  padding: 20px;
+  font-size: .9em;
+  line-height: 1.5em;
+  max-width: 100%;
+  height: auto;
+}
+
+.litParagraphPink {
+  background-color: #C97082;
+  color: #f3f3f3;
+  padding: 20px;
+  font-size: .9em;
+  line-height: 1.5em;
+  max-width: 100%;
+  height: auto;
+}
+
+.litParagraphBlue {
+  background-color: #2E629C;
+  color: #f3f3f3;
+  padding: 20px;
+  font-size: .9em;
+  line-height: 1.5em;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Nav Flexbox */
+.navFlex {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+.navFlexItem {
+  margin: 10px;
+}
+
+/* Art Flexbox */
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.gallery-item {
+  margin: 10px;
+}
+
+.gallery-item .thumbnail {
+  border: 1px solid #000002;
+  border-radius: 5px;
+}
+
+/* Members Grid */
+.friendsGrid {
+  display: grid;
+  grid-template: repeat(3, 33em) / repeat(auto-fit, minmax(15em, 1fr));
+  grid-auto-rows: 33em;
+  grid-gap: 10px;
+}
+
+/* Videos */
+.responsive-vid {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 0;
+  height: 0;
+}
+
+.responsive-vid iframe,
+.responsive-vid video {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 93%;
+  height: 93%;
+  border-radius: 5px;
+  border: 1px solid #000002;
+}
