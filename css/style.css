@@ -37,7 +37,7 @@ body {
 }
 
 .paragraphBody {
-  padding: 10px 0px;
+  padding: 0px 30px 0px 0px;
   line-height: 1.8em;
 }
 
@@ -51,10 +51,6 @@ a {
 
 h1 {
   font-size: 2em;
-}
-
-.pageTitle {
-  padding: 40px 0px;
 }
 
 h2 {
@@ -84,14 +80,23 @@ footer {
   font-family: "League Gothic", "Gothic Medium", sans-serif;
   text-transform: uppercase;
   background-color: gray;
-  padding: 20px 0;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pageTitle {
+  font-family: "League Gothic", "Gothic Medium", sans-serif;
+  text-transform: uppercase;
+  padding: 40px 20px 40px 20px;
   display: flex;
   justify-content: center;
 }
 
 /* 2nd level flex container */
 nav,
-.footerContainer {
+.footerContainer,
+.pageTitleContainer {
   width: 750px;
   display: flex;
   justify-content: space-between;
