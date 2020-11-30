@@ -92,7 +92,7 @@ footer {
 /* 2nd level flex container */
 nav,
 .footerContainer {
-  width: 900px;
+  width: 750px;
   display: flex;
   justify-content: space-between;
 }
@@ -141,15 +141,20 @@ small {
 }
 
 .photoGrid {
-  width: 900px;
+  width: 750px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
+/* puts pics here */
 .photoGridItem {
-  max-width: 450px;
-  height: 450px;
+  max-width: 375px;
+  height: 375px;
+}
+
+.smaller {
+  max-width: 375px;
 }
 
 .photoGridItemTall {
@@ -161,10 +166,10 @@ small {
   font-family: "League Gothic",
     "Gothic Medium",
     sans-serif;
-  font-size: 40px;
-  height: 450px;
-  max-width: 450px;
-  padding: 80px 0px 0px 60px;
+  font-size: 30px;
+  height: 375px;
+  max-width: 375px;
+  padding: 80px 50px 0px 60px;
 }
 
 .photoGridWordsItemTall {
@@ -178,30 +183,6 @@ small {
   max-width: 900px;
   padding: 80px 0px 0px 60px;
 }
-
-/* Rename Patreon Section */
-.photoGridWordsItemFull {
-  background-color: #000015;
-  color: #ebf1f8;
-  font-family: "League Gothic",
-    "Gothic Medium",
-    sans-serif;
-  font-size: 40px;
-  height: 350px;
-  max-width: 900px;
-  padding: 80px 0px 0px 60px;
-}
-
-.photoGridWordsItemFull :hover {
-  color: #ebf1f8;
-}
-
-/* 
-.responsive {
-  width: 100%;
-  max-width: 450px;
-  height: auto;
-} */
 
 /* Videos */
 .responsive-vid {
