@@ -158,7 +158,7 @@ small {
 }
 
 .photoGridItemTall {
-  max-width: 450px;
+  max-width: 375px;
   height: 600px;
 }
 
@@ -174,7 +174,7 @@ small {
 
 .photoGridWordsItemTall {
   height: 550px;
-  max-width: 450px;
+  max-width: 375px;
   padding: 10px 0px 0px 60px;
 }
 
@@ -190,9 +190,7 @@ small {
   padding-bottom: 56.25%;
   /* 16:9 */
   padding-top: 0;
-  height: 0;
-  width: 900px;
-  height: 512px;
+  width: 750px;
 }
 
 .responsive-vid iframe,
