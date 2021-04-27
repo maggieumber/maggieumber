@@ -34,6 +34,7 @@ body {
   color: #000015;
   font-family: "Fanwood", "Times New Roman", Times, serif;
   font-size: 19px;
+  letter-spacing: 1.5px;
 }
 
 .paragraphBody {
@@ -76,6 +77,7 @@ a:hover {
 /* Header & Footer */
 /* top level flex container */
 header,
+nav,
 footer {
   font-family: "League Gothic", "Gothic Medium", sans-serif;
   text-transform: uppercase;
@@ -94,19 +96,20 @@ footer {
 }
 
 /* 2nd level flex container */
-nav,
+.headerContainer,
+.navContainer,
 .footerContainer,
 .pageTitleContainer {
   width: 750px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 /* 3rd level flex container a */
 .home a {
   color: #000015;
   font-size: 50px;
-  padding: 5px 0px;
+  padding: 5px;
 }
 
 .home a:hover {
