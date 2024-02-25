@@ -42,6 +42,8 @@ defaults:
       is_post: false
       layout: default
 
+include: [_pages]
+
 # Build settings
 theme: null
 plugins:
