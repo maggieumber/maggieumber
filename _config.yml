@@ -26,6 +26,22 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: maggieumber
 
+defaults:
+  - 
+  scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+  - 
+  scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
+
 # Build settings
 theme: null
 plugins:
