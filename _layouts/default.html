@@ -1,25 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>{{ page.title }}</title>
-    <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Maggie Umber, cartoonist, painter, printmaker, programmer"
-    />
-    <meta
-      name="keywords"
-      content="Maggie Umber, comics, paintings, prints, games"
-    />
-    <meta name="author" content="Maggie Umber" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- LINKS TO CSS FILE ("STYLESHEET"), GOOGLE FONTS AND SITE ICON -->
-    <link rel="stylesheet" href="/css/style-sheet.css" />
-    <link href="/myicon.png" rel="icon" type="image/png" />
-  </head>
-
+  {% include head.html %}
   <body>
-    {% include header.html %} {{ content }} {% include footer.html %}
+    {% include header.html %}
+    <main>{{ content }}</main>
+    {% include footer.html %}
   </body>
 </html>
