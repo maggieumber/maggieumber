@@ -26,29 +26,25 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: maggieumber
 
-defaults:
-  - 
-  scope:
-      type: posts
-      path: _posts
-    values:
-      is_post: true
-      layout: post
-      permalink: /blog/:categories/:title/
-  - 
-  scope:
-      type: pages
-      path: _pages
-    values:
-      is_post: false
-      layout: default
-
-include: [_pages]
-
 # Build settings
 theme: null
 plugins:
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: "_post"
+    values:
+      is_post: true
+      layout: "post"
+      permalink: /blog/:categories/:title/
+  - scope:
+      path: "_pages"
+    values:
+      is_post: false
+      layout: "default"
+
+include: [_pages]
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
