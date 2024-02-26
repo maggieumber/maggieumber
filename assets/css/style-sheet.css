@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* headline & bold font */
+@font-face {
+  font-family: "Sniglet-master";
+  src: url("/fonts/sniglet-master/webfonts/Sniglet-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
+body {
+  font-family: "Noto Sans", "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  font-size: 18px;
+  line-height: 1.8em;
+  background-color: #ebf1f8;
+  max-width: 1200px;
+  color: #140808;
+  margin: 175px auto 75px auto;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+header,
+nav,
+a {
+  font-family: Sniglet-master, cursive;
+}
+
+header,
+footer,
+nav {
+  color: #252525;
+}
+
+nav,
+footer {
+  position: fixed;
+  left: 0px;
+  text-align: center;
+  margin-left: auto;
+  padding: 0px 5px 0px 0px;
+  width: 100%;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  margin: 25px 0px;
+}
+
+nav {
+  top: 0px;
+  z-index: 1;
+}
+
+footer {
+  bottom: 0px;
+}
+
+small {
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin-left: auto;
+  padding: 25px;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+.h1-category-spacing {
+  padding-top: 100px;
+}
+
+h2 {
+  padding: 70px 0px 30px 0px;
+}
+
+p,
+ul {
+  margin-left: auto;
+  padding: 10px;
+}
+
+ol {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #8a2426;
+}
+
+nav a,
+footer a {
+  margin: 0px 5px;
+}
+
+a:hover {
+  font-weight: 700;
+  color: #f94848;
+}
+
+/* Videos */
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item .thumbnail-200 {
+  width: 200px;
+}
+
+.gallery-item .thumbnail-300 {
+  width: 300px;
+}
+
+.gallery-item .thumbnail-400 {
+  width: 400px;
+  /* padding: 25px; */
+}
+
+.gallery-item .thumbnail-600 {
+  width: 600px;
+}
+
+.siteIcon {
+  width: 30px;
+  display: inline;
+}
+
+figcaption {
+  text-align: center;
+  padding-bottom: 50px;
+}
