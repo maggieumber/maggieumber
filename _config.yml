@@ -35,13 +35,13 @@ defaults:
   - scope:
       path: "_posts"
     values:
-      is_post: true
+      # is_post: true
       layout: "post"
-      # permalink: /blog/:categories/:title/
+      permalink: /blog/:categories/:title/
   - scope:
       path: "_pages"
     values:
-      is_post: false
+      # is_post: false
       layout: "default"
 
 include: [_pages]
