@@ -1,2 +1,2 @@
-# eyespymaggie
-practice website to test jekyll
+# maggieumber
+Maggie Umber paints, prints, and programs comics

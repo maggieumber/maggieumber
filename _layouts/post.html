@@ -2,9 +2,28 @@
 layout: default
 ---
 
-<time
-  >{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author
-  }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time
->
+<time>
+  {{ page.date | date: "%b %-d, %Y" }}
+  {% if page.author %} • {{ page.author }}
+  {% endif %}
+  {% if page.meta %} • {{ page.meta }}
+  {% endif %}
+</time>
 
-{{ content }}
+<p>
+  Categories: {% for category in page.categories %}
+  <a href="/{{ category }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %} 
+  {% endfor %}
+</p>
+
+{% include blog-cover.html %} 
+{{ content }} 
+
+<p>🖤 Maggie</p>
+
+{% if page.previous %}
+<a href="{{ page.previous.url }}">☜ Previous</a>
+{% endif %} 
+{% if page.next %}
+<a href="{{ page.next.url }}">Next ☞</a>
+{% endif %}

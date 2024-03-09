@@ -1,0 +1,22 @@
+---
+title: "Jonesy Debut: ICE CREAM"
+categories: tour-diary
+cover:
+  path: /assets/images/blog/2023-04-06-jonesy-debut-ice-cream-0001.jpg
+  alt: "Jonesy Debut: ICE CREAM"
+---
+
+<p>
+  <a href="/jonesy.html">Jonesy</a> (24 pgs, full color) will debut Sat April 8th at
+  <a href="http://www.publicspaceone.com/icecream" target="_blank">ICE CREAM</a>: the 
+  Iowa City Expo for Comics and Alternative Media. This is the first stop on my Mostly 
+  Midwest Zine Tour!! Thanks to Dave Dugan for all your hard work as an organizer!!!!
+</p>
+
+<!-- images -->
+<div class="gallery">
+  {% for product in site.data.products.zines %} 
+  {% if product.title == "Jonesy" %} 
+  {% include blog-product.html %} 
+  {% endif %} {% endfor %}
+</div>

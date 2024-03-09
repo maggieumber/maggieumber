@@ -1,0 +1,9 @@
+<p>🖤</p>
+
+<!-- related products -->
+<h2>Related Products</h2>
+<div class="gallery">
+  {% assign all_products = site.data.products.wholesale %} {% assign
+  random_items = all_products | sample: 3 %} {% for item in random_items %} {%
+  include products.html %} {% endfor %}
+</div>

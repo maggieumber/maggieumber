@@ -1,0 +1,217 @@
+zines:
+  - title: Bunworld 1
+    link: /bunworld-1
+    cover:
+      path: /assets/images/books/maggie-umber-bunworld-1-cover-lrg.jpg
+      alt: "a little baker and a bunny read a book in front of huge ice cream, text reads: Maggie Umber, Bunworld"
+    price: $14
+    button_id: 8HKJEHS2B2424
+      - Debuted at CZF (Chicago Zine Fest), 2023
+  - title: Jonesy
+    link: /jonesy
+    cover:
+      path: /assets/images/books/maggie-umber-jonesy-cover-lrg.jpg
+      alt: "a red figure smiling on a book cover, text reads: Jonesy, Maggie Umber"
+    price: $8
+    button_id: H2PUKF98UFY9S
+  - title: PRETZEL
+    link: /pretzel
+    cover:
+      path: /assets/images/books/maggie-umber-pretzel-cover-lrg.jpg
+      alt: "a white pretzel on a black zine cover, text reads: PRETZEL, Maggie Umber"
+    price: $5
+    button_id: TTGXZJKC57NV4
+  - title: WE ARE HUNGRY
+    link: /we-are-hungry
+    cover:
+      path: /assets/images/books/maggie-umber-we-are-hungry-cover-lrg.jpg
+      alt: "mother spider, baby spiders, text reads: WE ARE HUNGRY Maggie Umber"
+    price: $13
+    button_id: BJH77DSSH37AC
+  - title: Startled Maggie 1
+    link: /startled-maggie-1
+    cover:
+      path: /assets/images/books/maggie-umber-startled-maggie-issue-one-cover-lrg.jpg
+      alt: "mom, dad, baby, text reads: Startled Maggie issue one by meghan hogan"
+    price: $6
+    button_id: CRR9AECDM7XBU
+  - title: "Chrysanthemum: <br />the Storyboards"
+    link: /chrysanthemum-the-storyboards
+    cover:
+      path: /assets/images/books/maggie-umber-chrysanthemum-the-storyboards-cover-lrg.jpg
+      alt: "chrysanthemum flowers, text reads: Chrysanthemum: the Storyboards, Maggie Umber"
+    price: $10
+    button_id: 423SNC57JXKAA
+
+books:
+  - title: Chrysanthemum <br />Under the Waves
+    link: /chrysanthemum-under-the-waves
+    cover:
+      path: /assets/images/books/maggie-umber-chrysanthemum-under-the-waves-cover-lrg.jpg
+      alt: "a woman in profile with long hair floating up, text reads: Chrysanthemum Under the Waves"
+    price: PREORDER $35
+    button_id: SB5W5DNEJC7LS
+  - title: Time Capsule
+    link: /time-capsule
+    cover:
+      path: /assets/images/books/maggie-umber-time-capsule-cover-lrg.jpg
+      alt: "a tortoise in a display case on the cover, text reads: Time Capsule Maggie Umber"
+    price: $12
+    button_id: NEJS4GG7L2YYJ
+  - title: Sound of Snow Falling
+    link: /sound-of-snow-falling
+    cover:
+      path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover-lrg.jpg
+      alt: "a great horned owl in a tree hooting on the cover, text reads: Maggie Umber Sound of Snow Falling"
+    price: $23
+    button_id: T6AXKMD4KA6JW
+  - title: "270°"
+    link: /270
+    cover:
+      path: /assets/images/books/maggie-umber-270-cover-lrg.jpg
+      alt: "a northern saw-whet owl in a pine tree on the cover, with text that reads: maggie umber 270°"
+    price: $15
+    button_id: SNG7SNFX5WZR4
+
+wholesale:
+  - title: Wholesale <br />Startled Maggie 1
+    link: /wholesale-startled-maggie-1
+    cover:
+      path: /assets/images/books/maggie-umber-startled-maggie-issue-one-cover-lrg.jpg
+      alt: "mom, dad, baby, text reads: Startled Maggie issue one by meghan hogan"
+    price: <s>Retail $6</s> <br />Wholesale $3
+    button_id: TWASXWM5JUUB6
+  - title: Wholesale <br />Time Capsule
+    link: /wholesale-time-capsule
+    cover:
+      path: /assets/images/books/maggie-umber-time-capsule-cover-lrg.jpg"
+      alt: "a tortoise in a display case on the cover, text reads: Time Capsule Maggie Umber"
+    price: <s>Retail $12</s> <br /> Wholesale $6
+    button_id: 3QFF49T6Z3D6A
+  - title: Wholesale <br />Sound of Snow Falling
+    link: /wholesale-sound-of-snow-falling
+    cover:
+      path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover-lrg.jpg"
+      alt: "a great horned owl in a tree hooting on the cover, text reads: Maggie Umber Sound of Snow Falling"
+    price: <s>Retail $23</s> <br /> Wholesale $11.50
+    button_id: B4BG3UL7DAWT2
+  - title: Wholesale <br />270°
+    link: /wholesale-270
+    cover:
+      path: "/assets/images/books/maggie-umber-270-cover-lrg.jpg"
+      alt: "a northern saw-whet owl in a pine tree on the cover, with text that reads: maggie umber 270°"
+    price: <s>Retail $15</s> <br /> Wholesale $7.50
+    button_id: X4QLZHSEEMFEQ
+
+mini_bun_toys:
+  - title: Ozmond
+    link: /ozmond
+    cover:
+      path: /assets/images/toys/mini-buns/maggie-umber-ozmond-cover-lrg.jpg
+      alt: gray and red crocheted toy bun alien wearing an inner tube
+    price: $35
+    button_id: 8KPYTHZBUMPDS
+  - title: Grape Mint
+    link: /grape-mint
+    cover:
+      path: /assets/images/toys/mini-buns/maggie-umber-grape-mint-cover-lrg.jpg
+      alt: grape, mint and strawberry colored crocheted toy bun alien wearing a turtle neck mini skirt
+    price: $35
+    button_id: K2JYZTUANYLJS
+  - title: Berry Blush
+    link: /berry-blush
+    cover:
+      path: /assets/images/toys/mini-buns/maggie-umber-berry-blush-cover-lrg.jpg
+      alt: pink crocheted toy bun alien wearing a striped sweater skirt
+    price: $35
+    button_id: DELKMR7PJ4CY6
+  - title: Salt and Pepper
+    link: /salt-and-pepper
+    cover:
+      path: /assets/images/toys/mini-buns/maggie-umber-salt-and-pepper-cover-lrg.jpg"
+      alt: red and gray crocheted toy bun alien wearing an inner tube
+    price: $35
+    button_id: PXY28CM6373Z4
+  - title: Sour Berries
+    link: /sour-berries
+    cover:
+      path: /assets/images/toys/mini-buns/maggie-umber-sour-berries-cover-lrg.jpg
+      alt: light green colored crocheted toy bun alien wearing a red hat and shirt
+    price: $35
+    button_id: ZZ2J7GDR5Y2BC
+  - title: Cherry Pom Pom
+    link: /cherry-pom-pom
+    cover:
+      path: /assets/images/toys/mini-buns/maggie-umber-cherry-pom-pom-cover-lrg.jpg
+      alt: red and gray crocheted toy bun alien wearing a pom pom mini skirt
+    price: $35
+    button_id: 3XTA8GCRAX9LA
+  - title: Mustard Witch
+    link: /mustard-witch
+    cover:
+      path: /assets/images/toys/mini-buns/maggie-umber-mustard-witch-cover-lrg.jpg
+      alt: mustard, brown and gray crocheted toy bun alien wearing a witch hat
+    price: $35
+    button_id: MVCWLM6XEYPPS
+
+rocket_pod_toys:
+  - title: Sweet and Sour
+    link: /sweet-and-sour
+    cover:
+      path: /assets/images/toys/rocket-pods/maggie-umber-sweet-and-sour-cover-lrg.jpg
+      alt: blue and yellow crocheted toy bun alien in a rocket pod
+    price: $50
+    button_id: F5DWBQB84YNGC
+  - title: Cinnamon Bun
+    link: /cinnamon-bun
+    cover:
+      path: /assets/images/toys/rocket-pods/maggie-umber-cinnamon-bun-cover-lrg.jpg
+      alt: red, blue and yellow crocheted toy bun alien in a rocket pod"
+    price: $50
+    button_id: ARNHP2YBBJRHC
+
+rocket_ship_toys:
+  - title: Rainbow Popsicle
+    link: /rainbow-popsicle
+    cover:
+      path: /assets/images/toys/rocket-ships/maggie-umber-rainbow-popsicle-cover-lrg.jpg
+      alt: rainbow-colored crocheted toy bun alien rocket ship with ears popping out
+    price: $75
+    button_id: 6MRU983T8MPPC
+  - title: Mr. Henri
+    link: /mr-henri
+    cover:
+      path: /assets/images/toys/rocket-ships/maggie-umber-mr-henri-cover-lrg.jpg
+      alt: rainbow-colored crocheted toy bun alien rocket ship with hat-covered head popping out
+    price: $75
+    button_id: 5M84N2VJ6832N
+  - title: Cookies and Cream
+    link: /cookies-and-cream
+    cover:
+      path: /assets/images/toys/rocket-ships/maggie-umber-cookies-and-cream-cover-lrg.jpg
+      alt: cookies and cream-colored crocheted toy bun alien hidden in rocket ship
+    price: $75
+    button_id: VNYFTVHCS7W5U
+
+nunions:
+  - title: Autumn Cake
+    link: /autumn-cake
+    cover:
+      path: /assets/images/toys/nunions/maggie-umber-autumn-cake-cover-lrg.jpg
+      alt: red, orange, yellow, blue crocheted nunion toy with four legs
+    price: $15
+    button_id: PLAZQKP34VST6
+  - title: Peppermint Gold
+    link: /peppermint-gold
+    cover:
+      path: /assets/images/toys/nunions/maggie-umber-peppermint-gold-cover-lrg.jpg
+      alt: green crocheted nunion toy with four legs, a faceless head with yellow flowers sprouting from it
+    price: $20
+    button_id: XT8MWTJUXMBGW
+  - title: Bubble Mint
+    link: /bubble-mint
+    cover:
+      path: /assets/images/toys/nunions/maggie-umber-bubble-mint-cover-lrg.jpg
+      alt: green, blue, pink crocheted nunion toy with four legs
+    price: $15
+    button_id: K6RAAYXDFQPBS

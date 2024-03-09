@@ -1,0 +1,43 @@
+<figure class="gallery-item">
+  <a href="{{ product.link }}">
+    <img
+      class="thumbnail-200"
+      src="{{ product.cover.path }}"
+      alt="{{ product.cover.alt }}"
+      title="copyright Maggie Umber"
+  /></a>
+  <figcaption>
+    <form
+      target="paypal"
+      action="https://www.paypal.com/cgi-bin/webscr"
+      method="post"
+    >
+      <p>
+        <a href="{{ product.link }}"
+          >{{ product.title }} <br />
+          {{ product.price }}</a
+        >
+      </p>
+      <input type="hidden" name="cmd" value="_s-xclick" />
+      <input
+        type="hidden"
+        name="hosted_button_id"
+        value="{{ product.button_id }}"
+      />
+      <input
+        type="image"
+        src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
+        border="0"
+        name="submit"
+        alt="PayPal - The safer, easier way to pay online!"
+      />
+      <img
+        alt=""
+        border="0"
+        src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+        width="1"
+        height="1"
+      />
+    </form>
+  </figcaption>
+</figure>

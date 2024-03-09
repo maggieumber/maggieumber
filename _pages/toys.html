@@ -1,6 +1,44 @@
 ---
 title: Toys
 permalink: /toys
+redirect_from: /pages/toys.html
 ---
 
-toys go here
+<!-- mini bun toys -->
+<article>
+  <h1>Mini Bun Toys</h1>
+  <div class="gallery">
+    {% for item in site.data.products.mini_bun_toys %} {% include products.html
+    %} {% endfor %}
+  </div>
+</article>
+
+<hr />
+<!-- rocket pod toys -->
+<article>
+  <h1 class="h1-category-spacing">Rocket Pod Toys</h1>
+  <div class="gallery">
+    {% for item in site.data.products.rocket_pod_toys %} {% include
+    products.html %} {% endfor %}
+  </div>
+</article>
+
+<hr />
+<!-- rocket ship toys -->
+<article>
+  <h1 class="h1-category-spacing">Rocket Ship Toys</h1>
+  <div class="gallery">
+    {% for item in site.data.products.rocket_ship_toys %} {% include
+    products.html %} {% endfor %}
+  </div>
+</article>
+
+<hr />
+<!-- nunion toys -->
+<article>
+  <h1 class="h1-category-spacing">Nunion Toys</h1>
+  <div class="gallery">
+    {% for item in site.data.products.nunions %} {% include products.html %} {%
+    endfor %}
+  </div>
+</article>

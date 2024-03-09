@@ -1,0 +1,15 @@
+<!-- preview -->
+<h2>Preview</h2>
+<div class="gallery">
+  {% for image in page.images %}
+  <figure class="gallery-item">
+    <a href="{{ image.path}}">
+      <img
+        class="thumbnail-600"
+        src="{{ image.path }}"
+        alt="{{ image.alt }}"
+        title="copyright Maggie Umber"
+    /></a>
+  </figure>
+  {% endfor %}
+</div>

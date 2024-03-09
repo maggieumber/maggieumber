@@ -1,0 +1,28 @@
+---
+title: WE ARE HUNGRY Advanced Copies at The Zine Pavilion at ALA
+categories: tour-diary
+doubles:
+  - path: /assets/images/books/maggie-umber-we-are-hungry-cover-lrg.jpg
+    alt: "A print of a large, black silhouetted spider and a smaller one, shadowed, on a pale orange background with the words in black above WE ARE HUNGRY and below MAGGIE UMBER."
+  - path: /assets/images/books/maggie-umber-we-are-hungry-lrg-04.jpg
+    alt: "A print of a large, black silhouetted spider and smaller ones, shadowed, on a pale orange background with the words in black above A Mother's Love for her Babies!"
+---
+
+{% include blog-double.html %}
+
+<p>
+  <a href="/we-are-hungry.html">Preorder on maggieumber.com!</a>
+  A Mother's love for her babies transforms them into hunters. Printed with
+  hand-carved linocut stamps. WE ARE HUNGRY was performed for ZINE NOT DEAD
+  VIIII. Preorders ship on or after 6/27. Advanced copies at
+  <a href="https://zinepavilion.tumblr.com/" target="_blank">The Zine Pavilion at ALA</a>
+  tonight - Monday. The Zine Pavilion will be at the American Library
+  Association Annual Conference in Chicago June 23-26, 2023! Thank you all 🕸️🕷️.
+</p>
+
+<!-- images -->
+<div class="gallery">
+  {% for product in site.data.products.zines %} 
+  {% if product.title == "WE ARE HUNGRY" %} 
+  {% include blog-product.html %} {% endif %} {% endfor %}
+</div>

@@ -1,0 +1,37 @@
+---
+title: "PAPER JAM / ZINE NOT DEAD Performance, Lafayette Comic-Con"
+categories: tour-diary
+trailer:
+  path: /assets/videos/maggie-umber-chrysanthemum-the-storyboards-trailer.mp4
+  type: video/mp4
+  credits: "Credits: video and Chrysanthemum: the Storyboards art by Maggie Umber."
+---
+
+{% include book-trailer.html %}
+
+<p>
+  Tonight in the
+  <a href="https://coprosperity.org/" target="_blank">Co-Prosperity</a>
+  gallery, I'll be performing at
+  <a href="https://www.zinenotdead.com/" target="_blank">ZINE NOT DEAD #21</a>. This event is a part of PAPER JAM and hosted by
+  <a href="https://www.chicagoprintersguild.org/" target="_blank">Chicago Printers Guild</a>.
+  <a href="https://sacredartproductions.com/pages/blog/2022-04-01-The-Schizophrenic-Dialogues-Short-Film.html"
+    target="_blank">The Schizophrenic Dialogues Short Film</a>
+  (my collaboration with Vita Rhie Quintanilla and Anthony Tadlock) will also be showing with
+  <a href="https://youtu.be/7HvDOhFrlPI?feature=shared" target="_blank">Corrupted Frames</a>
+  in the gallery.
+</p>
+<p>
+  Tomorrow, 10/7 I'll be tabling at Lafayette Comic-Con. At both events
+  I'll have copies of my newest 80 page zine
+  <a
+    href="/chrysanthemum-the-storyboards.html">Chrysanthemum: the Storyboards</a>
+  and other such goodies!
+</p>
+
+<!-- images -->
+<div class="gallery">
+  {% for product in site.data.products.zines %} 
+  {% if product.title == "Chrysanthemum: <br />the Storyboards" %} 
+  {% include blog-product.html %} {% endif %} {% endfor %}
+</div>

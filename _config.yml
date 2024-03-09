@@ -23,24 +23,41 @@ email: paintedmags@proton.me
 description: >- # this means to ignore newlines until "baseurl:"
   Maggie Umber, cartoonist, painter, printmaker, programmer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://maggieumber.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: maggieumber
 
 # Build settings
 theme: null
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 defaults:
   - scope:
       path: "_posts"
     values:
-      layout: "default"
+      layout: "post"
       permalink: /blog/:categories/:title/
   - scope:
       path: "_pages"
     values:
       layout: "default"
+  - scope:
+      path: "_pages/books"
+    values:
+      layout: "default-book"
+  - scope:
+      path: "_pages/prints"
+    values:
+      layout: "default-print"
+  - scope:
+      path: "_pages/toys"
+    values:
+      layout: "default-toy"
+  - scope:
+      path: "_pages/wholesale"
+    values:
+      layout: "default-wholesale"
 
 include: [_pages]
 # Exclude from processing.

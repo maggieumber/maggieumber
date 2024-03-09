@@ -1,6 +1,34 @@
 ---
 title: Books
 permalink: /books
+redirect_from: /pages/books.html
 ---
 
-book list goes here
+<!-- zines -->
+<article>
+  <h1>Zines</h1>
+  <div class="gallery">
+    {% for item in site.data.products.zines %} {% include products.html %} {%
+    endfor %}
+  </div>
+</article>
+
+<hr />
+<!-- books -->
+<article>
+  <h1 class="h1-category-spacing">Books</h1>
+  <div class="gallery">
+    {% for item in site.data.products.books %} {% include products.html %} {%
+    endfor %}
+  </div>
+</article>
+
+<hr />
+<!-- anthologies -->
+<article>
+  <h1 class="h1-category-spacing">Anthologies</h1>
+  <div class="gallery">
+    {% for item in site.data.anthologies %} {% include anthologies.html %} {%
+    endfor %}
+  </div>
+</article>

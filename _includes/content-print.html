@@ -1,0 +1,32 @@
+<!-- cover image -->
+<div class="gallery">
+  <figure class="gallery-item">
+    <a href="{{ page.image.path }}">
+      <img
+        class="thumbnail-600"
+        src="{{ page.image.path }}"
+        alt="{{ page.image.alt }}"
+        title="copyright Maggie Umber"
+      />
+    </a>
+    <figcaption>{{ content }}</figcaption>
+  </figure>
+</div>
+
+<h2>Description of Materials</h2>
+<ul>
+  <li>Greeting card:</li>
+  <ul>
+    <li>☞ a high-quality inkjet print</li>
+    <li>☞ in a plastic sleeve with envelope</li>
+  </ul>
+  <br />
+  <li>Print:</li>
+  <ul>
+    <li>☞ 3 print sizes available</li>
+    <li>☞ a high-quality inkjet print on glossy photo paper</li>
+    <li>☞ in a plastic sleeve with matboard backing</li>
+  </ul>
+</ul>
+
+{% include random.html %}

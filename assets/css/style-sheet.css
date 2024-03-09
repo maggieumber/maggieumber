@@ -22,7 +22,7 @@ body {
   background-color: #ebf1f8;
   max-width: 1200px;
   color: #140808;
-  margin: 175px auto 75px auto;
+  margin: 175px auto 100px auto;
   text-align: center;
 }
 
@@ -143,6 +143,7 @@ img {
 
 .gallery-item .thumbnail-200 {
   width: 200px;
+  margin-top: 50px;
 }
 
 .gallery-item .thumbnail-300 {

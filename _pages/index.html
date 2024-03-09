@@ -3,4 +3,8 @@ title: Maggie Umber
 permalink: /
 ---
 
-<h1>Hello, Jekyll yaa</h1>
+<div class="gallery">
+  {% assign all_products = site.data.products.books | concat:
+  site.data.products.zines %} {% assign random_items = all_products | sample: 20
+  %} {% for item in random_items %} {% include products.html %} {% endfor %}
+</div>

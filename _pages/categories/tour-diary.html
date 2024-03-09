@@ -1,0 +1,32 @@
+---
+title: Tour Diary
+permalink: /tour-diary
+doubles:
+  - path: /assets/images/blog/2023-04-22-madison-print-and-resist-table.jpg
+    alt: "Maggie Umber and @brujaonpizza (Jenine) sharing a table at Madison Print and Resist Zine Fest"
+  - path: /assets/images/blog/2023-05-20-maggie-umber-czf-bunworld-1-prep.jpg
+    alt: printed pages of Bunworld waiting to be folded with a pair of blue gloves
+---
+
+{% include blog-double.html %}
+
+<h2>About the Tour Diary</h2>
+<p>
+  This is the tour-diary portion of the blog. Topics include book announcements,
+  behind the scene printing peeks, and many, many, oh so many, tour and event
+  diary entries. Why? Because Maggie loves touring, even though it messes with
+  her body. For more in-depth coverage and to support Maggie's work, subscribe
+  to Maggie's
+  <a href="https://www.patreon.com/maggieumber" target="_blank">Patreon</a>.
+</p>
+
+<h3>Tour Diary Archive</h3>
+<ul>
+  {% for post in site.posts %} {% if post.categories contains 'tour-diary' %}
+  <li>
+    <a href="{{ post.url }}"
+      >☞ {{ post.title }}, {{ post.date | date: "%m/%d/%y" }}</a
+    >
+  </li>
+  {% endif %} {% endfor %}
+</ul>
