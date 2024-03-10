@@ -6,8 +6,10 @@
 
 /* headline & bold font */
 @font-face {
-  font-family: "Sniglet-master";
-  src: url("/assets/fonts/sniglet-master/webfonts/Sniglet-webfont.woff")
+  font-family: "Chunk-master";
+  src: url("/assets/fonts/chunk-master/webfonts/ChunkFive-Regular.woff2")
+      format("woff2"),
+    url("/assets/fonts/chunk-master/webfonts/ChunkFive-Regular.woff")
     format("woff");
   font-style: normal;
   font-weight: 700;
@@ -32,7 +34,7 @@ h3,
 header,
 nav,
 a {
-  font-family: Sniglet-master, cursive;
+  font-family: Chunk-master, cursive;
 }
 
 header,
