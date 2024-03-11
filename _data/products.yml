@@ -68,7 +68,7 @@ books:
   - title: "270°"
     link: /270
     cover:
-      path: /assets/images/books/maggie-umber-270-cover-lrg.jpg
+      path: /assets/images/books/maggie-umber-270-cover.jpg
       alt: "a northern saw-whet owl in a pine tree on the cover, with text that reads: maggie umber 270°"
     price: $15
     button_id: SNG7SNFX5WZR4
