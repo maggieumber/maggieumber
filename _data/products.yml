@@ -24,7 +24,7 @@ zines:
   - title: WE ARE HUNGRY
     link: /we-are-hungry
     cover:
-      path: /assets/images/books/maggie-umber-we-are-hungry-cover-lrg.jpg
+      path: /assets/images/books/maggie-umber-we-are-hungry-cover.jpg
       alt: "mother spider, baby spiders, text reads: WE ARE HUNGRY Maggie Umber"
     price: $13
     button_id: BJH77DSSH37AC
