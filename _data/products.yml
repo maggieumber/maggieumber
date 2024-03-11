@@ -31,7 +31,7 @@ zines:
   - title: Startled Maggie 1
     link: /startled-maggie-1
     cover:
-      path: /assets/images/books/maggie-umber-startled-maggie-issue-one-cover-lrg.jpg
+      path: /assets/images/books/maggie-umber-startled-maggie-issue-one-cover.jpg
       alt: "mom, dad, baby, text reads: Startled Maggie issue one by meghan hogan"
     price: $6
     button_id: CRR9AECDM7XBU
@@ -54,14 +54,14 @@ books:
   - title: Time Capsule
     link: /time-capsule
     cover:
-      path: /assets/images/books/maggie-umber-time-capsule-cover-lrg.jpg
+      path: /assets/images/books/maggie-umber-time-capsule-cover.jpg
       alt: "a tortoise in a display case on the cover, text reads: Time Capsule Maggie Umber"
     price: $12
     button_id: NEJS4GG7L2YYJ
   - title: Sound of Snow Falling
     link: /sound-of-snow-falling
     cover:
-      path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover-lrg.jpg
+      path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover.jpg
       alt: "a great horned owl in a tree hooting on the cover, text reads: Maggie Umber Sound of Snow Falling"
     price: $23
     button_id: T6AXKMD4KA6JW
