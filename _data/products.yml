@@ -10,14 +10,14 @@ zines:
   - title: Jonesy
     link: /jonesy
     cover:
-      path: /assets/images/books/maggie-umber-jonesy-cover-lrg.jpg
+      path: /assets/images/books/maggie-umber-jonesy-cover.jpg
       alt: "a red figure smiling on a book cover, text reads: Jonesy, Maggie Umber"
     price: $8
     button_id: H2PUKF98UFY9S
   - title: PRETZEL
     link: /pretzel
     cover:
-      path: /assets/images/books/maggie-umber-pretzel-cover-lrg.jpg
+      path: /assets/images/books/maggie-umber-pretzel-cover.jpg
       alt: "a white pretzel on a black zine cover, text reads: PRETZEL, Maggie Umber"
     price: $5
     button_id: TTGXZJKC57NV4
@@ -38,7 +38,7 @@ zines:
   - title: "Chrysanthemum: <br />the Storyboards"
     link: /chrysanthemum-the-storyboards
     cover:
-      path: /assets/images/books/maggie-umber-chrysanthemum-the-storyboards-cover-lrg.jpg
+      path: /assets/images/books/maggie-umber-chrysanthemum-the-storyboards-cover.jpg
       alt: "chrysanthemum flowers, text reads: Chrysanthemum: the Storyboards, Maggie Umber"
     price: $10
     button_id: 423SNC57JXKAA
@@ -47,7 +47,7 @@ books:
   - title: Chrysanthemum <br />Under the Waves
     link: /chrysanthemum-under-the-waves
     cover:
-      path: /assets/images/books/maggie-umber-chrysanthemum-under-the-waves-cover-lrg.jpg
+      path: /assets/images/books/maggie-umber-chrysanthemum-under-the-waves-cover.jpg
       alt: "a woman in profile with long hair floating up, text reads: Chrysanthemum Under the Waves"
     price: PREORDER $35
     button_id: SB5W5DNEJC7LS
