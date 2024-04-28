@@ -118,20 +118,13 @@ mini_bun_toys:
       alt: grape, mint and strawberry colored crocheted toy bun alien wearing a turtle neck mini skirt
     price: $35
     button_id: K2JYZTUANYLJS
-  - title: Berry Blush
-    link: /berry-blush
-    cover:
-      path: /assets/images/toys/mini-buns/maggie-umber-berry-blush-cover-lrg.jpg
-      alt: pink crocheted toy bun alien wearing a striped sweater skirt
-    price: $35
-    button_id: DELKMR7PJ4CY6
-  - title: Salt and Pepper
-    link: /salt-and-pepper
-    cover:
-      path: /assets/images/toys/mini-buns/maggie-umber-salt-and-pepper-cover-lrg.jpg"
-      alt: red and gray crocheted toy bun alien wearing an inner tube
-    price: $35
-    button_id: PXY28CM6373Z4
+  # - title: Salt and Pepper
+  #   link: /salt-and-pepper
+  #   cover:
+  #     path: /assets/images/toys/mini-buns/maggie-umber-salt-and-pepper-cover-lrg.jpg"
+  #     alt: red and gray crocheted toy bun alien wearing an inner tube
+  #   price: $35
+  #   button_id: PXY28CM6373Z4
   - title: Sour Berries
     link: /sour-berries
     cover:
@@ -139,13 +132,6 @@ mini_bun_toys:
       alt: light green colored crocheted toy bun alien wearing a red hat and shirt
     price: $35
     button_id: ZZ2J7GDR5Y2BC
-  - title: Cherry Pom Pom
-    link: /cherry-pom-pom
-    cover:
-      path: /assets/images/toys/mini-buns/maggie-umber-cherry-pom-pom-cover-lrg.jpg
-      alt: red and gray crocheted toy bun alien wearing a pom pom mini skirt
-    price: $35
-    button_id: 3XTA8GCRAX9LA
   - title: Mustard Witch
     link: /mustard-witch
     cover:
@@ -178,13 +164,6 @@ rocket_ship_toys:
       alt: rainbow-colored crocheted toy bun alien rocket ship with ears popping out
     price: $75
     button_id: 6MRU983T8MPPC
-  - title: Mr. Henri
-    link: /mr-henri
-    cover:
-      path: /assets/images/toys/rocket-ships/maggie-umber-mr-henri-cover-lrg.jpg
-      alt: rainbow-colored crocheted toy bun alien rocket ship with hat-covered head popping out
-    price: $75
-    button_id: 5M84N2VJ6832N
   - title: Cookies and Cream
     link: /cookies-and-cream
     cover:
