@@ -104,20 +104,20 @@ wholesale:
     button_id: X4QLZHSEEMFEQ
 
 mini_bun_toys:
-  - title: Ozmond
-    link: /ozmond
-    cover:
-      path: /assets/images/toys/mini-buns/maggie-umber-ozmond-cover-lrg.jpg
-      alt: gray and red crocheted toy bun alien wearing an inner tube
-    price: $35
-    button_id: 8KPYTHZBUMPDS
-  - title: Grape Mint
-    link: /grape-mint
-    cover:
-      path: /assets/images/toys/mini-buns/maggie-umber-grape-mint-cover-lrg.jpg
-      alt: grape, mint and strawberry colored crocheted toy bun alien wearing a turtle neck mini skirt
-    price: $35
-    button_id: K2JYZTUANYLJS
+  # - title: Ozmond
+  #   link: /ozmond
+  #   cover:
+  #     path: /assets/images/toys/mini-buns/maggie-umber-ozmond-cover-lrg.jpg
+  #     alt: gray and red crocheted toy bun alien wearing an inner tube
+  #   price: $35
+  #   button_id: 8KPYTHZBUMPDS
+  # - title: Grape Mint
+  #   link: /grape-mint
+  #   cover:
+  #     path: /assets/images/toys/mini-buns/maggie-umber-grape-mint-cover-lrg.jpg
+  #     alt: grape, mint and strawberry colored crocheted toy bun alien wearing a turtle neck mini skirt
+  #   price: $35
+  #   button_id: K2JYZTUANYLJS
   # - title: Salt and Pepper
   #   link: /salt-and-pepper
   #   cover:
@@ -132,13 +132,13 @@ mini_bun_toys:
       alt: light green colored crocheted toy bun alien wearing a red hat and shirt
     price: $35
     button_id: ZZ2J7GDR5Y2BC
-  - title: Mustard Witch
-    link: /mustard-witch
-    cover:
-      path: /assets/images/toys/mini-buns/maggie-umber-mustard-witch-cover-lrg.jpg
-      alt: mustard, brown and gray crocheted toy bun alien wearing a witch hat
-    price: $35
-    button_id: MVCWLM6XEYPPS
+  # - title: Mustard Witch
+  #   link: /mustard-witch
+  #   cover:
+  #     path: /assets/images/toys/mini-buns/maggie-umber-mustard-witch-cover-lrg.jpg
+  #     alt: mustard, brown and gray crocheted toy bun alien wearing a witch hat
+  #   price: $35
+  #   button_id: MVCWLM6XEYPPS
 
 rocket_pod_toys:
   - title: Sweet and Sour
