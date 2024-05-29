@@ -30,12 +30,12 @@ body {
   font-family: "latoregular", sans-serif;
   font-weight: 300;
   letter-spacing: 0.08em;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.8em;
   background-color: #ebf1f8;
   max-width: 1200px;
   color: #140808;
-  margin: 175px auto 100px auto;
+  margin: 100px auto 100px auto;
   text-align: center;
 }
 
@@ -93,10 +93,6 @@ h3 {
   padding: 25px;
 }
 
-h1 {
-  font-size: xx-large;
-}
-
 .h1-category-spacing {
   padding-top: 100px;
 }
@@ -110,7 +106,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
-  width: 80%;
+  width: 60%;
   /* text-align: justify; */
 }
 
