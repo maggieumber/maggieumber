@@ -64,6 +64,12 @@ footer {
   width: 100%;
 }
 
+.bodynav {
+  padding: 50px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
 hr {
   border: 0;
   height: 1px;
@@ -134,6 +140,12 @@ footer a {
 a:hover {
   font-weight: 700;
   color: #f94848;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 /* Videos */

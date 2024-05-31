@@ -1,20 +1,378 @@
-prints_270:
+prints270:
   - title: Great Horned Owl
-    link: /great-horned-owl
     cover:
-      path: /assets/images/prints/270/maggie-umber-great-horned-owl-lrg.jpg
+      path: /assets/images/prints/maggie-umber-270-great-horned-owl.jpg
       alt: great horned owl roosting in profile
-    price: $14
     button_id: P7RP5UFB2Y8SG
+  - title: Short-eared Owl
+    cover:
+      path: /assets/images/prints/maggie-umber-270-short-eared-owl.jpg
+      alt: short-eared owl portrait
+    button_id: CTPJS5H98WA3U
+  - title: Elf Owl
+    cover:
+      path: /assets/images/prints/maggie-umber-270-elf-owl.jpg
+      alt: elf owl portrait
+    button_id: HD6BDQ9AYPBT2
+  - title: Northern Saw-whet Owl
+    cover:
+      path: /assets/images/prints/maggie-umber-270-northern-saw-whet-owl.jpg
+      alt: northern saw-whet owl roosting in a tree
+    button_id: M3NSR4BKLUUXY
+  - title: Burrowing Owl Parliament
+    cover:
+      path: /assets/images/prints/maggie-umber-270-burrowing-owl-parliament.jpg
+      alt: eight burrowing owls hanging out together
+    button_id: X6J8Y4987URNS
+  - title: Barn Owl Flight
+    cover:
+      path: /assets/images/prints/maggie-umber-270-barn-owl-flight.jpg
+      alt: barn owl flying across a darkened field
+    button_id: CWQXUMYU2KWXU
+  - title: Eastern Screech-Owl
+    cover:
+      path: /assets/images/prints/maggie-umber-270-eastern-screech-owl.jpg
+      alt: two images of an eastern screech-owl roosting and sleeping in a tree hollow
+    button_id: EKGPH5HA2AJ9N
+  - title: Crow Taking Flight
+    cover:
+      path: /assets/images/prints/maggie-umber-270-crow-taking-flight.jpg
+      alt: crow taking flight, at dusk, in front of a glowing abstract sign
+    button_id: VQ74RX9G9C6PQ
+  - title: Elf Owl Gold
+    cover:
+      path: /assets/images/prints/maggie-umber-270-elf-owl-gold.jpg
+      alt: gray elf owl looking at the viewer in front of a gold background
+    button_id: XEYUNLHH6E7WC
+  - title: Snowy Irruption
+    cover:
+      path: /assets/images/prints/maggie-umber-270-snowy-irruption.jpg
+      alt: five snowy owls roosting together on a log on a beach
+    button_id: ZHGQP9JPE5JSQ
+  - title: Northern Hawk Owl Linocut
+    cover:
+      path: /assets/images/prints/maggie-umber-270-northern-hawk-owl-linocut.jpg
+      alt: northern hawk owl hunting from a tree branch
+    button_id: CD22KRE4YBVT6
+  - title: Great Horned Owlets Threat Display
+    cover:
+      path: /assets/images/prints/maggie-umber-270-great-horned-owlets-threat-display.jpg
+      alt: two great horned owlets crouched down with wings up, feathers raised, eyes wide
+    button_id: WH5KS37VRXFSG
+  - title: Owlet
+    cover:
+      path: /assets/images/prints/maggie-umber-270-owlet.jpg
+      alt: brown and white owlet roosting in fall leaves
+    button_id: 7WU25Y8ZZTE22
+  - title: Barn Owl on the Wing
+    cover:
+      path: /assets/images/prints/maggie-umber-270-barn-owl-on-the-wing.jpg
+      alt: barn owl flying past birch trees
+    button_id: UZMLSPPHKZVDA
+  - title: Great Gray Owl Hunt
+    cover:
+      path: /assets/images/prints/maggie-umber-270-great-gray-owl-hunt.jpg
+      alt: great gray owl hunting over a field on the edge of the woods with orange sky
+    button_id: GWBY7ZAH8T832
+  - title: Barred Owl Reflection
+    cover:
+      path: /assets/images/prints/maggie-umber-270-barred-owl-reflection.jpg
+      alt: barred owl looking down into its own reflection
+    button_id: GPL2BJL6HNX3W
+  - title: Boreal Owlet
+    cover:
+      path: /assets/images/prints/maggie-umber-270-boreal-owlet.jpg
+      alt: boreal owlet roosting on a branch near its sibling
+    button_id: 3QT9TVWJY7J2L
+  - title: Blue Hawk Monotype
+    cover:
+      path: /assets/images/prints/maggie-umber-270-blue-hawk-monotype.jpg
+      alt: blue hawk in profile, somewhat obscured in paint
+    button_id: A2YML8FG77GPE
+  - title: Orange Hawk Monotype
+    cover:
+      path: /assets/images/prints/maggie-umber-270-orange-hawk-monotype.jpg
+      alt: white hawk in profile, revealed by orange paint with blue flecks
+    button_id: FD9GB9BKAAVYS
+  - title: Long-eared Owl
+    cover:
+      path: /assets/images/prints/maggie-umber-270-long-eared-owl.jpg
+      alt: long-eared owl roosting on a stump
+    button_id: SF75XJRQ55VHL
+  - title: Northern Hawk Owl and Owlet
+    cover:
+      path: /assets/images/prints/maggie-umber-270-northern-hawk-owl-and-owlet.jpg
+      alt: northern hawk owl feeding a juvenile owlet on a branch
+    button_id: HDUAP4FC9W23G
+  - title: Northern Saw-whet Owl Watercolor
+    cover:
+      path: /assets/images/prints/maggie-umber-270-northern-saw-whet-owl-watercolor.jpg
+      alt: northern saw-whet owl roosting in a tree
+    button_id: P7GLYXYA8D7HU
+  - title: Short-eared Owl Landscape
+    cover:
+      path: /assets/images/prints/maggie-umber-270-short-eared-owl-landscape.jpg
+      alt: short-eared owl flying over a field, hunting
+    button_id: BA2EAX4EUNQ94
+  - title: Great Gray Owl with Owlet in Nest 1
+    cover:
+      path: /assets/images/prints/maggie-umber-270-great-gray-owl-with-owlet-in-nest-1.jpg
+      alt: great gray owlet with adult in nest
+    button_id: DJXRECTJPYYCJ
+  - title: Great Gray Owl with Owlet in Nest 2
+    cover:
+      path: /assets/images/prints/maggie-umber-270-great-gray-owl-with-owlet-in-nest-2.jpg
+      alt: great gray owlet with adult in nest
+    button_id: CJL3CB9X7YNBC
+  - title: Great Gray Owl with Owlet in Nest 3
+    cover:
+      path: /assets/images/prints/maggie-umber-270-great-gray-owl-with-owlet-in-nest-3.jpg
+      alt: great gray owlet with adult in nest
+    button_id: PLJ3F9LQ5K6WG
+  - title: Great Gray Owl with Owlet in Nest 4
+    cover:
+      path: /assets/images/prints/maggie-umber-270-great-gray-owl-with-owlet-in-nest-4.jpg
+      alt: great gray owlet with adult in nest
+    button_id: NAKYDKTUVFV4Y
+  - title: Great Gray Owl with Owlet in Nest 5
+    cover:
+      path: /assets/images/prints/maggie-umber-270-great-gray-owl-with-owlet-in-nest-5.jpg
+      alt: great gray owlet with adult in nest
+    button_id: W2U92925QGSLU
+  - title: Great Gray Owl with Owlet in Nest 6
+    cover:
+      path: /assets/images/prints/maggie-umber-270-great-gray-owl-with-owlet-in-nest-6.jpg
+      alt: great gray owlet with adult in nest
+    button_id: QXZ2TF9FPMGVE
 
 cutw:
+  - title: Castle Room
+    cover:
+      path: /assets/images/prints/maggie-umber-cutw-castle-room.jpg
+      alt: an empty castle room with an open door, dusty table and chairs
+    button_id: BH4V4WRUU4BDA
+  - title: Possession
+    cover:
+      path: /assets/images/prints/maggie-umber-cutw-possession.jpg
+      alt: face breathing in profile
+    button_id: 3Y7C4B9BT3VCA
+  - title: The Wooded Path
+    cover:
+      path: /assets/images/prints/maggie-umber-cutw-the-wooded-path.jpg
+      alt: wooded path that leads to a large estate
+    button_id: Y5AK2FVDA6QKQ
+  - title: Chrysanthemum Finale
+    cover:
+      path: /assets/images/prints/maggie-umber-cutw-chrysanthemum-finale.jpg
+      alt: a woman stands in a doorway, with an intense emotion on her face
+    button_id: PCYWTYWFWJRSQ
+  - title: Chrysanthemum Under the Waves Print
+    cover:
+      path: /assets/images/prints/maggie-umber-cutw-chrysanthemum-under-the-waves-print.jpg
+      alt: face in profile, with her hair floating above her head
+    button_id: 8MH2LTGXTK98U
+  - title: The Dental X-Rays
+    cover:
+      path: /assets/images/prints/maggie-umber-cutw-the-dental-x-rays.jpg
+      alt: a woman getting dental x-rays taken of her teeth, followed by the four x-rays
+    button_id: KEDF6MGAAFFFS
 
 jonesy:
+  - title: Abandoned Train
+    cover:
+      path: /assets/images/prints/maggie-umber-jonesy-abandoned-train.jpg
+      alt: abandoned train in the woods with a red smiling face
+    button_id: MED34J8NMGLMN
+  - title: Tube Man and Jonesy
+    cover:
+      path: /assets/images/prints/maggie-umber-jonesy-tube-man-and-jonesy.jpg
+      alt: wo panel comic with a red tube man on top and a cat face on bottom
+    button_id: LPEVED9JKRUGQ
 
 nature:
+  - title: Honey Bee Pollinating Lavender
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-honey-bee-pollinating-lavender.jpg
+      alt: honey bee pollinating lavender plant
+    button_id: 2743962YKRZDU
+  - title: Crow on the Beach
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-crow-on-a-beach.jpg
+      alt: a crow standing on the beach with a cloud behind them
+    button_id: ZN47EUB42FB7S
+  - title: From the Deep
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-from-the-deep.jpg
+      alt: black and white octopus, three quarters view
+    button_id: A6RAZ5DCHD9JN
+  - title: Cinder
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-cinder.jpg
+      alt: brown fluffy cat looking up at viewer, sitting next to a potted plant
+    button_id: C4PQFDJ9YUASE
+  - title: Shades of Sky
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-shades-of-sky.jpg
+      alt: house with trees at sunrise
+    button_id: YE28FDBHSMSBE
+  - title: The Georgian Star
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-the-georgian-star.jpg
+      alt: multiple views of Uranus, the Georgian Star planet
+    button_id: JGBCF2AVWSYT2
+  - title: Big Dipper Firefly
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-big-dipper-firefly.jpg
+      alt: big dipper firefly male display in a field, bottom panel egg, larva, pupa
+    button_id: 38A9MULQ6TPP8
+  - title: Bee Balm
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-bee-balm.jpg
+      alt: red bee balm flower on green background
+    button_id: WPZJLNGC4W4Q4
+  - title: Big Dipper with Milkweed
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-big-dipper-with-milkweed.jpg
+      alt: big dipper firefly flying near a common milkweed
+    button_id: Q5YMB5M6JX8GU
+  - title: Goodall Friends
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-goodall-friends.jpg
+      alt: five chimpanzees hanging out, eating food
+    button_id: FGWZST8HBBGPG
+  - title: Ultraviolet Flowers
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-ultraviolet-flowers.jpg
+      alt: ultraviolet flowers glowing
+    button_id: TCHRSF5M9JHAW
+  - title: A Fall Day in the Woods
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-a-fall-day-in-the-woods.jpg
+      alt: blue and green trees with red and orange leaves on a sunny fall day
+    button_id: XXKDT9373853Y
+  - title: Rock Island
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-rock-island.jpg
+      alt: rock island in the ocean
+    button_id: GD2PYJ9HTF4F2
+  - title: African Violets
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-african-violets.jpg
+      alt: african violets on a yellow background with green leaves
+    button_id: AJ3LTF8EBN9XN
+  - title: The End is the Beginning
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-the-end-is-the-beginning.jpg
+      alt: rock patterns in fruit colors
+    button_id: U5QELD4CPSE2Q
+  - title: Honey Bee Dance
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-honey-bee-dance.jpg
+      alt: honey bees dancing to communicate food information
+    button_id: BHLG3GZ7RTK3L
+  - title: Honey Bee in Tulip Tree Flower
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-honey-bee-in-tulip-tree-flower.jpg
+      alt: honey bees pollinating a tulip tree flower
+    button_id: YNJ6B5K9GVH5Y
+  - title: Charlotte's Couch Now
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-charlottes-couch-now.jpg
+      alt: big brown rabbit sitting on her couch
+    button_id: BVTRF4UVA56SL
+  - title: Twelve-spotted Skimmer
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-twelve-spotted-skimmer.jpg
+      alt: twelve-spotted skimmer dragonfly in black and white
+    button_id: AP3XKMRZKBSRE
+  - title: Night Garden
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-night-garden.jpg
+      alt: garden at night
+    button_id: 67CGWZS5J9N5W
 
-portraits:
+portrait:
+  - title: Josephine Baker Portrait
+    cover:
+      path: /assets/images/prints/maggie-umber-portrait-josephine-baker-portrait.jpg
+      alt: josephine baker portrait with a black background
+    button_id: MZL3XYY84YUTC
+  - title: James Baldwin Portrait
+    cover:
+      path: /assets/images/prints/maggie-umber-portrait-james-baldwin-portrait.jpg
+      alt: james baldwin portrait with a pink background
+    button_id: Y4ATVA2HLLFNL
+  - title: Afternoon Crocheting
+    cover:
+      path: /assets/images/prints/maggie-umber-portrait-afternoon-crocheting.jpg
+      alt: victorian woman in a hat with a flower, crocheting outdoors on a bench in the afternoon
+    button_id: LCQZYG3XYLHC6
+  - title: Henri's One Horse Carriage
+    cover:
+      path: /assets/images/prints/maggie-umber-portrait-henris-one-horse-carriage.jpg
+      alt: one horse carriage with two men standing in it, riding through woodland scenery
+    button_id: 4KM3D6GFMUKNY
+  - title: John Coltrane Portrait
+    cover:
+      path: /assets/images/prints/maggie-umber-portrait-john-coltrane-portrait.jpg
+      alt: john coltrane sitting in a chair, reading and holding a saxophone
+    button_id: HRUDL2W46SQU2
 
 sosf:
+  - title: Great Horned Owl Egg Development
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-great-horned-owl-egg-development.jpg
+      alt: egg development of great horned owl and three eggs in a great horned owl nest
+    button_id: G8C7LDYHRLZFQ
+  - title: Sound of Snow Falling Front Cover
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-sound-of-snow-falling-front-cover.jpg
+      alt: a great horned owl roosting in a tree
+    button_id: TP3SHXFVPVTZ2
+  - title: Wild Turkeys
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-wild-turkeys.jpg
+      alt: a flock of wild turkeys in the snow in the woods
+    button_id: 77WKGUVJZAJ76
+  - title: Night Eggs Great Horned Owl
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-night-eggs-great-horned-owl.jpg
+      alt: great horned owl in the nest over a series of nights with three new eggs
+    button_id: KNXNBSG2ZC98Y
+  - title: House Finch Family
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-house-finch-family.jpg
+      alt: house finch male bringing food to female in the nest
+    button_id: QRQ79KXVGPG4W
+  - title: Great Blue Heron
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-great-blue-heron.jpg
+      alt: great blue heron taking flight
+    button_id: 98Q6444PL3QPA
+  - title: Moon Phases Great Horned Owl
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-moon-phases-great-horned-owl.jpg
+      alt: moon phases and great horned owl
+    button_id: 5SN8BBXN6WTDL
 
 tc:
+  - title: Lonesome George
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-lonesome-george.jpg
+      alt: a tortoise in a display case on the cover
+    button_id: T2A542HL3M4XA
+  - title: Monarch Lifestyle
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-monarch-lifestyle.jpg
+      alt: the lifecycle of a monarch butterfly, from egg to adult butterfly
+    button_id: U4DDXM5SLQ7AC
+  - title: Butterfly and Beetle
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-butterfly-and-beetle.jpg
+      alt: butterfly and beetle pollinating flowers
+    button_id: XECFK8AY9CLXW
+  - title: Snake and Frog Parade
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-snake-and-frog-parade.jpg
+      alt: snake curled up on a leaf pile, with a parade of frogs hopping past
+    button_id: WAMWXBWZ2ZLE6
