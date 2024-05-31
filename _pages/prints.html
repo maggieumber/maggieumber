@@ -18,6 +18,28 @@ redirect_from: /pages/prints.html
   </p>
 <hr />
 
+<!-- sosf prints -->
+<article id="sosf-prints">
+  <h1 class="h1-category-spacing">Sound of Snow Falling</h1>
+  <div class="gallery">
+    {% assign random_sosf_prints = site.data.prints.sosf | sample: 20 %}
+    {% for item in random_sosf_prints %}
+      {% include products-prints.html %}
+    {% endfor %}
+  </div>
+</article>
+
+<!-- tc prints -->
+<article id="tc-prints">
+  <h1 class="h1-category-spacing">Time Capsule</h1>
+  <div class="gallery">
+    {% assign random_tc_prints = site.data.prints.tc | sample: 20 %}
+    {% for item in random_tc_prints %}
+      {% include products-prints.html %}
+    {% endfor %}
+  </div>
+</article>
+
 <!-- 270 prints -->
 <article id="270-prints">
   <h1 class="h1-category-spacing">270°</h1>
@@ -68,28 +90,6 @@ redirect_from: /pages/prints.html
   <div class="gallery">
     {% assign random_portrait_prints = site.data.prints.portrait | sample: 20 %}
     {% for item in random_portrait_prints %}
-      {% include products-prints.html %}
-    {% endfor %}
-  </div>
-</article>
-
-<!-- sosf prints -->
-<article id="sosf-prints">
-  <h1 class="h1-category-spacing">Sound of Snow Falling</h1>
-  <div class="gallery">
-    {% assign random_sosf_prints = site.data.prints.sosf | sample: 20 %}
-    {% for item in random_sosf_prints %}
-      {% include products-prints.html %}
-    {% endfor %}
-  </div>
-</article>
-
-<!-- tc prints -->
-<article id="tc-prints">
-  <h1 class="h1-category-spacing">Time Capsule</h1>
-  <div class="gallery">
-    {% assign random_tc_prints = site.data.prints.tc | sample: 20 %}
-    {% for item in random_tc_prints %}
       {% include products-prints.html %}
     {% endfor %}
   </div>
