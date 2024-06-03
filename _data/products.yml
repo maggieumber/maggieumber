@@ -43,7 +43,7 @@ zines:
     price: $10
     button_id: 423SNC57JXKAA
 
-books:
+graphicnovels:
   - title: Chrysanthemum <br />Under the Waves
     link: /chrysanthemum-under-the-waves
     cover:

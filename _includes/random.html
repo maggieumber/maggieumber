@@ -3,7 +3,7 @@
 <!-- related products -->
 <h2>Related Products</h2>
 <div class="gallery">
-  {% assign all_products = site.data.products.books | concat:
+  {% assign all_products = site.data.products.graphicnovels | concat:
   site.data.products.mini_bun_toys | concat: site.data.products.zines %} {%
   assign random_items = all_products | sample: 3 %} {% for item in random_items
   %} {% include products.html %} {% endfor %}
