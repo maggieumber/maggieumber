@@ -354,6 +354,26 @@ sosf:
       path: /assets/images/prints/maggie-umber-sosf-moon-phases-great-horned-owl.jpg
       alt: moon phases and great horned owl
     button_id: 5SN8BBXN6WTDL
+  - title: Coyote Hunting
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-coyote-hunting.jpg
+      alt: coyote hunting in the snow
+    button_id: VC8F5UU7GCSGY
+  - title: GHO Male Feeding Mate
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-gho-male-feeding-mate.jpg
+      alt: great horned owl catching a mouse and feeding it to its mate
+    button_id: X8CQ6XTSFXGYJ
+  - title: Great Horned Owl Dreams a Starling
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-great-horned-owl-dreams-a-starling.jpg
+      alt: great horned owl dreaming of a starling while brooding eggs in a nest
+    button_id: BCHS4MJA4B2VW
+  - title: Spring Peepers at Night
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-spring-peepers-at-night.jpg
+      alt: spring peepers calling and mating at night, with skunk cabbage
+    button_id: 953SZWQZUG5HL
 
 tc:
   - title: Lonesome George
@@ -376,3 +396,18 @@ tc:
       path: /assets/images/prints/maggie-umber-tc-snake-and-frog-parade.jpg
       alt: snake curled up on a leaf pile, with a parade of frogs hopping past
     button_id: WAMWXBWZ2ZLE6
+  - title: Chimps Grooming
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-chimps-grooming.jpg
+      alt: chimpanzees grooming each other
+    button_id: XYLDLMCRAZT9U
+  - title: Cup Plants Being Pollinated
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-cup-plants-being-pollinated.jpg
+      alt: cup plants being pollinated
+    button_id: Z3GNV8JN9UTYW
+  - title: Universe Earth Corn 
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-universe-earth-corn.jpg
+      alt: stars and galaxies, planet earth, and corn plants
+    button_id: 6VKBPLGG57Y28
