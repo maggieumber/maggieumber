@@ -4,18 +4,27 @@ permalink: /books
 redirect_from: /pages/books.html
 ---
 
+<p>Zines are printed on demand using an Epson inkjet printer and folded and stapled by hand. 
+  Books are printed offset and perfect bound by various printers overseas.  Anthologies 
+  are edited, printed and sold by their respective publishers.</p>
+  <p>
+    <a href="#zines">☞ Zines</a>
+    <a href="#books">☞ Books</a>
+    <a href="#anthologies">☞ Anthologies</a>
+  </p>
+<hr />
+
 <!-- zines -->
-<article>
-  <h1>Zines</h1>
+<article id="zines">
+  <h1 class="h1-category-spacing">Zines</h1>
   <div class="gallery">
     {% for item in site.data.products.zines %} {% include products.html %} {%
     endfor %}
   </div>
 </article>
 
-<hr />
 <!-- books -->
-<article>
+<article id="books">
   <h1 class="h1-category-spacing">Books</h1>
   <div class="gallery">
     {% for item in site.data.products.books %} {% include products.html %} {%
@@ -23,9 +32,8 @@ redirect_from: /pages/books.html
   </div>
 </article>
 
-<hr />
 <!-- anthologies -->
-<article>
+<article id="anthologies">
   <h1 class="h1-category-spacing">Anthologies</h1>
   <div class="gallery">
     {% for item in site.data.anthologies %} {% include anthologies.html %} {%
