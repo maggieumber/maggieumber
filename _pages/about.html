@@ -7,13 +7,20 @@ cover:
   alt: Maggie Umber with hands on hips, tabling at CAKE posing with magenta line drawings of Bun, Piper and t from Bunworld
 contacts:
   - link: mailto:paintedmags@proton.me
-    name: email
+    name: ☞ email
   - link: https://www.patreon.com/maggieumber
-    name: Patreon
+    name: ☞ patreon
   - link: https://www.instagram.com/maggieumber/
-    name: Instagram
+    name: ☞ instagram
 bio: "Maggie Umber paints, prints, and programs graphic novels and zines. She's published three graphic novels — Sound of Snow Falling, Time Capsule, and 270° — and her work has been widely anthologized."
 ---
+
+<p>{{ page.bio }}</p>
+<p></p>
+{% for contact in page.contacts %}
+  <a href="{{ contact.link }}" target="_blank">{{ contact.name }}</a>
+{% endfor %}
+</p>
 
 <div class="gallery">
   <figure class="gallery-item">
@@ -25,22 +32,3 @@ bio: "Maggie Umber paints, prints, and programs graphic novels and zines. She's 
     />
   </figure>
 </div>
-
-<!-- bio -->
-<h2>Maggie Umber</h2>
-<p>{{ page.bio }}</p>
-
-<!-- contact -->
-<h2>Contact</h2>
-<ul>
-  {% for contact in page.contacts %}
-  <li>
-    <p>
-      &#9997;
-      <a href="{{ contact.link }}" target="_blank">{{ contact.name }}</a>
-    </p>
-  </li>
-  {% endfor %}
-</ul>
-
-<p>🖤</p>
