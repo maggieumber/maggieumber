@@ -4,7 +4,7 @@ permalink: /
 ---
 
 <div class="gallery">
-  {% assign all_products = site.data.products.books | concat:
+  {% assign all_products = site.data.products.graphicnovels | concat:
   site.data.products.zines %} {% assign random_items = all_products | sample: 20
   %} {% for item in random_items %} {% include products.html %} {% endfor %}
 </div>
