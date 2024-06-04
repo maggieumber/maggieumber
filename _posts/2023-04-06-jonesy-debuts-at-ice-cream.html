@@ -1,0 +1,22 @@
+---
+title: "Jonesy Debuts at ICE CREAM"
+categories: tour-diary
+cover:
+  path: /assets/images/books/maggie-umber-jonesy-cover.jpg
+  alt: "a red figure smiling on a book cover, text reads: Jonesy, Maggie Umber"
+---
+
+<p>
+  <a href="/jonesy.html">Jonesy</a> (24 pgs, full color) will debut Sat April 8th at
+  <a href="http://www.publicspaceone.com/icecream" target="_blank">ICE CREAM</a>: the 
+  Iowa City Expo for Comics and Alternative Media. This is the first stop on my Mostly 
+  Midwest Zine Tour!! Thanks to Dave Dugan for all your hard work as an organizer!!!!
+</p>
+
+<!-- images -->
+<div class="gallery">
+  {% for product in site.data.products.zines %} 
+  {% if product.title == "Jonesy" %} 
+  {% include blog-product.html %} 
+  {% endif %} {% endfor %}
+</div>

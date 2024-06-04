@@ -1,0 +1,21 @@
+---
+title: Anthologies
+permalink: /anthologies
+---
+
+<p>
+  My comics work has been widely anthologized. I've been included in publications such as
+  Fantagraphics NOW and BOMB Magazine.
+</p>
+<hr />
+
+<h3>Anthologies</h3>
+<div class="gallery">
+  {% for post in site.posts %} {% if post.categories contains 'anthologies' %}
+  <figure class="gallery-item">
+    <a href="{{ post.url }}">
+      <img class="thumbnail-300" src="{{ post.cover.path }}" alt="{{ post.cover.alt }}" title="copyright Maggie Umber"/></a>
+      <figcaption><a href="{{ post.url }}">{{ post.date | date: "%m/%d/%y" }}<br />{{ post.title }}</a></figcaption>
+  </figure>
+  {% endif %} {% endfor %}
+</div>

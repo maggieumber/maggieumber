@@ -1,0 +1,20 @@
+---
+title: "270° is at the Printer"
+categories: tour-diary
+cover:
+  path: /assets/images/blog/2018-04-23-270-is-at-the-printer.jpg
+  alt: "northern saw-whet owl, text reads: maggie umber 270"
+---
+
+<p>
+  <a href="/270.html">270°</a> is at the printer! My 20 page mini turned into 
+  a 136 page graphic novel. Advanced copies available at TCAF in May.
+</p>
+
+<!-- images -->
+<div class="gallery">
+  {% for product in site.data.products.graphicnovels %} 
+  {% if product.title == "270°" %} 
+  {% include blog-product.html %} 
+  {% endif %} {% endfor %}
+</div>

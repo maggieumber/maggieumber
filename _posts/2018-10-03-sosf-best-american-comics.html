@@ -1,0 +1,22 @@
+---
+title: "SOSF Best American Comics"
+categories: anthologies
+cover:
+  path: /assets/images/blog/2018-10-03-sosf-best-american-comics.jpg
+  alt: "painting palette with acrylic paint for Sound of Snow Falling"
+---
+
+<p>
+  <a href="/sound-of-snow-falling.html">Sound of Snow Falling</a> made 
+  <a href="https://on-panel.com/BAC2018/index.html" target="_blank">The Best American Comics 2018 Notable Comics List</a>
+   - and what a list! Selected by Bill Kartalopoulos.
+</p>
+
+<!-- images -->
+<div class="gallery">
+  {% for product in site.data.products.graphicnovels %} 
+  {% if product.title == "Sound of Snow Falling" %} 
+  {% include blog-product.html %} 
+  {% endif %} {% endfor %}
+</div>
+

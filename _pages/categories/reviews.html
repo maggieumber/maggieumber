@@ -1,32 +1,22 @@
 ---
 title: Reviews
 permalink: /reviews
-doubles:
-  - path: /assets/images/blog/2024-01-26-the-academic-hour-by-keren-katz-1.jpg
-    alt: Maggie Umber in a green and black wool sweater, holding a copy of The Academic Hour by Keren Katz
-  - path: /assets/images/blog/2024-01-26-the-academic-hour-by-keren-katz-3.jpg
-    alt: plush toast
 ---
 
-{% include blog-double.html %}
-
-<h2>About the Reviews</h2>
 <p>
-  In which Maggie reviews books, specifically, graphic novels, comic books and
-  zines with a focus on small alternative press and self-published work. She
-  only reviews books that she loves. As an unsatisfied completionist, she wishes
-  she could read literally everything, but alas. To support Maggie's penmanship,
-  subscribe to Maggie's
-  <a href="https://www.patreon.com/maggieumber" target="_blank">Patreon</a>.
+  My reviews of graphic novels, comic books and zines with a focus on small alternative 
+  press and self-published work. I only only review books that I love. As an unsatisfied 
+  completionist, I wish I could read literally everything, but alas. 
 </p>
+<hr />
 
 <h3>Reviews Archive</h3>
-<ul>
+<div class="gallery">
   {% for post in site.posts %} {% if post.categories contains 'reviews' %}
-  <li>
-    <a href="{{ post.url }}"
-      >☞ {{ post.title }}, {{ post.date | date: "%m/%d/%y" }}</a
-    >
-  </li>
+  <figure class="gallery-item">
+    <a href="{{ post.url }}">
+      <img class="thumbnail-300" src="{{ post.cover.path }}" alt="{{ post.cover.alt }}" title="copyright Maggie Umber"/></a>
+      <figcaption><a href="{{ post.url }}">{{ post.date | date: "%m/%d/%y" }}<br />{{ post.title }}</a></figcaption>
+  </figure>
   {% endif %} {% endfor %}
-</ul>
+</div>

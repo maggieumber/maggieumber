@@ -1,0 +1,22 @@
+---
+title: "CUTW Preorder Available"
+categories: tour-diary
+cover:
+  path: /assets/images/blog/2024-03-13-cutw-available-for-preorder.jpg
+  alt: "text reads: Chrysanthemum Under the Waves"
+---
+<p>
+  My first graphic novel since 2018 will come out this fall, self-published (!!!). 
+  272 pages of woodcuts, trace and regular monotypes, linocuts, watercolor, ink, 
+  brush marker, gouache - 9 collected comics all revolving around the demon lover 
+  theme. Preorder Chrysanthemum Under the Waves on <a href="/chrysanthemum-under-the-waves">
+  maggieumber.com</a>. Thank you my friends!
+</p>
+
+<!-- images -->
+<div class="gallery">
+  {% for product in site.data.products.graphicnovels %} 
+  {% if product.title == "Chrysanthemum <br />Under the Waves" %} 
+  {% include blog-product.html %} 
+  {% endif %} {% endfor %}
+</div>
