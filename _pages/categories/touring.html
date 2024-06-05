@@ -1,6 +1,6 @@
 ---
-title: Tour Diary
-permalink: /tour-diary
+title: Touring
+permalink: /touring
 ---
 
 <p>
@@ -10,9 +10,9 @@ permalink: /tour-diary
 </p>
 <hr />
 
-<h3>Tour Diary Archive</h3>
+<h3>Touring Archive</h3>
 <div class="gallery">
-  {% for post in site.posts %} {% if post.categories contains 'tour-diary' %}
+  {% for post in site.posts %} {% if post.categories contains 'touring' %}
   <figure class="gallery-item">
     <a href="{{ post.url }}">
       <img class="thumbnail-300" src="{{ post.cover.path }}" alt="{{ post.cover.alt }}" title="copyright Maggie Umber"/></a>
