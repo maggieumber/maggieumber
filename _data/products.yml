@@ -107,7 +107,7 @@ mini_bun_toys:
   - title: Sour Berries
     link: /sour-berries
     cover:
-      path: /assets/images/toys/mini-buns/maggie-umber-sour-berries-cover-lrg.jpg
+      path: /assets/images/toys/maggie-umber-mini-bun-sour-berries-cover.jpg
       alt: light green colored crocheted toy bun alien wearing a red hat and shirt
     price: $35
     button_id: ZZ2J7GDR5Y2BC
@@ -116,14 +116,14 @@ rocket_pod_toys:
   - title: Sweet and Sour
     link: /sweet-and-sour
     cover:
-      path: /assets/images/toys/rocket-pods/maggie-umber-sweet-and-sour-cover-lrg.jpg
+      path: /assets/images/toys/maggie-umber-rocket-pod-sweet-and-sour-cover.jpg
       alt: blue and yellow crocheted toy bun alien in a rocket pod
     price: $50
     button_id: F5DWBQB84YNGC
   - title: Cinnamon Bun
     link: /cinnamon-bun
     cover:
-      path: /assets/images/toys/rocket-pods/maggie-umber-cinnamon-bun-cover-lrg.jpg
+      path: /assets/images/toys/maggie-umber-rocket-pod-cinnamon-bun-cover.jpg
       alt: red, blue and yellow crocheted toy bun alien in a rocket pod"
     price: $50
     button_id: ARNHP2YBBJRHC
@@ -132,14 +132,14 @@ rocket_ship_toys:
   - title: Rainbow Popsicle
     link: /rainbow-popsicle
     cover:
-      path: /assets/images/toys/rocket-ships/maggie-umber-rainbow-popsicle-cover-lrg.jpg
+      path: /assets/images/toys/maggie-umber-rocket-ship-rainbow-popsicle-cover.jpg
       alt: rainbow-colored crocheted toy bun alien rocket ship with ears popping out
     price: $75
     button_id: 6MRU983T8MPPC
   - title: Cookies and Cream
     link: /cookies-and-cream
     cover:
-      path: /assets/images/toys/rocket-ships/maggie-umber-cookies-and-cream-cover-lrg.jpg
+      path: /assets/images/toys/maggie-umber-rocket-ship-cookies-and-cream-cover.jpg
       alt: cookies and cream-colored crocheted toy bun alien hidden in rocket ship
     price: $75
     button_id: VNYFTVHCS7W5U
@@ -148,21 +148,21 @@ nunions:
   - title: Autumn Cake
     link: /autumn-cake
     cover:
-      path: /assets/images/toys/nunions/maggie-umber-autumn-cake-cover-lrg.jpg
+      path: /assets/images/toys/maggie-umber-nunion-autumn-cake-cover.jpg
       alt: red, orange, yellow, blue crocheted nunion toy with four legs
     price: $15
     button_id: PLAZQKP34VST6
   - title: Peppermint Gold
     link: /peppermint-gold
     cover:
-      path: /assets/images/toys/nunions/maggie-umber-peppermint-gold-cover-lrg.jpg
+      path: /assets/images/toys/maggie-umber-nunion-peppermint-gold-cover.jpg
       alt: green crocheted nunion toy with four legs, a faceless head with yellow flowers sprouting from it
     price: $20
     button_id: XT8MWTJUXMBGW
   - title: Bubble Mint
     link: /bubble-mint
     cover:
-      path: /assets/images/toys/nunions/maggie-umber-bubble-mint-cover-lrg.jpg
+      path: /assets/images/toys/maggie-umber-nunion-bubble-mint-cover.jpg
       alt: green, blue, pink crocheted nunion toy with four legs
     price: $15
     button_id: K6RAAYXDFQPBS
