@@ -4,9 +4,21 @@ permalink: /toys
 redirect_from: /pages/toys.html
 ---
 
-<!-- mini bun toys -->
-<article>
-  <h1>Mini Bun Toys</h1>
+<p>My crochet toys are bunny aliens. They have goofy outfits, transportation devices and Nunion 
+  friends. I design them in my head and in sketchbooks. Then I develop a pattern while crocheting it.
+  I love sock yarn and small crochet hooks. 
+</p>
+  <p>
+    <a href="#minibuns">☞ Mini Buns</a>
+    <a href="#rocketpods">☞ Rocket Pods</a>
+    <a href="#rocketships">☞ Rocket Ships</a>
+    <a href="#nunions">☞ Nunions</a>
+  </p>
+<hr />
+
+<!-- mini bun -->
+<article id="minibuns">
+  <h1 class="h1-category-spacing">Mini Buns</h1>
   <div class="gallery">
     {% for item in site.data.products.mini_bun_toys %} {% include products.html
     %} {% endfor %}
@@ -14,9 +26,9 @@ redirect_from: /pages/toys.html
 </article>
 
 <hr />
-<!-- rocket pod toys -->
-<article>
-  <h1 class="h1-category-spacing">Rocket Pod Toys</h1>
+<!-- rocket pod -->
+<article id="rocketpods">
+  <h1 class="h1-category-spacing">Rocket Pods</h1>
   <div class="gallery">
     {% for item in site.data.products.rocket_pod_toys %} {% include
     products.html %} {% endfor %}
@@ -24,9 +36,9 @@ redirect_from: /pages/toys.html
 </article>
 
 <hr />
-<!-- rocket ship toys -->
-<article>
-  <h1 class="h1-category-spacing">Rocket Ship Toys</h1>
+<!-- rocket ship -->
+<article id="rocketships">
+  <h1 class="h1-category-spacing">Rocket Ships</h1>
   <div class="gallery">
     {% for item in site.data.products.rocket_ship_toys %} {% include
     products.html %} {% endfor %}
@@ -34,9 +46,9 @@ redirect_from: /pages/toys.html
 </article>
 
 <hr />
-<!-- nunion toys -->
-<article>
-  <h1 class="h1-category-spacing">Nunion Toys</h1>
+<!-- nunion -->
+<article id="nunions">
+  <h1 class="h1-category-spacing">Nunions</h1>
   <div class="gallery">
     {% for item in site.data.products.nunions %} {% include products.html %} {%
     endfor %}
