@@ -1,0 +1,22 @@
+---
+title: Videos
+permalink: /videos
+---
+
+<p>
+  Video is one way I document my artistic processes and express myself. Sometimes I make 
+  videos in collaborations. I show videos at performances, comic and zine shows, or in 
+  exhibitions. You can find additional videos throughout this site!
+</p>
+<hr />
+
+<h3>Videos</h3>
+<div class="gallery">
+  {% for post in site.posts %} {% if post.categories contains 'videos' %}
+  <figure class="gallery-item">
+    <a href="{{ post.url }}">
+      <img class="thumbnail-300" src="{{ post.cover.path }}" alt="{{ post.cover.alt }}" title="copyright Maggie Umber"/></a>
+      <figcaption><a href="{{ post.url }}">{{ post.date | date: "%m/%d/%y" }}<br />{{ post.title }}</a></figcaption>
+  </figure>
+  {% endif %} {% endfor %}
+</div>
