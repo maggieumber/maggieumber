@@ -120,13 +120,6 @@ rocket_pod_toys:
       alt: blue and yellow crocheted toy bun alien in a rocket pod
     price: $50
     button_id: F5DWBQB84YNGC
-  - title: Cinnamon Bun
-    link: /cinnamon-bun
-    cover:
-      path: /assets/images/toys/maggie-umber-rocket-pod-cinnamon-bun-cover.jpg
-      alt: red, blue and yellow crocheted toy bun alien in a rocket pod"
-    price: $50
-    button_id: ARNHP2YBBJRHC
 
 rocket_ship_toys:
   - title: Rainbow Popsicle
