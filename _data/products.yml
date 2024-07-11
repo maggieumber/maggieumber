@@ -49,7 +49,7 @@ graphicnovels:
     cover:
       path: /assets/images/books/maggie-umber-chrysanthemum-under-the-waves-cover.jpg
       alt: "a woman in profile with long hair floating up, text reads: Chrysanthemum Under the Waves"
-    price: PREORDER $35
+    price: "* PREORDER * <br />$35"
     button_id: SB5W5DNEJC7LS
   - title: Time Capsule
     link: /time-capsule
