@@ -285,6 +285,36 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-night-garden.jpg
       alt: garden at night
     button_id: 67CGWZS5J9N5W
+  - title: Cone Flowers in Fall
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-cone-flowers-in-fall.jpg
+      alt: purple cone flowers in the fall
+    button_id: Y9KBPCKCECYJQ
+  - title: Dad's Pumpkin Flowers
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-dads-pumpkin-flowers.jpg
+      alt: pumpkin flowers close up
+    button_id: C2GRN4FXR6RVJ
+  - title: Flowers in the Neighbors's Yard
+    cover: 
+      path: /assets/images/prints/maggie-umber-nature-flowers-in-the-neighbors-yard.jpg
+      alt: flowers in the neighbor's yard
+    button_id: ZFUJKH6D2J3A6
+  - title: Mo in the Sun
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-mo-in-the-sun.jpg
+      alt: brown cat laying in the sun, flicking her tail
+    button_id: TK7R6RD63HPH6
+  - title: Mom's Garden
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-moms-garden.jpg
+      alt: flower garden in full bloom
+    button_id: ABCSZG3N5P92E
+  - title: Mona's Cat
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-monas-cat.jpg
+      alt: black and white cat with a pink nose
+    button_id: LX7PQRG45SE9J
 
 portrait:
   - title: Josephine Baker Portrait
@@ -401,8 +431,28 @@ tc:
       path: /assets/images/prints/maggie-umber-tc-cup-plants-being-pollinated.jpg
       alt: cup plants being pollinated
     button_id: Z3GNV8JN9UTYW
-  - title: Universe Earth Corn 
+  - title: Universe, Earth, Corn 
     cover:
       path: /assets/images/prints/maggie-umber-tc-universe-earth-corn.jpg
       alt: stars and galaxies, planet earth, and corn plants
     button_id: 6VKBPLGG57Y28
+  - title: Baby Blue Jay
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-baby-blue-jay.jpg
+      alt: baby blue jay perched on a branch
+    button_id: ZJFCGHSR42ESE
+  - title: Bat with Dark Side of the Moon Cycle
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-bat-with-dark-side-of-the-moon-cycle.jpg
+      alt: bat flying in front of the night sky, with the moon cycle below
+    button_id: B7L9NJLKZFWPC
+  - title: Time Capsule Landscape
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-time-capsule-landscape.jpg
+      alt: landscape with a time capsule in the foreground
+    button_id: WNZVQD7CHSGLN
+  - title: Wandering Snails, Meandering Goats
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-wandering-snails-meandering-goats.jpg
+      alt: snails and goats wandering and meandering
+    button_id: M4CDYM9TWEHK6
