@@ -161,9 +161,9 @@ cutw:
       path: /assets/images/prints/maggie-umber-cutw-chrysanthemum-finale.jpg
       alt: a woman stands in a doorway, with an intense emotion on her face
     button_id: PCYWTYWFWJRSQ
-  - title: CUTW Print
+  - title: CUTW Front Cover
     cover:
-      path: /assets/images/prints/maggie-umber-cutw-chrysanthemum-under-the-waves-print.jpg
+      path: /assets/images/prints/maggie-umber-cutw-chrysanthemum-under-the-waves-front-cover.jpg
       alt: face in profile, with her hair floating above her head
     button_id: 8MH2LTGXTK98U
   - title: The Dental X-Rays

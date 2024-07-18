@@ -4,9 +4,10 @@ permalink: /prints
 redirect_from: /pages/prints.html
 ---
 
-<p>There are three sizes available for each print (4x6 inches, 5x7 inches, and 8.5x11 inches). 
-  Each artwork is reproduced as a high-quality inkjet print on glossy photo paper. They are packaged in a 
-  plastic sleeve with a matboard backing.</p>
+<p>Choose from three print sizes (4x6, 5x7, and 8.5x11 inches) and a greeting card option. Prints 
+  are high-quality inkjet on glossy photo paper. They come with a matboard backing. Greeting cards 
+  are printed on cardstock and paired with an envelope. Prints and greeting cards are packaged in 
+  plastic sleeves.</p>
   <p>
     <a href="#sosf-prints">☞ SOSF</a>
     <a href="#tc-prints">☞ Time Capsule</a>
@@ -33,7 +34,7 @@ redirect_from: /pages/prints.html
 <article id="tc-prints">
   <h1 class="h1-category-spacing">Time Capsule</h1>
   <div class="gallery">
-    {% assign random_tc_prints = site.data.prints.tc | sample: 20 %}
+    {% assign random_tc_prints = site.data.prints.tc | sample: 50 %}
     {% for item in random_tc_prints %}
       {% include products-prints.html %}
     {% endfor %}
@@ -44,7 +45,7 @@ redirect_from: /pages/prints.html
 <article id="270-prints">
   <h1 class="h1-category-spacing">270°</h1>
   <div class="gallery">
-    {% assign random_270_prints = site.data.prints.prints270 | sample: 30 %}
+    {% assign random_270_prints = site.data.prints.prints270 | sample: 50 %}
     {% for item in random_270_prints %}
       {% include products-prints.html %}
     {% endfor %}
@@ -55,7 +56,7 @@ redirect_from: /pages/prints.html
 <article id="cutw-prints">
   <h1 class="h1-category-spacing">Chrysanthemum Under the Waves</h1>
   <div class="gallery">
-    {% assign random_cutw_prints = site.data.prints.cutw | sample: 6 %}
+    {% assign random_cutw_prints = site.data.prints.cutw | sample: 50 %}
     {% for item in random_cutw_prints %}
       {% include products-prints.html %}
     {% endfor %}
@@ -77,7 +78,7 @@ redirect_from: /pages/prints.html
 <article id="nature-prints">
   <h1 class="h1-category-spacing">Nature</h1>
   <div class="gallery">
-    {% assign random_nature_prints = site.data.prints.nature | sample: 20 %}
+    {% assign random_nature_prints = site.data.prints.nature | sample: 50 %}
     {% for item in random_nature_prints %}
       {% include products-prints.html %}
     {% endfor %}
