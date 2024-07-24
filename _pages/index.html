@@ -1,11 +1,49 @@
 ---
 title: Maggie Umber
 permalink: /
+description: Hello, my name is Maggie. I've been publishing books and zines in the small press 
+  comics community since 2007. I co-founded 2dcloud, now I focus on my own books.
+cover:
+  path: /assets/images/books/maggie-umber-chrysanthemum-under-the-waves-cover.jpg
+  alt: "a woman in profile with long hair floating up, text reads: Chrysanthemum Under the Waves"
+price: $35 PREORDER SHIPS 10/2024
+button_id: SB5W5DNEJC7LS
+pages: 284 pgs, 6 in x 9 in
+materials: softcover, smythsewn
+blurbs:
+  - Feel the loudness of splatter and smudge. It howls and simmers. It is a pleasure to feel 
+    these images, you don’t read them, you feel them. Gaze into the dark pool, the surface of a 
+    well of subconscious, like a crystal ball, shadows of dream and memory cast onto the page 
+    with brooding inkiness and deep texture. Multiple styles of drawing here but all of them 
+    simmering with emotion. Magical feats of comics communication within these stories, beautiful 
+    tricks of mark making expressing what cannot be said. <br />I really love this book, very much. 
+    <br />&mdash; Lale Westvind, author of Grip published by Perfectly Acceptable Press
+events:
+  - Debuts at CXC (Cartoon Crossroads Columbus), 2024
+  - '6/14-7/3/2024 <a href="https://www.annarborartcenter.org/drawing-worlds/" target="_blank">Drawing Worlds: The Art of Comics and Beyond</a>, A2AC Gallery, Ann Arbor, MI'
+  - 4/2/2024 artist Zoom talk for Lale Westvind's Print Class at Parsons School of Design, New York, NY
+  - "3/12/20 Now #8 Fantagraphics reading/signing with Amy Lockeart, Quimby&#39;s, Chicago, IL"
+  - 10/1/16 reading/slide show presentation of The Shirley Jackson Project, Boneshaker Books, Minneapolis, MN
+doubles:
+  - path: /assets/images/blog/2024-07-16-cutw-production-sample-1.jpg
+    alt: maggie umber reading a copy of Chrysanthemum Under the Waves by Maggie Umber
+  - path: /assets/images/blog/2024-07-16-cutw-production-sample-4.jpg
+    alt: maggie umber reading a copy of Chrysanthemum Under the Waves by Maggie Umber
 ---
-<hr />
-{% include view-cart.html %}
-<div class="gallery">
-  {% assign all_products = site.data.products.graphicnovels | concat:
-  site.data.products.zines %} {% assign random_items = all_products | sample: 20
-  %} {% for item in random_items %} {% include products.html %} {% endfor %}
-</div>
+<p>{{ page.description }}</p>
+<p>
+  I'm excited to share my first self-published graphic novel with you! 6+ years in the making and 
+  topping off at nearly 300 pages, 
+  <a href="/chrysanthemum-under-the-waves.html">Chrysanthemum Under the Waves</a> is a collection
+  of nine comics. It's a book of mourning, a book of letting go, a book of love and loss.
+</p>
+{% include paypal.html %}
+
+<p>
+  You can <a href="/chrysanthemum-under-the-waves.html">preorder</a> now. Advanced copies will be 
+  available at <a href="https://www.cartooncrossroadscolumbus.org/" target="_blank">CXC (Cartoon Crossroads Columbus)</a>
+  9/26-9/29/2024 and on the fall leg of my Less is More Zine Tour.
+</p>
+{% include blog-double.html %}
+<p>🖤</p>
+<p>{{ page.blurbs }}</p>
