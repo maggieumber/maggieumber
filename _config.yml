@@ -32,6 +32,17 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
+# collections:
+#   # books:
+#   #   output: true
+#   #   permalink: /books/:path/
+#   toys:
+#     output: false # This prevents Jekyll from generating individual pages for each toy
+#   # wholesale:
+#   #   output: true
+#   #   permalink: /wholesale/:path/
+  
+
 defaults:
   - scope:
       path: "_posts"
@@ -46,14 +57,6 @@ defaults:
       path: "_pages/books"
     values:
       layout: "default-book"
-  - scope:
-      path: "_pages/prints"
-    values:
-      layout: "default-print"
-  - scope:
-      path: "_pages/toys"
-    values:
-      layout: "default-toy"
   - scope:
       path: "_pages/wholesale"
     values:

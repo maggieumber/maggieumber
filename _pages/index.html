@@ -3,6 +3,7 @@ title: Maggie Umber
 permalink: /
 ---
 <hr />
+{% include view-cart.html %}
 <div class="gallery">
   {% assign all_products = site.data.products.graphicnovels | concat:
   site.data.products.zines %} {% assign random_items = all_products | sample: 20

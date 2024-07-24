@@ -1,0 +1,65 @@
+minibuns:
+  - title: Sour Berries <br /> Mini Bun
+    cover:
+      path: /assets/images/toys/maggie-umber-sour-berries.jpg
+      alt: light green colored crocheted toy bun alien wearing a red hat and shirt
+    size: 2 x 2 x 3.5 inches
+    price: $35
+    button_id: ZZ2J7GDR5Y2BC
+
+rocketpods:
+  - title: Sweet and Sour <br /> Rocket Pod and Bun
+    cover:
+      path: /assets/images/toys/maggie-umber-sweet-and-sour.jpg
+      alt: blue and yellow crocheted toy bun alien in a rocket pod with ears popping out
+    size: 3.5 x 2 x 1.5 inches
+    price: $50
+    button_id: F5DWBQB84YNGC
+
+rocketships:
+  - title: Cookies and Cream <br /> Rocket Ship and Bun
+    cover:
+      path: /assets/images/toys/maggie-umber-cookies-and-cream.jpg
+      alt: cookies and cream-colored crocheted toy bun alien hidden in rocket ship
+    size: 4.5 x 3 x 2.5 inches
+    price: $75
+    button_id: VNYFTVHCS7W5U
+  - title: Rainbow Popsicle <br /> Rocket Ship and Bun
+    cover:
+      path: /assets/images/toys/maggie-umber-rainbow-popsicle.jpg
+      alt: rainbow-colored crocheted toy bun alien rocket ship with ears popping out
+    size: 4.5 x 3 x 2.5 inches
+    price: $75
+    button_id: 6MRU983T8MPPC
+
+flyingsaucers:
+  - title: Grumpy Watermelon <br /> Flying Saucer
+    cover:
+      path: /assets/images/toys/maggie-umber-grumpy-watermelon.jpg
+      alt: green and pink grumpy bun in a flying saucer with matching colors
+    size: 12 x 12 x 8 inches
+    price: $750
+    button_id: 67DZVNP352ZBW
+
+nunions:
+  - title: Autumn Cake <br /> Nunion
+    cover:
+      path: /assets/images/toys/maggie-umber-autumn-cake.jpg
+      alt: red, orange, yellow, blue crocheted nunion toy with four legs
+    size: 2.5 x 2.5 x 3.5 inches
+    price: $15
+    button_id: PLAZQKP34VST6
+  - title: Bubble Mint <br /> Nunion
+    cover:
+      path: /assets/images/toys/maggie-umber-bubble-mint.jpg
+      alt: green, blue, pink crocheted nunion toy with four legs
+    size: 2.5 x 2.5 x 3.5 inches
+    price: $15
+    button_id: K6RAAYXDFQPBS
+  - title: Peppermint Gold <br /> Nunion
+    cover:
+      path: /assets/images/toys/maggie-umber-peppermint-gold.jpg
+      alt: green crocheted nunion toy with four legs, a faceless head with yellow flowers sprouting from it
+    size: 2.5 x 2.5 x 3.5 inches
+    price: $20
+    button_id: XT8MWTJUXMBGW

@@ -1,10 +1,22 @@
 <p>🖤</p>
 
 <!-- related products -->
-<h2>Related Products</h2>
-<div class="gallery">
-  {% assign all_products = site.data.products.graphicnovels | concat:
-  site.data.products.mini_bun_toys | concat: site.data.products.zines %} {%
+<h2>You might also like...</h2>
+<!-- <div class="gallery">
+  {% assign all_products = site.data.products.graphicnovels | site.data.products.zines %} {%
   assign random_items = all_products | sample: 3 %} {% for item in random_items
   %} {% include products.html %} {% endfor %}
+</div> -->
+
+<div class="gallery">
+  {% assign all_products = site.data.products.graphicnovels | concat:
+  site.data.products.zines %} {% assign random_items = all_products | sample: 2
+  %} {% for item in random_items %} {% include products.html %} {% endfor %}
+  {% assign all_prints = site.data.prints.cutw | concat: site.data.prints.sosf
+    | concat: site.data.prints.prints270 | concat: site.data.prints.jonesy
+    | concat: site.data.prints.nature | concat: site.data.prints.portrait 
+    | concat: site.data.prints.tc%} 
+  {% assign random_items = all_prints | sample: 2 %} 
+  {% for item in random_items %} 
+  {% include products-prints.html %} {% endfor %}
 </div>

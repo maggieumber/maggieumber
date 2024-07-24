@@ -2,56 +2,20 @@
 title: Toys
 permalink: /toys
 redirect_from: /pages/toys.html
+description: I crochet the toys with acrylic yarns, but wool and other materials are also
+  used. Clothes, accessories and transportation devices come off. Nunions are stackable. 
+  Sizes are estimates only. These characters appear in my ongoing comic book series, 
+  <a href="/bunworld-1">Bunworld</a>. 
 ---
 
-<p>My crochet toys are bunny aliens. They have goofy outfits, transportation devices and Nunion 
-  friends. I design them in my head and in sketchbooks. I develop patterns while crocheting 
-  them. I also draw them in my ongoing comic book series, 
-  <a href="/bunworld-1">Bunworld</a>. 
-</p>
-  <p>
-    <a href="#minibuns">☞ Mini Buns</a>
-    <a href="#rocketpods">☞ Rocket Pods</a>
-    <a href="#rocketships">☞ Rocket Ships</a>
-    <a href="#nunions">☞ Nunions</a>
-  </p>
+<p>{{ page.description }}</p>
 <hr />
+{% include view-cart.html %}
 
-<!-- mini bun -->
-<article id="minibuns">
-  <h1 class="h1-category-spacing">Mini Buns</h1>
-  <div class="gallery">
-    {% for item in site.data.products.mini_bun_toys %} {% include products.html
-    %} {% endfor %}
-  </div>
-</article>
-
-<hr />
-<!-- rocket pod -->
-<article id="rocketpods">
-  <h1 class="h1-category-spacing">Rocket Pods</h1>
-  <div class="gallery">
-    {% for item in site.data.products.rocket_pod_toys %} {% include
-    products.html %} {% endfor %}
-  </div>
-</article>
-
-<hr />
-<!-- rocket ship -->
-<article id="rocketships">
-  <h1 class="h1-category-spacing">Rocket Ships</h1>
-  <div class="gallery">
-    {% for item in site.data.products.rocket_ship_toys %} {% include
-    products.html %} {% endfor %}
-  </div>
-</article>
-
-<hr />
-<!-- nunion -->
-<article id="nunions">
-  <h1 class="h1-category-spacing">Nunions</h1>
-  <div class="gallery">
-    {% for item in site.data.products.nunions %} {% include products.html %} {%
-    endfor %}
-  </div>
-</article>
+<div class="gallery">
+  {% assign all_toys = site.data.toys.minibuns | concat:
+  site.data.toys.rocketpods | concat: site.data.toys.rocketships | concat: 
+  site.data.toys.flyingsaucers | concat: 
+  site.data.toys.nunions %} {% assign random_items = all_toys | sample: 20
+  %} {% for item in random_items %} {% include products-toys.html %} {% endfor %}
+</div>
