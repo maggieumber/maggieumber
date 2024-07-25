@@ -2,29 +2,22 @@
 title: Wholesale
 permalink: /wholesale
 redirect_from: /pages/wholesale.html
+description: Hello retailers! Thank you for carrying my books in your shop. Any questions? Please 
+  contact me via &#9997; <a href="mailto:paintedmags@proton.me" target="_blank">email</a>.
+  <li>☞ To qualify for wholesale - <br /> 
+    you must order at least 10 copies. 
+    10 copies of 1 title, or 10 <br />
+    copies spread out over multiple titles. If you do not meet these terms your order will be 
+    refunded, minus the paypal fee.</li>
+  <li>☞ Shipping is free for wholesale orders placed in the USA!</li>
+  <li>☞ International wholesale orders will have shipping costs added after you've placed your order. 
+    <br /> I'll contact you directly with an invoice to cover the shipping.</li>
 ---
 
-<p>
-  Hello retailers! Thank you for carrying my books in your shop. To qualify for
-  wholesale you must order at least 10 copies. 10 copies of 1 title, or 10
-  copies spread out over multiple titles. If you do not meet these terms your
-  order will be refunded.
-</p>
-<p>Shipping is free for wholesale orders placed in the USA!</p>
-<p>
-  International wholesale orders will have shipping costs added after you've
-  placed your order. I'll contact you directly with an invoice to cover the
-  shipping.
-</p>
-<p>
-  Any questions? Please contact me via &#9997;
-  <a href="mailto:paintedmags@proton.me" target="_blank">email</a>.
-</p>
+{% include page-description.html %}
 
-<hr />
 <!-- gallery -->
 <div class="gallery">
-  {% assign all_products = site.data.products.wholesale %} {% assign
-  random_items = all_products | sample: 5 %} {% for item in random_items %} {%
-  include products-books.html %} {% endfor %}
+  {% for item in site.data.books.wholesale %} {% include products-books.html %} {%
+    endfor %}
 </div>

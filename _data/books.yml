@@ -74,6 +74,27 @@ graphicnovels:
     button_id: NEJS4GG7L2YYJ
 
 wholesale:
+  - title: Wholesale <br />Chrysanthemum Under the Waves
+    link: /wholesale-chrysanthemum-under-the-waves
+    cover:
+      path: /assets/images/books/maggie-umber-chrysanthemum-under-the-waves-cover.jpg
+      alt: "a woman in profile with long hair floating up, text reads: Chrysanthemum Under the Waves"
+    price: <s>Retail $35</s> <br /> Wholesale $17.50
+    button_id: 5LFEPSPQT2VSJ
+  - title: Wholesale <br />Sound of Snow Falling
+    link: /wholesale-sound-of-snow-falling
+    cover:
+      path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover.jpg
+      alt: "a great horned owl in a tree hooting on the cover, text reads: Maggie Umber Sound of Snow Falling"
+    price: <s>Retail $23</s> <br /> Wholesale $11.50
+    button_id: B4BG3UL7DAWT2
+  - title: Wholesale <br />270°
+    link: /wholesale-270
+    cover:
+      path: "/assets/images/books/maggie-umber-270-cover.jpg"
+      alt: "a northern saw-whet owl in a pine tree on the cover, with text that reads: maggie umber 270°"
+    price: <s>Retail $15</s> <br /> Wholesale $7.50
+    button_id: X4QLZHSEEMFEQ
   - title: Wholesale <br />Startled Maggie 1
     link: /wholesale-startled-maggie-1
     cover:
@@ -88,18 +109,4 @@ wholesale:
       alt: "a tortoise in a display case on the cover, text reads: Time Capsule Maggie Umber"
     price: <s>Retail $12</s> <br /> Wholesale $6
     button_id: 3QFF49T6Z3D6A
-  - title: Wholesale <br />Sound of Snow Falling
-    link: /wholesale-sound-of-snow-falling
-    cover:
-      path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover.jpg"
-      alt: "a great horned owl in a tree hooting on the cover, text reads: Maggie Umber Sound of Snow Falling"
-    price: <s>Retail $23</s> <br /> Wholesale $11.50
-    button_id: B4BG3UL7DAWT2
-  - title: Wholesale <br />270°
-    link: /wholesale-270
-    cover:
-      path: "/assets/images/books/maggie-umber-270-cover.jpg"
-      alt: "a northern saw-whet owl in a pine tree on the cover, with text that reads: maggie umber 270°"
-    price: <s>Retail $15</s> <br /> Wholesale $7.50
-    button_id: X4QLZHSEEMFEQ
 
