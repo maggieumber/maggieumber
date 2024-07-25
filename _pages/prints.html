@@ -8,92 +8,21 @@ description: Choose from three print sizes (4x6, 5x7, and 8.5x11 inches) and a g
   greeting cards are packaged in plastic sleeves.
 ---
 
-<p>{{ page.description }}</p>
-  <p>
-    <a href="#sosf-prints">☞ SOSF</a>
-    <a href="#tc-prints">☞ Time Capsule</a>
-    <a href="#270-prints">☞ 270°</a>
-    <a href="#cutw-prints">☞ CUTW</a>
-    <a href="#jonesy-prints">☞ Jonesy</a>
-    <a href="#nature-prints">☞ Nature</a>
-    <a href="#portrait-prints">☞ Portrait</a>
-  </p>
-<hr />
-{% include view-cart.html %}
-
-<!-- sosf prints -->
-<article id="sosf-prints">
-  <h1 class="h1-category-spacing">Sound of Snow Falling</h1>
-  <div class="gallery">
-    {% assign random_sosf_prints = site.data.prints.sosf | sample: 20 %}
-    {% for item in random_sosf_prints %}
-      {% include products-prints.html %}
-    {% endfor %}
-  </div>
-</article>
-
-<!-- tc prints -->
-<article id="tc-prints">
-  <h1 class="h1-category-spacing">Time Capsule</h1>
-  <div class="gallery">
-    {% assign random_tc_prints = site.data.prints.tc | sample: 50 %}
-    {% for item in random_tc_prints %}
-      {% include products-prints.html %}
-    {% endfor %}
-  </div>
-</article>
-
-<!-- 270 prints -->
-<article id="270-prints">
-  <h1 class="h1-category-spacing">270°</h1>
-  <div class="gallery">
-    {% assign random_270_prints = site.data.prints.prints270 | sample: 50 %}
-    {% for item in random_270_prints %}
-      {% include products-prints.html %}
-    {% endfor %}
-  </div>
-</article>
-
-<!-- cutw prints -->
-<article id="cutw-prints">
-  <h1 class="h1-category-spacing">Chrysanthemum Under the Waves</h1>
-  <div class="gallery">
-    {% assign random_cutw_prints = site.data.prints.cutw | sample: 50 %}
-    {% for item in random_cutw_prints %}
-      {% include products-prints.html %}
-    {% endfor %}
-  </div>
-</article>
-
-<!-- jonesy prints -->
-<article id="jonesy-prints">
-  <h1 class="h1-category-spacing">Jonesy</h1>
-  <div class="gallery">
-    {% assign random_jonesy_prints = site.data.prints.jonesy | sample: 2 %}
-    {% for item in random_jonesy_prints %}
-      {% include products-prints.html %}
-    {% endfor %}
-  </div>
-</article>
-
-<!-- nature prints -->
-<article id="nature-prints">
-  <h1 class="h1-category-spacing">Nature</h1>
-  <div class="gallery">
-    {% assign random_nature_prints = site.data.prints.nature | sample: 50 %}
-    {% for item in random_nature_prints %}
-      {% include products-prints.html %}
-    {% endfor %}
-  </div>
-</article>
-
-<!-- portrait prints -->
-<article id="portrait-prints">
-  <h1 class="h1-category-spacing">Portrait</h1>
-  <div class="gallery">
-    {% assign random_portrait_prints = site.data.prints.portrait | sample: 20 %}
-    {% for item in random_portrait_prints %}
-      {% include products-prints.html %}
-    {% endfor %}
-  </div>
-</article>
+{% include page-description.html %}
+<br />
+<div class="gallery">
+  {% for item in site.data.prints.sosf %} {% include products-prints.html %} {%
+    endfor %}
+  {% for item in site.data.prints.tc %} {% include products-prints.html %} {%
+    endfor %}
+  {% for item in site.data.prints.prints270 %} {% include products-prints.html %} {%
+    endfor %}
+  {% for item in site.data.prints.cutw %} {% include products-prints.html %} {%
+    endfor %}
+  {% for item in site.data.prints.jonesy %} {% include products-prints.html %} {%
+    endfor %}
+  {% for item in site.data.prints.nature %} {% include products-prints.html %} {%
+    endfor %}
+  {% for item in site.data.prints.portrait %} {% include products-prints.html %} {%
+    endfor %}
+</div>

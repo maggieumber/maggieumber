@@ -4,11 +4,11 @@
 <h2>You might like...</h2>
 
 <div class="gallery">
-  {% assign all_products = site.data.products.graphicnovels | concat:
-  site.data.products.zines %} 
+  {% assign all_products = site.data.books.graphicnovels | concat:
+  site.data.books.zines %} 
   {% assign random_items = all_products | sample: 2 %} 
   {% for item in random_items %} 
-  {% include products.html %} {% endfor %}
+  {% include products-books.html %} {% endfor %}
   {% assign all_prints = site.data.prints.cutw | concat: site.data.prints.sosf
     | concat: site.data.prints.prints270 | concat: site.data.prints.jonesy
     | concat: site.data.prints.nature | concat: site.data.prints.portrait 

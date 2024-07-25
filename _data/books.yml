@@ -51,20 +51,6 @@ graphicnovels:
       alt: "a woman in profile with long hair floating up, text reads: Chrysanthemum Under the Waves"
     price: "* PREORDER * <br />$35"
     button_id: SB5W5DNEJC7LS
-  - title: Time Capsule
-    link: /time-capsule
-    cover:
-      path: /assets/images/books/maggie-umber-time-capsule-cover.jpg
-      alt: "a tortoise in a display case on the cover, text reads: Time Capsule Maggie Umber"
-    price: $12
-    button_id: NEJS4GG7L2YYJ
-  - title: Sound of Snow Falling
-    link: /sound-of-snow-falling
-    cover:
-      path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover.jpg
-      alt: "a great horned owl in a tree hooting on the cover, text reads: Maggie Umber Sound of Snow Falling"
-    price: $23
-    button_id: T6AXKMD4KA6JW
   - title: "270°"
     link: /270
     cover:
@@ -72,6 +58,20 @@ graphicnovels:
       alt: "a northern saw-whet owl in a pine tree on the cover, with text that reads: maggie umber 270°"
     price: $15
     button_id: SNG7SNFX5WZR4
+  - title: Sound of Snow Falling
+    link: /sound-of-snow-falling
+    cover:
+      path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover.jpg
+      alt: "a great horned owl in a tree hooting on the cover, text reads: Maggie Umber Sound of Snow Falling"
+    price: $23
+    button_id: T6AXKMD4KA6JW
+  - title: Time Capsule
+    link: /time-capsule
+    cover:
+      path: /assets/images/books/maggie-umber-time-capsule-cover.jpg
+      alt: "a tortoise in a display case on the cover, text reads: Time Capsule Maggie Umber"
+    price: $12
+    button_id: NEJS4GG7L2YYJ
 
 wholesale:
   - title: Wholesale <br />Startled Maggie 1
