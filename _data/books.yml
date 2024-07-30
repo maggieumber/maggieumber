@@ -1,3 +1,33 @@
+graphicnovels:
+  - title: Chrysanthemum <br />Under the Waves
+    link: /chrysanthemum-under-the-waves
+    cover:
+      path: /assets/images/books/maggie-umber-chrysanthemum-under-the-waves-cover.jpg
+      alt: "a woman in profile with long hair floating up, text reads: Chrysanthemum Under the Waves"
+    price: "$35 PREORDER <br /> On sale date: <br />Oct 22, 2024"
+    button_id: SB5W5DNEJC7LS
+  - title: "270°"
+    link: /270
+    cover:
+      path: /assets/images/books/maggie-umber-270-cover.jpg
+      alt: "a northern saw-whet owl in a pine tree on the cover, with text that reads: maggie umber 270°"
+    price: $15
+    button_id: SNG7SNFX5WZR4
+  - title: Sound of Snow Falling
+    link: /sound-of-snow-falling
+    cover:
+      path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover.jpg
+      alt: "a great horned owl in a tree hooting on the cover, text reads: Maggie Umber Sound of Snow Falling"
+    price: $23
+    button_id: T6AXKMD4KA6JW
+  - title: Time Capsule
+    link: /time-capsule
+    cover:
+      path: /assets/images/books/maggie-umber-time-capsule-cover.jpg
+      alt: "a tortoise in a display case on the cover, text reads: Time Capsule Maggie Umber"
+    price: $12
+    button_id: NEJS4GG7L2YYJ
+
 zines:
   - title: Bunworld 1
     link: /bunworld-1
@@ -6,7 +36,6 @@ zines:
       alt: "a little baker and a bunny read a book in front of huge ice cream, text reads: Maggie Umber, Bunworld"
     price: $14
     button_id: 8HKJEHS2B2424
-      - Debuted at CZF (Chicago Zine Fest), 2023
   - title: Jonesy
     link: /jonesy
     cover:
@@ -43,36 +72,6 @@ zines:
     price: $10
     button_id: 423SNC57JXKAA
 
-graphicnovels:
-  - title: Chrysanthemum <br />Under the Waves
-    link: /chrysanthemum-under-the-waves
-    cover:
-      path: /assets/images/books/maggie-umber-chrysanthemum-under-the-waves-cover.jpg
-      alt: "a woman in profile with long hair floating up, text reads: Chrysanthemum Under the Waves"
-    price: "$35 PREORDER <br /> On sale date: <br />Oct 22, 2024"
-    button_id: SB5W5DNEJC7LS
-  - title: "270°"
-    link: /270
-    cover:
-      path: /assets/images/books/maggie-umber-270-cover.jpg
-      alt: "a northern saw-whet owl in a pine tree on the cover, with text that reads: maggie umber 270°"
-    price: $15
-    button_id: SNG7SNFX5WZR4
-  - title: Sound of Snow Falling
-    link: /sound-of-snow-falling
-    cover:
-      path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover.jpg
-      alt: "a great horned owl in a tree hooting on the cover, text reads: Maggie Umber Sound of Snow Falling"
-    price: $23
-    button_id: T6AXKMD4KA6JW
-  - title: Time Capsule
-    link: /time-capsule
-    cover:
-      path: /assets/images/books/maggie-umber-time-capsule-cover.jpg
-      alt: "a tortoise in a display case on the cover, text reads: Time Capsule Maggie Umber"
-    price: $12
-    button_id: NEJS4GG7L2YYJ
-
 wholesale:
   - title: Wholesale <br />Chrysanthemum Under the Waves
     link: /wholesale-chrysanthemum-under-the-waves
@@ -107,6 +106,33 @@ wholesale:
     cover:
       path: /assets/images/books/maggie-umber-startled-maggie-issue-one-cover.jpg
       alt: "mom, dad, baby, text reads: Startled Maggie issue one by meghan hogan"
-    price: <s>Retail $6</s> <br />Wholesale $3
+    price: <s>Retail $6</s> <br />Wholesale $3.60
     button_id: TWASXWM5JUUB6
-
+  - title: Wholesale <br />Bunworld 1
+    link: /wholesale-bunworld-1
+    cover:
+      path: /assets/images/books/maggie-umber-bunworld-1-cover.jpg
+      alt: "a little baker and a bunny read a book in front of huge ice cream, text reads: Maggie Umber, Bunworld"
+    price: <s>Retail $14</s> <br />Wholesale $8.40
+    button_id: 5Z8JCWWVMLB5C
+  - title: Wholesale <br />Jonesy
+    link: /wholesale-jonesy
+    cover:
+      path: /assets/images/books/maggie-umber-jonesy-cover.jpg
+      alt: "a red figure smiling on a book cover, text reads: Jonesy, Maggie Umber"
+    price: <s>Retail $8</s> <br />Wholesale $4.80
+    button_id: 64X4NCQLTYNC6
+  - title: Wholesale <br />PRETZEL
+    link: /wholesale-pretzel
+    cover:
+      path: /assets/images/books/maggie-umber-pretzel-cover.jpg
+      alt: "a white pretzel on a black zine cover, text reads: PRETZEL, Maggie Umber"
+    price: <s>Retail $5</s> <br />Wholesale $3.00
+    button_id: FWZVGTKY2MFS8
+  - title: Wholesale <br />WE ARE HUNGRY
+    link: /wholesale-we-are-hungry
+    cover:
+      path: /assets/images/books/maggie-umber-we-are-hungry-cover.jpg
+      alt: "mother spider, baby spiders, text reads: WE ARE HUNGRY Maggie Umber"
+    price: <s>Retail $13</s> <br />Wholesale $7.80
+    button_id: XBKLSX624NJSJ
