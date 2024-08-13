@@ -10,15 +10,15 @@ cover:
   alt: Maggie Umber with hands on hips, tabling at CAKE posing with magenta line drawings of Bun, Piper and t from Bunworld
 contacts:
   - link: mailto:paintedmags@proton.me
-    name: ☞ email
+    name: Email me here ☞ paintedmags [at] proton [dot] me
   - link: https://www.patreon.com/maggieumber
-    name: ☞ patreon
+    name: Subscribe to my ☞ patreon
   - link: https://mastodon.social/@maggieumber
-    name: ☞ mastodon
+    name: Say hi to me on ☞ mastodon
   - link: https://www.instagram.com/maggieumber/
-    name: ☞ ig
+    name: Follow me on ☞ ig
   - link: https://maggieumber.com/feed.xml
-    name: ☞ rss
+    name: Subscribe to my ☞ rss
 bio: "Maggie Umber paints, prints, and programs graphic novels and zines. She's published three graphic novels — Sound of Snow Falling, Time Capsule, and 270° — and her work has been widely anthologized. Her new graphic novel, Chrysanthemum Under the Waves, will be out in the fall of 2024."
 ---
 
@@ -34,8 +34,9 @@ bio: "Maggie Umber paints, prints, and programs graphic novels and zines. She's 
 </div>
 <br />
 <p>{{ page.bio }}</p>
-<p></p>
+
 {% for contact in page.contacts %}
-  <a href="{{ contact.link }}" target="_blank">{{ contact.name }}</a>
+<ul>
+  <li><a href="{{ contact.link }}" target="_blank">{{ contact.name }}</a></li>
+</ul>
 {% endfor %}
-</p>
