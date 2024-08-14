@@ -136,3 +136,10 @@ wholesale:
       alt: "mother spider, baby spiders, text reads: WE ARE HUNGRY Maggie Umber"
     price: <s>Retail $13</s> <br />Wholesale $7.80
     button_id: XBKLSX624NJSJ
+  - title: "Chrysanthemum: <br />the Storyboards"
+    link: /wholesale-chrysanthemum-the-storyboards
+    cover:
+      path: /assets/images/books/maggie-umber-chrysanthemum-the-storyboards-cover.jpg
+      alt: "chrysanthemum flowers, text reads: Chrysanthemum: the Storyboards, Maggie Umber"
+    price: <s>Retail $10</s> <br />Wholesale $6.00
+    button_id: TQNKKRE2BNCZ8
