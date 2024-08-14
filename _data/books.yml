@@ -101,13 +101,6 @@ wholesale:
       alt: "a tortoise in a display case on the cover, text reads: Time Capsule Maggie Umber"
     price: <s>Retail $12</s> <br /> Wholesale $6
     button_id: 3QFF49T6Z3D6A
-  - title: Startled Maggie 1
-    link: /wholesale-startled-maggie-1
-    cover:
-      path: /assets/images/books/maggie-umber-startled-maggie-issue-one-cover.jpg
-      alt: "mom, dad, baby, text reads: Startled Maggie issue one by meghan hogan"
-    price: <s>Retail $6</s> <br />Wholesale $3.60
-    button_id: TWASXWM5JUUB6
   - title: Bunworld 1
     link: /wholesale-bunworld-1
     cover:
@@ -143,3 +136,10 @@ wholesale:
       alt: "chrysanthemum flowers, text reads: Chrysanthemum: the Storyboards, Maggie Umber"
     price: <s>Retail $10</s> <br />Wholesale $6.00
     button_id: TQNKKRE2BNCZ8
+  - title: Startled Maggie 1
+    link: /wholesale-startled-maggie-1
+    cover:
+      path: /assets/images/books/maggie-umber-startled-maggie-issue-one-cover.jpg
+      alt: "mom, dad, baby, text reads: Startled Maggie issue one by meghan hogan"
+    price: <s>Retail $6</s> <br />Wholesale $3.60
+    button_id: TWASXWM5JUUB6
