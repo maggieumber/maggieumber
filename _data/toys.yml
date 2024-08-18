@@ -1,11 +1,11 @@
-minibuns:
-  - title: Sour Berries <br /> Mini Bun
-    cover:
-      path: /assets/images/toys/maggie-umber-sour-berries.jpg
-      alt: light green colored crocheted toy bun alien wearing a red hat and shirt
-    size: 2 x 2 x 3.5 inches
-    price: $35
-    button_id: ZZ2J7GDR5Y2BC
+# minibuns:
+#   - title: name <br /> Mini Bun
+#     cover:
+#       path: /assets/images/toys/maggie-umber-.jpg
+#       alt: 
+#     size: 2 x 2 x 3.5 inches
+#     price: $35
+#     button_id: 
 
 rocketpods:
   - title: Sweet and Sour <br /> Rocket Pod and Bun
