@@ -16,21 +16,14 @@ rocketpods:
     price: $50
     button_id: F5DWBQB84YNGC
 
-rocketships:
-  - title: Cookies and Cream <br /> Rocket Ship and Bun
-    cover:
-      path: /assets/images/toys/maggie-umber-cookies-and-cream.jpg
-      alt: cookies and cream-colored crocheted toy bun alien hidden in rocket ship
-    size: 4.5 x 3 x 2.5 inches
-    price: $75
-    button_id: VNYFTVHCS7W5U
-  - title: Rainbow Popsicle <br /> Rocket Ship and Bun
-    cover:
-      path: /assets/images/toys/maggie-umber-rainbow-popsicle.jpg
-      alt: rainbow-colored crocheted toy bun alien rocket ship with ears popping out
-    size: 4.5 x 3 x 2.5 inches
-    price: $75
-    button_id: 6MRU983T8MPPC
+# rocketships:
+#   - title: Name <br /> Rocket Ship and Bun
+#     cover:
+#       path: /assets/images/toys/maggie-umber-cookies-and-cream.jpg
+#       alt: 
+#     size: 4.5 x 3 x 2.5 inches
+#     price: $75
+#     button_id:
 
 flyingsaucers:
   - title: Grumpy Watermelon <br /> Flying Saucer
