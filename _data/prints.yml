@@ -171,6 +171,26 @@ cutw:
       path: /assets/images/prints/maggie-umber-cutw-the-dental-x-rays.jpg
       alt: a woman getting dental x-rays taken of her teeth, followed by the four x-rays
     button_id: KEDF6MGAAFFFS
+  - title: Chrysanthemum Opening
+    cover:
+      path: /assets/images/prints/maggie-umber-cutw-chrysanthemum-opening.jpg
+      alt: a cropped image of a man embracing a woman, with the focus on the woman's face
+    button_id: FSEEMWW53KTDJ
+  - title: "Epigraph: I Sought My Image"
+    cover:
+      path: /assets/images/prints/maggie-umber-cutw-epigraph-i-sought-my-image.jpg
+      alt: "I sought my image in the scorching glass for what fire could damage a witch's face Sylvia Plath"
+    button_id: U4GUBCN39RD32
+  - title: From the Grave
+    cover:
+      path: /assets/images/prints/maggie-umber-cutw-from-the-grave.jpg
+      alt: a woman and a man talking in a dark room near a fire place with chrysanthemums, in two panels
+    button_id: WVM8TRLD9APBU
+  - title: You Are Me
+    cover:
+      path: /assets/images/prints/maggie-umber-cutw-you-are-me.jpg
+      alt: a man with circle eyes staring, a woman dissolving into a man's arms, in two panels
+    button_id: 6UUQZM7LKAVDE
 
 jonesy:
   - title: Abandoned Train
