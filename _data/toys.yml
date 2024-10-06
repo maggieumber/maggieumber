@@ -7,14 +7,14 @@
 #     price: $35
 #     button_id: 
 
-rocketpods:
-  - title: Sweet and Sour <br /> Rocket Pod and Bun
-    cover:
-      path: /assets/images/toys/maggie-umber-sweet-and-sour.jpg
-      alt: blue and yellow crocheted toy bun alien in a rocket pod with ears popping out
-    size: 3.5 x 2 x 1.5 inches
-    price: $50
-    button_id: F5DWBQB84YNGC
+# rocketpods:
+#   - title: Sweet and Sour <br /> Rocket Pod and Bun
+#     cover:
+#       path: /assets/images/toys/maggie-umber-sweet-and-sour.jpg
+#       alt: blue and yellow crocheted toy bun alien in a rocket pod with ears popping out
+#     size: 3.5 x 2 x 1.5 inches
+#     price: $50
+#     button_id: F5DWBQB84YNGC
 
 # rocketships:
 #   - title: Name <br /> Rocket Ship and Bun

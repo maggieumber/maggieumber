@@ -11,8 +11,7 @@ description: I crochet the toys with acrylic yarns, but wool and other materials
 {% include page-description.html %}
 
 <div class="gallery">
-  {% assign all_toys = site.data.toys.minibuns | concat:
-  site.data.toys.rocketpods | concat: 
+  {% assign all_toys = site.data.toys.minibuns | concat: 
   site.data.toys.flyingsaucers | concat: 
   site.data.toys.nunions %} {% assign random_items = all_toys | sample: 20
   %} {% for item in random_items %} {% include products-toys.html %} {% endfor %}
