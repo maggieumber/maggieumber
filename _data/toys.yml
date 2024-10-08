@@ -35,13 +35,6 @@ flyingsaucers:
     button_id: 67DZVNP352ZBW
 
 nunions:
-  - title: Autumn Cake <br /> Nunion
-    cover:
-      path: /assets/images/toys/maggie-umber-autumn-cake.jpg
-      alt: red, orange, yellow, blue crocheted nunion toy with four legs
-    size: 2.5 x 2.5 x 3.5 inches
-    price: $15
-    button_id: PLAZQKP34VST6
   - title: Bubble Mint <br /> Nunion
     cover:
       path: /assets/images/toys/maggie-umber-bubble-mint.jpg
