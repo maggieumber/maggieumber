@@ -35,13 +35,6 @@ flyingsaucers:
     button_id: 67DZVNP352ZBW
 
 nunions:
-  - title: Bubble Mint <br /> Nunion
-    cover:
-      path: /assets/images/toys/maggie-umber-bubble-mint.jpg
-      alt: green, blue, pink crocheted nunion toy with four legs
-    size: 2.5 x 2.5 x 3.5 inches
-    price: $15
-    button_id: K6RAAYXDFQPBS
   - title: Peppermint Gold <br /> Nunion
     cover:
       path: /assets/images/toys/maggie-umber-peppermint-gold.jpg
