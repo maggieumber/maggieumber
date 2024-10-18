@@ -1,0 +1,38 @@
+---
+title: "CUTW Launch at Tangible Books"
+author: Maggie Umber
+categories: touring videos
+cover:
+  path: /assets/images/blog/2024-10-18-cutw-launch-at-tangible-books-1.jpg
+  alt: "ZINEmercado 2023 poster with a flying bird"
+singles:
+  - path: /assets/images/blog/2024-10-18-cutw-launch-at-tangible-books-2.jpg
+    alt: "WE ARE HUNGRY zine cover"
+trailer:
+  path: /assets/videos/maggie-umber-the-witch-lawnwater.mp4
+  type: video/mp4
+  credits: 'Credits: Music in video by <a href="http://watermelondriveway.com/" target="_blank">Lawn Water</a>'
+---
+
+<p>
+  Join me in one week (Friday, Oct 25 7pm) at 
+  <a href="https://tangiblebookschicago.com/" target="_blank">Tangible Books</a> 
+  to celebrate the launch of my self-published graphic novel, 
+  <a href="/chrysanthemum-under-the-waves.html">Chrysanthemum Under the Waves</a>. 
+  I'll share videos I recorded over the 6+ years I spent making the book and talk about my process. 
+</p>
+
+{% include book-trailer.html %}
+<p>
+  Pick up a free 8.5" x 11" poster at the event as long as supplies last! 
+  (Not pictured here to keep it a surprise.) See you there!!!
+</p>
+
+{% include blog-single.html %}
+
+<!-- images -->
+<div class="gallery">
+  {% for product in site.data.products.zines %} 
+  {% if product.title == "Chrysanthemum Under the Waves" %} 
+  {% include blog-product.html %} {% endif %} {% endfor %}
+</div>
