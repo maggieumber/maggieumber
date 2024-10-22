@@ -4,7 +4,7 @@ graphicnovels:
     cover:
       path: /assets/images/books/maggie-umber-chrysanthemum-under-the-waves-cover.jpg
       alt: "a woman in profile with long hair floating up, text reads: Chrysanthemum Under the Waves"
-    price: "$35 PREORDER <br /> On sale: 10/22/24"
+    price: "$35"
     button_id: SB5W5DNEJC7LS
   - title: "270°"
     link: /270
@@ -78,7 +78,7 @@ wholesale:
     cover:
       path: /assets/images/books/maggie-umber-chrysanthemum-under-the-waves-cover.jpg
       alt: "a woman in profile with long hair floating up, text reads: Chrysanthemum Under the Waves"
-    price: "<s>Retail $35</s> <br />Wholesale $17.50 PREORDER<br />On sale: 10/22/24"
+    price: "<s>Retail $35</s> <br />Wholesale $17.50"
     button_id: 5LFEPSPQT2VSJ
   - title: Sound of Snow Falling
     link: /wholesale-sound-of-snow-falling
