@@ -10,16 +10,55 @@ cover:
   alt: Maggie Umber with hands on hips, tabling at CAKE posing with magenta line drawings of Bun, Piper and t from Bunworld
 contacts:
   - link: mailto:paintedmags@proton.me
-    name: Email me here ☞ paintedmags [at] proton [dot] me
+    name: Email
   - link: https://www.patreon.com/maggieumber
-    name: Subscribe to my ☞ patreon
-  - link: https://mastodon.social/@maggieumber
-    name: Say hi to me on ☞ mastodon
+    name: Patreon
   - link: https://www.instagram.com/maggieumber/
-    name: Follow me on ☞ ig
-  - link: https://maggieumber.com/feed.xml
-    name: Subscribe to my ☞ rss
-bio: "Maggie Umber paints, prints, and programs graphic novels and zines. She's published three graphic novels — Sound of Snow Falling, Time Capsule, and 270° — and her work has been widely anthologized. Her new graphic novel, Chrysanthemum Under the Waves, will be out in the fall of 2024."
+    name: Instagram
+bio: "Maggie Umber paints, prints, and programs graphic novels and zines. She's published four 
+  graphic novels — Chrysanthemum Under the Waves, Sound of Snow Falling, Time Capsule, 270° — and 
+  her work has been widely anthologized."
+interviews:
+  - link: https://autobiographix.substack.com/p/an-interview-with-maggie-umber
+    name: Autobiographix
+    year: 2024
+  - link: https://huuno.dmitrysamarov.com/podcast/maggie-umber/
+    name: hu u no podcast
+    year: 2024
+reviews:
+  - link: https://www.vol1brooklyn.com/2024/08/13/review-chrysanthemum-under-the-waves/
+    name: Vol. 1 Brooklyn
+    year: 2024
+  - link: https://www.comicsblogger.net/product/comics-blogger-7
+    name: "Comics Blogger #7"
+    year: 2024
+  - link: https://ilovetheend.bigcartel.com/products
+    name: THE END TIMES NEWSLETTER
+    year: summer 2024 
+press: 
+  - link: https://www.tcj.com/there-is-much-to-be-learned-from-beasts-this-weeks-links/
+    name: "TCJ: There is Much to be Learned From Beasts – This Week’s Links"
+    year: 2024
+  - link: https://www.patreon.com/posts/110482391
+    name: "Ryan C.'s Four Color Apocalypse"
+    year: 2024
+  - link: https://www.tcj.com/faster-than-cooking-asparagus-this-weeks-links/
+    name: "TCJ: Faster Than Cooking Asparagus – This Week’s Links"
+    year: 2024
+readings:
+  - link: /cutw-launch-at-tangible-books
+    name: CUTW Launch at Tangible Books
+    year: 2024
+  - link: /paper-jam-znd-performance
+    name: "ZINE NOT DEAD #21"
+    year: 2023
+exhibitions:
+  - link: https://www.annarborartcenter.org/drawing-worlds/
+    name: "Drawing Worlds: The art of comics and beyond, A2AC, Ann Arbor, MI"
+    year: 2024
+  - link: https://www.youtube.com/watch?v=7HvDOhFrlPI
+    name: Corrupted Frames Ninth Digital Gallery at Co-Prosperity Sphere, Chicago, IL
+    year: 2023
 ---
 
 <div class="gallery">
@@ -35,8 +74,42 @@ bio: "Maggie Umber paints, prints, and programs graphic novels and zines. She's 
 <br />
 <p>{{ page.bio }}</p>
 
+<h2>Contact</h2>
 {% for contact in page.contacts %}
+☞ <a href="{{ contact.link }}" target="_blank">{{ contact.name }}</a>
+{% endfor %}
+
+<h2>Interviews</h2>
+{% for interview in page.interviews %}
 <ul>
-  <li><a href="{{ contact.link }}" target="_blank">{{ contact.name }}</a></li>
+  <li>☞ <a href="{{ interview.link }}" target="_blank">{{ interview.name }}</a>, {{ interview.year }}</li>
+</ul>
+{% endfor %}
+
+<h2>Reviews</h2>
+{% for review in page.reviews %}
+<ul>
+  <li>☞ <a href="{{ review.link }}" target="_blank">{{ review.name }}</a>, {{ review.year }}</li>
+</ul>
+{% endfor %}
+
+<h2>Press</h2>
+{% for press in page.press %}
+<ul>
+  <li>☞ <a href="{{ press.link }}" target="_blank">{{ press.name }}</a>, {{ press.year }}</li>
+</ul>
+{% endfor %}
+
+<h2>Readings</h2>
+{% for reading in page.readings %}
+<ul>
+  <li>☞ <a href="{{ reading.link }}" target="_blank">{{ reading.name }}</a>, {{ reading.year }}</li>
+</ul>
+{% endfor %}
+
+<h2>Exhibitions</h2>
+{% for exhibit in page.exhibitions %}
+<ul>
+  <li>☞ <a href="{{ exhibit.link }}" target="_blank">{{ exhibit.name }}</a>, {{ exhibit.year }}</li>
 </ul>
 {% endfor %}
