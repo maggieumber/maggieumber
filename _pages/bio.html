@@ -72,9 +72,9 @@ exhibitions:
   </figure>
 </div>
 <br />
-<p>{{ page.bio }}</p>
+<p>{{ page.bio }} <a href="#contact">↓</a></p>
 
-<h2>Contact</h2>
+<h2 id="contact">Contact</h2>
 {% for contact in page.contacts %}
 ☞ <a href="{{ contact.link }}" target="_blank">{{ contact.name }}</a>
 {% endfor %}
