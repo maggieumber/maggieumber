@@ -132,3 +132,10 @@ workshops:
   <li>☞ <a href="{{ exhibit.link }}" target="_blank">{{ exhibit.name }}</a>, {{ exhibit.year }}</li>
 </ul>
 {% endfor %}
+
+<h2>Workshops</h2>
+{% for workshop in page.workshops %}
+<ul>
+  <li>☞ <a href="{{ workshop.link }}" target="_blank">{{ workshop.name }}</a>, {{ workshop.year }}</li>
+</ul>
+{% endfor %}
