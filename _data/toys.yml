@@ -35,10 +35,24 @@ flyingsaucers:
     button_id: 67DZVNP352ZBW
 
 nunions:
-  - title: Peppermint Gold <br /> Nunion
+  - title: Nunion Surprise <br /> Maggie mails you 2 <br /> stackable nunions
     cover:
-      path: /assets/images/toys/maggie-umber-peppermint-gold.jpg
-      alt: green crocheted nunion toy with four legs, a faceless head with yellow flowers sprouting from it
+      path: /assets/images/toys/maggie-umber-nunions-stacked.jpg
+      alt: crocheted nunion toys in different colors, each with four legs, stacked in two tiers
+    size: sizes vary
+    price: $30
+    button_id: V5F63YWS4LYNG
+  - title: Brown Sweater <br /> Nunion
+    cover:
+      path: /assets/images/toys/maggie-umber-nunion-brown-sweater.jpg
+      alt: brown striped crocheted nunion toy with four legs
     size: 2.5 x 2.5 x 3.5 inches
-    price: $20
-    button_id: XT8MWTJUXMBGW
+    price: $15
+    button_id: EXY2LSA5KFBMC
+  - title: Christmas Sweater <br /> Nunion
+    cover:
+      path: /assets/images/toys/maggie-umber-nunion-christmas-sweater.jpg
+      alt: Christmas crocheted nunion toy with four legs
+    size: 1.5 x 1.5 x 2.5 inches
+    price: $15
+    button_id: CLYPBXBBVRSZ2
