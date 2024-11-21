@@ -54,6 +54,10 @@ press:
   - link: https://youtu.be/To5L9cxqdiY?feature=shared&t=955
     name: "Dark Side of the Library Podcast: New Horror Comics for Spring You Won't Want to Miss"
     year: 2023
+awards:
+  - link: https://www.fantagraphics.com/products/the-comics-journal-yearbook-best-of-2023
+    name: "PRETZEL named No. 8 on Kristy Valenti's Top 10 List of 2023, The Comics Journal Yearbook, Best of 2023"
+    year: 2024
 readings:
   - link: /cutw-launch-at-tangible-books
     name: CUTW Launch at Tangible Books
@@ -94,48 +98,57 @@ workshops:
 <p>{{ page.bio }} <a href="#contact">↓</a></p>
 
 <h2 id="contact">Contact</h2>
+<ul>
 {% for contact in page.contacts %}
-☞ <a href="{{ contact.link }}" target="_blank">{{ contact.name }}</a>
+<li>☞ <a href="{{ contact.link }}" target="_blank">{{ contact.name }}</a></li>
 {% endfor %}
+</ul>
 
 <h2>Interviews</h2>
-{% for interview in page.interviews %}
 <ul>
+{% for interview in page.interviews %}
   <li>☞ <a href="{{ interview.link }}" target="_blank">{{ interview.name }}</a>, {{ interview.year }}</li>
-</ul>
 {% endfor %}
+</ul>
 
 <h2>Reviews</h2>
-{% for review in page.reviews %}
 <ul>
+{% for review in page.reviews %}
   <li>☞ <a href="{{ review.link }}" target="_blank">{{ review.name }}</a>, {{ review.year }}</li>
-</ul>
 {% endfor %}
+</ul>
 
 <h2>Press</h2>
-{% for press in page.press %}
 <ul>
+{% for press in page.press %}
   <li>☞ <a href="{{ press.link }}" target="_blank">{{ press.name }}</a>, {{ press.year }}</li>
-</ul>
 {% endfor %}
+</ul>
+
+<h2>Awards</h2>
+<ul>
+{% for award in page.awards %}
+  <li>☞ <a href="{{ award.link }}" target="_blank">{{ award.name }}</a>, {{ award.year }}</li>
+{% endfor %}
+</ul>
 
 <h2>Readings and Panels</h2>
-{% for reading in page.readings %}
 <ul>
+{% for reading in page.readings %}
   <li>☞ <a href="{{ reading.link }}" target="_blank">{{ reading.name }}</a>, {{ reading.year }}</li>
-</ul>
 {% endfor %}
+</ul>
 
 <h2>Exhibitions</h2>
-{% for exhibit in page.exhibitions %}
 <ul>
+{% for exhibit in page.exhibitions %}
   <li>☞ <a href="{{ exhibit.link }}" target="_blank">{{ exhibit.name }}</a>, {{ exhibit.year }}</li>
-</ul>
 {% endfor %}
+</ul>
 
 <h2>Workshops</h2>
-{% for workshop in page.workshops %}
 <ul>
+{% for workshop in page.workshops %}
   <li>☞ <a href="{{ workshop.link }}" target="_blank">{{ workshop.name }}</a>, {{ workshop.year }}</li>
-</ul>
 {% endfor %}
+</ul>
