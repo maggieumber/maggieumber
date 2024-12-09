@@ -7,6 +7,52 @@ description: Each of my zines is printed on demand using my inkjet printer and f
   printers overseas.  Anthologies are edited, printed and sold by their respective publishers. 
   <br /> Want to support your local bookstore? <a href="#bookstores">
     Here's bookstores that carry my books</a>.
+bookstores:
+  - name: Floating World Comics
+    location: Portland, OR
+    link: https://floating-world-comics.myshopify.com/search?q=Maggie+Umber
+  - name: Wig Shop Web Shop
+    location: Denver, CO
+    link: https://www.wigshopwebshop.com/books/maggie-umber-chrysanthemum-under-the-waves
+  - name: Tangible Books
+    location: Chicago, IL
+    link: https://tangiblebookschicago.com/
+  - name: Howling Pages
+    location: Chicago, IL
+    link: https://www.howlingpages.com/search?type=product&q=Maggie+Umber
+  - name: Spit and a Half
+    location: Beloit, WI
+    link: https://www.spitandahalf.com/
+  - name: Vault of Midnight
+    location: Ann Arbor, MI
+    link: https://www.vaultofmidnight.com/locations/#locations-annarbor
+  - name: Domino Books
+    location: Brooklyn, NY
+    link: https://dominobooks.org/chrysanthemum.html
+  - name: Partners and Son
+    location: Philadelphia, PA
+    link: https://partnersandson.com/search?q=Maggie+Umber&options%5Bprefix%5D=last
+  - name: 50 Watts Books
+    location: Philadelphia, PA
+    link: https://50wattsbooks.com/
+  - name: The Copacetic Comics Company
+    location: Pittsburgh, PA
+    link: https://copaceticcomics.com/creators/maggie-umber
+  - name: Comics N'More
+    location: Easthampton, MA
+    link: https://www.comicsmongers.com/
+  - name: Atomic Books
+    location: Baltimore, MD
+    link: https://atomicbooks.com/search?type=product&q=Maggie+Umber
+  - name: Comics Blogger
+    location: Cary, NC
+    link: https://www.comicsblogger.net/product/chrysanthemum-under-the-waves
+  - name: The Beguiling
+    location: Toronto, ON
+    link: https://www.beguilingbooks.com/browse/filter/t/Maggie%20Umber/k/keyword
+  - name: Gosh! Comics
+    location: London, UK
+    link: https://goshlondon.com/search.php?search_query=%22Maggie+Umber%22
 ---
 
 {% include page-description.html %}
@@ -22,25 +68,7 @@ description: Each of my zines is printed on demand using my inkjet printer and f
 
 <h2 id="bookstores">Bookstores that carry my books:</h2>
 <ul>
-  <li><a href="https://floating-world-comics.myshopify.com/search?q=Maggie+Umber" target="_blank">☞ Floating World Comics</a>
-    Portland, OR</li>
-  <li><a href="https://www.wigshopwebshop.com/books/maggie-umber-chrysanthemum-under-the-waves" target="_blank">☞ Wig Shop Web Shop</a>, Denver, CO</li>
-  <li><a href="https://tangiblebookschicago.com/" target="_blank">☞ Tangible Books</a>,
-    Chicago, IL</li>
-  <li><a href="https://www.howlingpages.com/search?type=product&q=Maggie+Umber" target="_blank">☞ Howling Pages</a>, 
-    Chicago, IL</li>
-  <il><a href="https://www.spitandahalf.com/" target="_blank">☞ Spit and a Half</a>, Beloit, WI</il>
-  <li><a href="https://www.vaultofmidnight.com/" target="_blank">☞ Vault of Midnight</a>,
-    Ann Arbor, MI</li>
-  <li><a href="https://dominobooks.org/chrysanthemum.html" target="_blank">☞ Domino Books</a>, Brooklyn, NY</li>
-  <li><a href="https://partnersandson.com/search?q=Maggie+Umber&options%5Bprefix%5D=last" target="_blank">☞ Partners and Son</a>
-    Philadelphia, PA</li>
-  <li><a href="https://50wattsbooks.com/" target="_blank">☞ 50 Watts Books</a>, Philadelphia, PA</li>
-  <li><a href="https://copaceticcomics.com/creators/maggie-umber" target="_blank">☞ The Copacetic Comics Company</a>
-    Pittsburgh, PA</li>
-  <li><a href="https://atomicbooks.com/search?type=product&q=Maggie+Umber" target="_blank">☞ Atomic Books</a>, Baltimore, MD</li>
-  <li><a href="https://www.comicsblogger.net/" target="_blank">☞ Comics Blogger</a>, NC</li>
-  <li><a href="https://www.beguilingbooks.com/browse/filter/t/Maggie%20Umber/k/keyword" target="_blank">☞ The Beguiling</a>, 
-    Toronto, ON</li>
-  <li><a href="https://goshlondon.com/search.php?search_query=%22Maggie+Umber%22" target="_blank">☞ Gosh! Comics</a>, London, UK</li>
+{% for bookstore in page.bookstores %}
+  <li>☞ <a href="{{ bookstore.link }}" target="_blank">{{ bookstore.name }}</a>, {{ bookstore.location }}</li>
+{% endfor %}
 </ul>
