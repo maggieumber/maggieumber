@@ -36,7 +36,7 @@ body {
   max-width: 1200px;
   color: #140808;
   margin: 100px auto 100px auto;
-  text-align: center;
+  text-align: justify;
 }
 
 h1,
@@ -113,7 +113,6 @@ ul, blockquote {
   margin-right: auto;
   padding: 10px 10px 20px 10px;
   width: 60%;
-  /* text-align: justify; */
 }
 
 ol {
@@ -124,7 +123,7 @@ li {
   list-style-type: none;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  text-align: left;
 }
 
 a {

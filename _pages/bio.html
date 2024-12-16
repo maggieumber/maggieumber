@@ -10,11 +10,17 @@ cover:
   alt: Maggie Umber with hands on hips, tabling at CAKE posing with magenta line drawings of Bun, Piper and t from Bunworld
 contacts:
   - link: mailto:paintedmags@proton.me
-    name: Email
+    name: Email 
+    info: "✍ paintedmags [at] proton [dot] me"
   - link: https://www.patreon.com/maggieumber
-    name: Patreon
+    name: Patreon 
+    info: "📖 patreon.com/maggieumber"
   - link: https://www.instagram.com/maggieumber/
-    name: Instagram
+    name: Instagram 
+    info: "@maggieumber"
+  - link: https://maggieumber.com/feed.xml
+    name: RSS 
+    info: "📰 Subscribe to the blog"
 bio: "Maggie Umber paints, prints, and programs graphic novels and zines. She's published four 
   graphic novels — Chrysanthemum Under the Waves, Sound of Snow Falling, Time Capsule, 270° — and 
   her work has been widely anthologized."
@@ -204,8 +210,111 @@ workshops:
   - link: https://lalewestvind.com/
     name: "artist Zoom talk for Lale Westvind's Print Class at Parsons School of Design, New York, NY"
     year: 2024
+tour2024:
+    - date: 4/27
+      name: Madison Print & Resist Zine Fest
+      location: Madison, WI
+    - date: 6/14-7/7
+      name: "Drawing Worlds: The art of comics and beyond, A2AC (The Ann Arbor Art Center)"
+      location: Ann Arbor, MI
+    - date: 6/15
+      name: "ZND Fest (Zine Not Dead Fest: A Comics and Small Press Fair)"
+      location: Chicago, IL
+    - date: 6/30
+      name: oddball market, the Empty Bottle
+      location: Chicago, IL
+    - date: 8/17
+      name: Autoptic Festival
+      location: Minneapolis, MN
+    - date: 8/18
+      name: INZF (Insert Name Zine Fest)
+      location: Minneapolis, MN
+    - date: 8/24-25
+      name: CAKE (Chicago Alternative Comics Expo)
+      location: Chicago, IL
+    - date: 9/8
+      name: ZINEmercado Zine Fest
+      location: Chicago, IL
+    - date: 9/14-15
+      name: The Urban Birding Festival
+      location: Chicago, IL
+    - date: 9/26-29
+      name: CXC (Cartoon Crossroads Columbus)
+      location: Columbus, OH
+    - date: 10/5
+      name: "A2CAF: SIP (Ann Arbor Comic Arts Festival: Small + Indie Press)"
+      location: Ann Arbor, MI
+    - date: 10/6
+      name: MILK Fest (Milwaukee Independent Local Comics Fest)
+      location: WI
+    - date: 10/12
+      name: Chicago Printers Guild Publishers Fair
+      location: Chicago, IL
+    - date: 10/25
+      name: Chrysanthemum Under the Waves Book Release Party
+      location: Tangible Books, Chicago, IL
+    - date: 10/26
+      name: SLICE (St. Louis Independent Comics Expo)
+      location: St. Louis, MO
+    - date: 11/1
+      name: Marathon Art Show
+      location: Fantagraphics Bookstore & Gallery, Seattle, WA
+    - date: 11/2
+      name: Short Run Comix Festival
+      location: Seattle, WA
+    - date: 11/15-17
+      name: Staple + Stitch Art Book and Print Fair
+      location: Chicago, IL
+tour2023:
+    - date: 4/8
+      name: ICE CREAM (Iowa City Expo for Comics and Real Eclectic Alternative Media)
+      location: Iowa City, IA
+    - date: 4/22
+      name: Madison Print & Resist Zine Fest
+      location: Madison, WI
+    - date: 5/20
+      name: CZF (Chicago Zine Fest)
+      location: Chicago, IL
+    - date: 6/3-6/4
+      name: CAKE (Chicago Alternative Comics Expo)
+      location: Chicago, IL
+    - date: 6/23-6/26
+      name: The Zine Pavilion at ALA (American Library Association)
+      location: Chicago, IL
+    - date: 8/12
+      name: INZF (Insert Name Zine Fest)
+      location: Minneapolis, MN
+    - date: 8/27
+      name: ZINEmercado
+      location: Chicago, IL
+    - date: 9/9
+      name: Zinecinnati
+      location: Cincinnati, OH
+    - date: 9/10
+      name: MILK Comic Fest (Milwaukee Indie Local Comic Fest)
+      location: Milwaukee, WI
+    - date: 9/16-9/17
+      name: CABF (Cincinnati Art Book Fair)
+      location: Covington, KY
+    - date: 10/6
+      name: "ZINE NOT DEAD #21 hosted by Chicago Printers Guild"
+      location: Co-prosperity, Chicago, IL
+    - date: 10/7
+      name: "Chicago Printer Guild PAPER JAM, screening The Schizophrenic Dialogues Short Film with Corrupted Frames: A
+        Digital Gallery"
+      location: Co-prosperity, Chicago, IL
+    - date: 10/7
+      name: Lafayette Comic-Con
+      location: Lafayette, IN
+    - date: 10/14
+      name: Rain Taxi's Twin Cities Book Festival
+      location: St. Paul, MN
+    - date: 10/21
+      name: Chicago Printer Guilds PAPER JAM Publishers Fair
+      location: Co-prosperity, Chicago, IL
 ---
 
+<hr />
 <div class="gallery">
   <figure class="gallery-item">
     <img
@@ -220,15 +329,17 @@ workshops:
 <p>{{ page.bio }} <a href="#contact">↓</a></p>
 
 <h2 id="contact">Contact</h2>
+<ul>
 {% for contact in page.contacts %}
-☞ <a href="{{ contact.link }}" target="_blank">{{ contact.name }}</a>
+<li>☞ <a href="{{ contact.link }}" target="_blank">{{ contact.name }}</a> {{ contact.info }}</li>
 {% endfor %}
+</ul>
 
 <h2>Interviews</h2>
 <ul>
 {% for interview in page.interviews %}
   <li>&#10004; {{ interview.lastname }}, {{ interview.firstname }}, 
-    <a href="{{ interview.link }}" target="_blank">{{ interview.title }}</a>, <br />
+    <a href="{{ interview.link }}" target="_blank">{{ interview.title }}</a>,
     {{ interview.publication }}, {{ interview.month }} {{ interview.date }}, {{ interview.year }}</li>
 {% endfor %}
 </ul>
@@ -237,7 +348,7 @@ workshops:
 <ul>
   {% for review in page.reviews %}
     <li>&#10004; {{ review.lastname }}, {{ review.firstname }}, 
-      <a href="{{ review.link }}" target="_blank">{{ review.title }}</a>, <br />
+      <a href="{{ review.link }}" target="_blank">{{ review.title }}</a>,
       {{ review.publication }}, {{ review.month }} {{ review.date }}, {{ review.year }}</li>
   {% endfor %}
   </ul>
@@ -246,7 +357,7 @@ workshops:
 <ul>
   {% for press in page.press %}
     <li>&#10004; {{ press.lastname }}, {{ press.firstname }}, 
-      <a href="{{ press.link }}" target="_blank">{{ press.title }}</a>, <br />
+      <a href="{{ press.link }}" target="_blank">{{ press.title }}</a>,
       {{ press.publication }}, {{ press.month }} {{ press.date }}, {{ press.year }}</li>
   {% endfor %}
   </ul>
@@ -268,7 +379,7 @@ workshops:
 <h2>Exhibitions</h2>
 <ul>
 {% for exhibit in page.exhibitions %}
-  <li>&#10004; {{ exhibit.year }} <a href="{{ exhibit.link }}" target="_blank">{{ exhibit.name }}</a>, <br />
+  <li>&#10004; {{ exhibit.year }} <a href="{{ exhibit.link }}" target="_blank">{{ exhibit.name }}</a>,
   {{ exhibit.gallery }}, {{ exhibit.location }}</li>
 {% endfor %}
 </ul>
@@ -277,5 +388,20 @@ workshops:
 <ul>
 {% for workshop in page.workshops %}
   <li>☞ <a href="{{ workshop.link }}" target="_blank">{{ workshop.name }}</a>, {{ workshop.year }}</li>
+{% endfor %}
+</ul>
+
+<h2>Touring</h2>
+<h3>2024: The Less is More Zine Tour</h3>
+<ul>
+{% for tour2024 in page.tour2024 %}
+  <li>&#10004; {{ tour2024.date }} {{ tour2024.name }}, {{ tour2024.location }}</li>
+{% endfor %}
+</ul>
+
+<h3>2023: My Mostly Midwest Zine Tour</h3>
+<ul>
+{% for tour2023 in page.tour2023 %}
+  <li>&#10004; {{ tour2023.date }} {{ tour2023.name }}, {{ tour2023.location }}</li>
 {% endfor %}
 </ul>

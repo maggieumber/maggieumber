@@ -2,60 +2,9 @@
 title: Books
 permalink: /books
 redirect_from: /pages/books.html
-description: Each of my zines is printed on demand using my inkjet printer and folded 
-  and stapled by hand. My graphic novels are printed offset and perfect bound by various 
-  printers overseas.  Anthologies are edited, printed and sold by their respective publishers. 
-  <br /> Want to support your local bookstore? <a href="#bookstores">
-    Here's bookstores that carry my books</a>.
-bookstores:
-  - name: Floating World Comics
-    location: Portland, OR
-    link: https://floating-world-comics.myshopify.com/search?q=Maggie+Umber
-  - name: Wig Shop Web Shop
-    location: Denver, CO
-    link: https://www.wigshopwebshop.com/books/maggie-umber-chrysanthemum-under-the-waves
-  - name: Tangible Books
-    location: Chicago, IL
-    link: https://tangiblebookschicago.com/
-  - name: Howling Pages
-    location: Chicago, IL
-    link: https://www.howlingpages.com/search?type=product&q=Maggie+Umber
-  - name: Spit and a Half
-    location: Beloit, WI
-    link: https://www.spitandahalf.com/
-  - name: Vault of Midnight
-    location: Ann Arbor, MI
-    link: https://www.vaultofmidnight.com/locations/#locations-annarbor
-  - name: Domino Books
-    location: Brooklyn, NY
-    link: https://dominobooks.org/chrysanthemum.html
-  - name: Partners and Son
-    location: Philadelphia, PA
-    link: https://partnersandson.com/search?q=Maggie+Umber&options%5Bprefix%5D=last
-  - name: 50 Watts Books
-    location: Philadelphia, PA
-    link: https://50wattsbooks.com/
-  - name: The Copacetic Comics Company
-    location: Pittsburgh, PA
-    link: https://copaceticcomics.com/creators/maggie-umber
-  - name: Comics N'More
-    location: Easthampton, MA
-    link: https://www.comicsmongers.com/
-  - name: Atomic Books
-    location: Baltimore, MD
-    link: https://atomicbooks.com/search?type=product&q=Maggie+Umber
-  - name: Comics Blogger
-    location: Cary, NC
-    link: https://www.comicsblogger.net/product/chrysanthemum-under-the-waves
-  - name: The Beguiling
-    location: Toronto, ON
-    link: https://www.beguilingbooks.com/browse/filter/t/Maggie%20Umber/k/keyword
-  - name: Gosh! Comics
-    location: London, UK
-    link: https://goshlondon.com/search.php?search_query=%22Maggie+Umber%22
 ---
 
-{% include page-description.html %}
+{% include view-cart.html %}
 
 <div class="gallery">
   {% for item in site.data.books.graphicnovels %} {% include products-books.html %} {%
@@ -65,10 +14,3 @@ bookstores:
   {% for item in site.data.anthologies %} {% include anthologies.html %} {%
     endfor %}
 </div>
-
-<h2 id="bookstores">Bookstores that carry my books:</h2>
-<ul>
-{% for bookstore in page.bookstores %}
-  <li>☞ <a href="{{ bookstore.link }}" target="_blank">{{ bookstore.name }}</a>, {{ bookstore.location }}</li>
-{% endfor %}
-</ul>
