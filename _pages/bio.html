@@ -224,12 +224,16 @@ awards:
     name: "Chrysanthemum Under the Waves, Alex Dueben: The best comics of 2024, as chosen by TCJ contributors"
     publication: The Comics Journal
     year: 2024
+  - link: https://lars.ingebrigtsen.no/2024/12/21/the-best-comics-of-2024/
+    name: "Chrysanthemum Under the Waves, Lars Ingebrigtsen: The best comics of 2024"
+    publication: Random Thoughts, The Sky Won't Fall?
+    year: 2024
   - link: https://www.instagram.com/p/DDhSxJIxnxm/?img_index=1
     name: "Chrysanthemum Under the Waves, Comics Blogger #11 Best of 2024"
     publication: Comics Blogger
     year: 2024
   - link: https://www.fantagraphics.com/products/the-comics-journal-yearbook-best-of-2023
-    name: "PRETZEL No. 8 on Kristy Valenti's Top 10 List of 2023, The Comics Journal Yearbook, Best of 2023"
+    name: "PRETZEL, Kristy Valenti's Top 10 List of 2023, The Comics Journal Yearbook, Best of 2023"
     publication: The Comics Journal
     year: 2023
 readings:
@@ -417,7 +421,7 @@ tour2023:
 <h2>Awards</h2>
 <ul>
 {% for award in page.awards %}
-  <li>&#10004; {{ award.year }} <a href="{{ award.link }}" target="_blank">{{ award.name }}</a></li>
+  <li>&#10004; {{ award.year }} <a href="{{ award.link }}" target="_blank">{{ award.name }}</a>, {{ award.publication }}</li>
 {% endfor %}
 </ul>
 
