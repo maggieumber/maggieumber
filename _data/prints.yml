@@ -84,16 +84,6 @@ prints270:
       path: /assets/images/prints/maggie-umber-270-boreal-owlet.jpg
       alt: boreal owlet roosting on a branch near its sibling
     button_id: 3QT9TVWJY7J2L
-  - title: Blue Hawk Monotype
-    cover:
-      path: /assets/images/prints/maggie-umber-270-blue-hawk-monotype.jpg
-      alt: blue hawk in profile, somewhat obscured in paint
-    button_id: A2YML8FG77GPE
-  - title: Orange Hawk Monotype
-    cover:
-      path: /assets/images/prints/maggie-umber-270-orange-hawk-monotype.jpg
-      alt: white hawk in profile, revealed by orange paint with blue flecks
-    button_id: FD9GB9BKAAVYS
   - title: Long-eared Owl
     cover:
       path: /assets/images/prints/maggie-umber-270-long-eared-owl.jpg
@@ -109,36 +99,6 @@ prints270:
       path: /assets/images/prints/maggie-umber-270-short-eared-owl-landscape.jpg
       alt: short-eared owl flying over a field, hunting
     button_id: BA2EAX4EUNQ94
-  - title: Great Gray Owl with Owlet in Nest 1
-    cover:
-      path: /assets/images/prints/maggie-umber-270-great-gray-owl-with-owlet-in-nest-1.jpg
-      alt: great gray owlet with adult in nest
-    button_id: DJXRECTJPYYCJ
-  - title: Great Gray Owl with Owlet in Nest 2
-    cover:
-      path: /assets/images/prints/maggie-umber-270-great-gray-owl-with-owlet-in-nest-2.jpg
-      alt: great gray owlet with adult in nest
-    button_id: CJL3CB9X7YNBC
-  - title: Great Gray Owl with Owlet in Nest 3
-    cover:
-      path: /assets/images/prints/maggie-umber-270-great-gray-owl-with-owlet-in-nest-3.jpg
-      alt: great gray owlet with adult in nest
-    button_id: PLJ3F9LQ5K6WG
-  - title: Great Gray Owl with Owlet in Nest 4
-    cover:
-      path: /assets/images/prints/maggie-umber-270-great-gray-owl-with-owlet-in-nest-4.jpg
-      alt: great gray owlet with adult in nest
-    button_id: NAKYDKTUVFV4Y
-  - title: Great Gray Owl with Owlet in Nest 5
-    cover:
-      path: /assets/images/prints/maggie-umber-270-great-gray-owl-with-owlet-in-nest-5.jpg
-      alt: great gray owlet with adult in nest
-    button_id: W2U92925QGSLU
-  - title: Great Gray Owl with Owlet in Nest 6
-    cover:
-      path: /assets/images/prints/maggie-umber-270-great-gray-owl-with-owlet-in-nest-6.jpg
-      alt: great gray owlet with adult in nest
-    button_id: QXZ2TF9FPMGVE
 
 cutw:
   - title: Castle Room
@@ -166,11 +126,6 @@ cutw:
       path: /assets/images/prints/maggie-umber-cutw-chrysanthemum-under-the-waves-front-cover.jpg
       alt: face in profile, with her hair floating above her head
     button_id: 8MH2LTGXTK98U
-  - title: The Dental X-Rays
-    cover:
-      path: /assets/images/prints/maggie-umber-cutw-the-dental-x-rays.jpg
-      alt: a woman getting dental x-rays taken of her teeth, followed by the four x-rays
-    button_id: KEDF6MGAAFFFS
   - title: Chrysanthemum Opening
     cover:
       path: /assets/images/prints/maggie-umber-cutw-chrysanthemum-opening.jpg
@@ -270,26 +225,11 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-rock-island.jpg
       alt: rock island in the ocean
     button_id: GD2PYJ9HTF4F2
-  - title: African Violets
-    cover:
-      path: /assets/images/prints/maggie-umber-nature-african-violets.jpg
-      alt: african violets on a yellow background with green leaves
-    button_id: AJ3LTF8EBN9XN
-  - title: The End is the Beginning
-    cover:
-      path: /assets/images/prints/maggie-umber-nature-the-end-is-the-beginning.jpg
-      alt: rock patterns in fruit colors
-    button_id: U5QELD4CPSE2Q
   - title: Honey Bee Dance
     cover:
       path: /assets/images/prints/maggie-umber-nature-honey-bee-dance.jpg
       alt: honey bees dancing to communicate food information
     button_id: BHLG3GZ7RTK3L
-  - title: Honey Bee in Tulip Tree Flower
-    cover:
-      path: /assets/images/prints/maggie-umber-nature-honey-bee-in-tulip-tree-flower.jpg
-      alt: honey bees pollinating a tulip tree flower
-    button_id: YNJ6B5K9GVH5Y
   - title: Charlotte's Couch Now
     cover:
       path: /assets/images/prints/maggie-umber-nature-charlottes-couch-now.jpg
@@ -300,11 +240,6 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-twelve-spotted-skimmer.jpg
       alt: twelve-spotted skimmer dragonfly in black and white
     button_id: AP3XKMRZKBSRE
-  - title: Night Garden
-    cover:
-      path: /assets/images/prints/maggie-umber-nature-night-garden.jpg
-      alt: garden at night
-    button_id: 67CGWZS5J9N5W
   - title: Cone Flowers in Fall
     cover:
       path: /assets/images/prints/maggie-umber-nature-cone-flowers-in-fall.jpg
@@ -414,11 +349,6 @@ sosf:
       path: /assets/images/prints/maggie-umber-sosf-great-horned-owl-dreams-a-starling.jpg
       alt: great horned owl dreaming of a starling while brooding eggs in a nest
     button_id: BCHS4MJA4B2VW
-  - title: Spring Peepers at Night
-    cover:
-      path: /assets/images/prints/maggie-umber-sosf-spring-peepers-at-night.jpg
-      alt: spring peepers calling and mating at night, with skunk cabbage
-    button_id: 953SZWQZUG5HL
 
 tc:
   - title: Lonesome George
@@ -466,11 +396,6 @@ tc:
       path: /assets/images/prints/maggie-umber-tc-bat-with-dark-side-of-the-moon-cycle.jpg
       alt: bat flying in front of the night sky, with the moon cycle below
     button_id: B7L9NJLKZFWPC
-  - title: Time Capsule Landscape
-    cover:
-      path: /assets/images/prints/maggie-umber-tc-time-capsule-landscape.jpg
-      alt: landscape with a time capsule in the foreground
-    button_id: WNZVQD7CHSGLN
   - title: Wandering Snails, Meandering Goats
     cover:
       path: /assets/images/prints/maggie-umber-tc-wandering-snails-meandering-goats.jpg
