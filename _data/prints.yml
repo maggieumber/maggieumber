@@ -255,6 +255,16 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-monas-cat.jpg
       alt: black and white cat with a pink nose
     button_id: LX7PQRG45SE9J
+  - title: Buster Comic Painting
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-buster-comic-painting.jpg
+      alt: buster a small white dog on a green blanket comic painting
+    button_id: R4MJQY9JN5ZPY
+  - title: River Kayak Double Portrait
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-river-kayak-double-portrait.jpg
+      alt: a woman kayaking on a river, a man seated on a rock in the river
+    button_id: PTTR7P9VYBE2U
 
 portrait:
   - title: Josephine Baker Portrait
@@ -334,6 +344,31 @@ sosf:
       path: /assets/images/prints/maggie-umber-sosf-great-horned-owl-dreams-a-starling.jpg
       alt: great horned owl dreaming of a starling while brooding eggs in a nest
     button_id: BCHS4MJA4B2VW
+  - title: Owlets and GHO in Nest
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-owlets-and-gho-in-nest.jpg
+      alt: great horned owl nest with three owlets and the mother
+    button_id: 5NVB5C7NJMTR6
+  - title: Stars and Owl
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-stars-and-owl.jpg
+      alt: great horned owl roosting in a tree with stars in the sky
+    button_id: NZ7C2ZKBRS9EY
+  - title: Hairy Woodpecker
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-hairy-woodpecker.jpg
+      alt: hairy woodpecker on a tree trunk
+    button_id: M72K62UZ257PN
+  - title: Wood Ducks
+    cover: 
+      path: /assets/images/prints/maggie-umber-sosf-wood-ducks.jpg
+      alt: wood ducks swimming in a river, wood duck in a tree
+    button_id: BXBKPVC99W4K6
+  - title: Chickadee Eating Sumac Berries
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-chickadee-eating-sumac-berries.jpg
+      alt: chickadee eating sumac berries
+    button_id: CMFJ7QBUW5TQ6
 
 tc:
   - title: Lonesome George
@@ -386,3 +421,8 @@ tc:
       path: /assets/images/prints/maggie-umber-tc-wandering-snails-meandering-goats.jpg
       alt: snails and goats wandering and meandering
     button_id: M4CDYM9TWEHK6
+  - title: Sea Turtles Swim
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-sea-turtles-swim.jpg
+      alt: sea turtles swimming in the ocean
+    button_id: 4DMJTK35EECL4
