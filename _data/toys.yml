@@ -1,29 +1,46 @@
-# minibuns:
-#   - title: name <br /> Mini Bun
-#     cover:
-#       path: /assets/images/toys/maggie-umber-.jpg
-#       alt: 
-#     size: 2 x 2 x 3.5 inches
-#     price: $35
-#     button_id: 
+minibuns:
+  - title: Chili Pepper <br /> Mini Bun
+    cover:
+      path: /assets/images/toys/maggie-umber-chili-pepper.jpg
+      alt: red, green and gray crocheted mini bun wearing scarf and googles
+    size: 2 x 2 x 3.5 inches
+    price: $35
+    button_id: EHHCB6AGGA9JW
+  - title: Candy Coated Walnut <br /> Mini Bun
+    cover:
+      path: /assets/images/toys/maggie-umber-candy-coated-walnut.jpg
+      alt: blue, purple and green crocheted mini bun in a rippling skirt
+    size: 2 x 2 x 3.5 inches
+    price: $35
+    button_id: EMT9UY3EZGYVN
 
-# rocketpods:
-#   - title: Sweet and Sour <br /> Rocket Pod and Bun
-#     cover:
-#       path: /assets/images/toys/maggie-umber-sweet-and-sour.jpg
-#       alt: blue and yellow crocheted toy bun alien in a rocket pod with ears popping out
-#     size: 3.5 x 2 x 1.5 inches
-#     price: $50
-#     button_id: F5DWBQB84YNGC
+cupcakes:
+  - title: Blueberry Toffee <br /> Cupcake
+    cover:
+      path: /assets/images/toys/maggie-umber-blueberry-toffee.jpg
+      alt: purple and rainbow crocheted cupcake with bun head
+    size: 3 x 3 x 3 inches
+    price: $40
+    button_id: WZ57ZJ7B6AFEE
 
-# rocketships:
-#   - title: Name <br /> Rocket Ship and Bun
-#     cover:
-#       path: /assets/images/toys/maggie-umber-cookies-and-cream.jpg
-#       alt: 
-#     size: 4.5 x 3 x 2.5 inches
-#     price: $75
-#     button_id:
+
+rocketpods:
+  - title: Metal Berry Crunch <br /> Rocket Pod and Bun
+    cover:
+      path: /assets/images/toys/maggie-umber-metal-berry-crunch.jpg
+      alt: pink, gray and metal crocheted toy bun alien in a rocket pod
+    size: 3.5 x 2 x 1.5 inches
+    price: $50
+    button_id: 464HYZVEJHSFA
+
+rocketships:
+  - title: Plum Apricot Jam <br /> Rocket Ship and Bun
+    cover:
+      path: /assets/images/toys/maggie-umber-plum-apricot-jam.jpg
+      alt: purple and yellow rocket ship with a crocheted toy bun alien
+    size: 4.5 x 3 x 2.5 inches
+    price: $75
+    button_id: J53SQF6ZQRBEC
 
 flyingsaucers:
   - title: Grumpy Watermelon <br /> Flying Saucer
