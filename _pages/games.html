@@ -1,0 +1,11 @@
+---
+title: Games
+permalink: /games
+---
+
+<div class="gallery">
+  {% for item in site.data.games.games %} {% include products-games.html %} {%
+    endfor %}
+  {% for item in site.data.games.animations %} {% include products-games.html %} {%
+    endfor %} 
+</div>

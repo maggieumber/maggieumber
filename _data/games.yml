@@ -1,0 +1,27 @@
+games:
+  - title: Comics Drawing Software
+    year: 2024
+    embed: <iframe src="https://scratch.mit.edu/projects/1121688308/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    link: https://scratch.mit.edu/projects/1121688308
+    credits: 'Countdown timer by amshali with modifications by me. <br>
+      MantelClockTicks.wav by daveincamas -- https://freesound.org/s/27086/ -- License: Attribution 4.0<br>
+      Antique Clock Ticking then Strikes Twelve by iainmccurdy -- https://freesound.org/s/646410/ -- License: Attribution 4.0'
+  - title: The Study of Symmetry
+    year: 2015
+    embed: <iframe src="https://scratch.mit.edu/projects/72902944/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    link: https://scratch.mit.edu/projects/72902944
+    credits: 'Game a Week, Week 1. This game is based on the book "SIMON The GENIUS in My BASEMENT" 
+      by Alexander Masters. Thank you to TheLogFather for the very helpful "Removing ask-and-wait 
+      on Scratch" tutorial and code. (http://scratch.mit.edu/projects/21056899/#editor)'
+
+animations:
+  - title: Startled Maggie Animation
+    year: 2015
+    embed: <iframe src="https://scratch.mit.edu/projects/72903608/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    link: https://scratch.mit.edu/projects/72903608
+    credits: 'All of the drawings are from my comic book "Startled Maggie" available on maggieumber.com.
+      The sound effects are from sound artists that have shared their recordings on Freesound.org: 
+      FxProSound, NoiseCollector, romulofs, pfly, morgantj, guest, thecluegeek, fotoshop, yabeloko, 
+      Ephemeral_Rift, dland, Benboncan, Razzvio, RutgerMuller, skyn production, splashzooka, 
+      Syna-Max, acclivity, stijn, esperar, Yoram, Tristan, Oddworld, cognito perceptu, hantorio, and 
+      davidou. Thank you!!!!'
