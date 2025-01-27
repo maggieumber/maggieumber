@@ -153,6 +153,11 @@ video {
   margin: 0 auto;
 }
 
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Images */
 img {
   max-width: 100%;
