@@ -18,15 +18,12 @@ contacts:
   - link: https://bsky.app/profile/maggieumber.bsky.social
     name: Bluesky 
     info: "@@maggieumber.bsky.social"
-  - link: https://maggieumber.substack.com/
-    name: Substack 
-    info: "📚 Eye Spy: Maggie Umber Reviews"
   - link: https://www.instagram.com/maggieumber/
     name: Instagram 
     info: "@maggieumber"
   - link: https://maggieumber.com/feed.xml
-    name: RSS 
-    info: "📰 Subscribe to the blog"
+    name: RSS feed
+    info: "📰 or Subscribe to the blog:"
 bio: "Maggie Umber paints, prints, and programs graphic novels and zines. She's published four 
   graphic novels — Chrysanthemum Under the Waves, Sound of Snow Falling, Time Capsule, 270° — and 
   her work has been widely anthologized."
@@ -426,6 +423,22 @@ tour2023:
 <li>☞ <a href="{{ contact.link }}" target="_blank">{{ contact.name }}</a> {{ contact.info }}</li>
 {% endfor %}
 </ul>
+
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/maggieumber"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.com/maggieumber', 'popupwindow')"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  
+  <input type="submit" value="Subscribe" />
+  <p>
+    <a href="https://buttondown.com/refer/maggieumber" target="_blank">Powered by Buttondown.</a>
+  </p>
+</form>
 
 <h2>Press</h2>
 <ul>
