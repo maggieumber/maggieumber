@@ -27,7 +27,15 @@ contacts:
 bio: "Maggie Umber paints, prints, and programs graphic novels and zines. She's published four 
   graphic novels — Chrysanthemum Under the Waves, Sound of Snow Falling, Time Capsule, 270° — and 
   her work has been widely anthologized."
-interviews:
+press:
+  - link: https://bramstokerawards.horror.org/front-page/the-2024-bram-stoker-awards-preliminary-ballot-announced/
+    lastname: HWA
+    firstname: ed.
+    title: "The 2024 Bram Stoker Awards® Preliminary Ballot Announced"
+    publication: Horror Writers Association
+    month: January
+    date: 22
+    year: 2025
   - link: https://www.tcj.com/christmas-wrapping-this-weeks-links/
     lastname: Burscough
     firstname: Clark
@@ -222,44 +230,48 @@ reviews:
     date: 24
     year: 2020
 awards:
+  - link: https://jamiecoville.com/blog/blog/2025/02/15/the-combined-best-comics-graphic-novels-of-2024/
+    name: "Jamie Coville's Combined Best Comics & Graphic Novels of 2024"
+    publication: Jamie Coville
+    year: 2024
   - link: https://www.patreon.com/posts/four-color-2024-118629914
     name: "Four Color Apocalypse 2024 Year In Review : Top 10 Collected Editions - Contemporary"
     publication: "Ryan C.'s Four Color Apocalypse"
     year: 2024
   - link: https://www.tcj.com/the-best-comics-of-2024-as-chosen-by-tcj-contributors/#andrewwhite
-    name: "Chrysanthemum Under the Waves, Andrew White: The best comics of 2024, as chosen by TCJ contributors"
+    name: "Andrew White: The best comics of 2024, as chosen by TCJ contributors"
     publication: The Comics Journal
     year: 2024
   - link: https://www.tcj.com/the-best-comics-of-2024-as-chosen-by-tcj-contributors/#leonardpierce
-    name: "Chrysanthemum Under the Waves, Leonard Pierce: The best comics of 2024, as chosen by TCJ contributors"
+    name: "Leonard Pierce: The best comics of 2024, as chosen by TCJ contributors"
     publication: The Comics Journal
     year: 2024
   - link: https://www.tcj.com/the-best-comics-of-2024-as-chosen-by-tcj-contributors/#hagaipale
-    name: "Chrysanthemum Under the Waves, Hagai Palevsky: The best comics of 2024, as chosen by TCJ contributors"
+    name: "Hagai Palevsky: The best comics of 2024, as chosen by TCJ contributors"
     publication: The Comics Journal
     year: 2024
   - link: https://www.tcj.com/the-best-comics-of-2024-as-chosen-by-tcj-contributors/#chrismautner
-    name: "Chrysanthemum Under the Waves (honorable mention), Chris Mautner: The best comics of 2024, as chosen by TCJ contributors"
+    name: "Chris Mautner: The best comics of 2024, as chosen by TCJ contributors"
     publication: The Comics Journal
     year: 2024
   - link: https://www.tcj.com/the-best-comics-of-2024-as-chosen-by-tcj-contributors/#alexdueben
-    name: "Chrysanthemum Under the Waves, Alex Dueben: The best comics of 2024, as chosen by TCJ contributors"
+    name: "Alex Dueben: The best comics of 2024, as chosen by TCJ contributors"
     publication: The Comics Journal
     year: 2024
   - link: https://lars.ingebrigtsen.no/2024/12/21/the-best-comics-of-2024/
-    name: "Chrysanthemum Under the Waves, Lars Ingebrigtsen: The best comics of 2024"
+    name: "Lars Ingebrigtsen: The best comics of 2024"
     publication: Random Thoughts
     year: 2024
   - link: https://www.instagram.com/p/DDhSxJIxnxm/?img_index=1
-    name: "Chrysanthemum Under the Waves, Comics Blogger #11 Best of 2024"
+    name: "Comics Blogger #11 Best of 2024"
     publication: Comics Blogger
     year: 2024
   - link: https://www.goodreads.com/review/list/152576090-rick-ray?page=2&shelf=best-comics-of-2024
-    name: "Chrysanthemum Under the Waves, Best Comics of 2024"
+    name: "Best Comics of 2024"
     publication: Rick Ray on Goodreads
     year: 2024
   - link: https://www.fantagraphics.com/products/the-comics-journal-yearbook-best-of-2023
-    name: "PRETZEL, Kristy Valenti's Top 10 List of 2023, The Comics Journal Yearbook, Best of 2023"
+    name: "Kristy Valenti's Top 10 List of 2023, The Comics Journal Yearbook, Best of 2023"
     publication: The Comics Journal
     year: 2023
   - link: https://nijomu.com/reviews/comics-i-enjoyed-reading-in-2018/
@@ -442,10 +454,10 @@ tour2023:
 
 <h2>Press</h2>
 <ul>
-{% for interview in page.interviews %}
-  <li>&#10004; {{ interview.lastname }}, {{ interview.firstname }}, 
-    <a href="{{ interview.link }}" target="_blank">{{ interview.title }}</a>,
-    {{ interview.publication }}, {{ interview.month }} {{ interview.date }}, {{ interview.year }}</li>
+{% for press in page.press %}
+  <li>&#10004; {{ press.lastname }}, {{ press.firstname }}, 
+    <a href="{{ press.link }}" target="_blank">{{ press.title }}</a>,
+    {{ press.publication }}, {{ press.month }} {{ press.date }}, {{ press.year }}</li>
 {% endfor %}
 </ul>
 
