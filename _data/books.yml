@@ -29,6 +29,13 @@ graphicnovels:
     button_id: NEJS4GG7L2YYJ
 
 zines:
+  - title: So Many Ways
+    link: /so-many-ways
+    cover:
+      path: /assets/images/books/maggie-umber-so-many-ways-cover.jpg
+      alt: "sea turtles crawling on a beach at night, text reads: So Many Ways, Maggie Umber copyright 2025"
+    price: PREORDER SHIPS SPRING 2025 <br />$4
+    button_id: VRP3W9JKGATGL
   - title: Bunworld 2
     link: /bunworld-2
     cover:

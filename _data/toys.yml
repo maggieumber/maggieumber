@@ -66,10 +66,3 @@ nunions:
     size: 2.5 x 2.5 x 3.5 inches
     price: $15
     button_id: EXY2LSA5KFBMC
-  - title: Christmas Sweater <br /> Nunion
-    cover:
-      path: /assets/images/toys/maggie-umber-nunion-christmas-sweater.jpg
-      alt: Christmas crocheted nunion toy with four legs
-    size: 1.5 x 1.5 x 2.5 inches
-    price: $15
-    button_id: CLYPBXBBVRSZ2
