@@ -265,6 +265,16 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-river-kayak-double-portrait.jpg
       alt: a woman kayaking on a river, a man seated on a rock in the river
     button_id: PTTR7P9VYBE2U
+  - title: "Vita's Gecko"
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-vitas-gecko.jpg
+      alt: "Vita's hand holding her gecko"
+    button_id: D9S32DSWNU5NE
+  - title: So Many Ways Print
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-so-many-ways-print.jpg
+      alt: "baby sea turtles hatching from eggs on a beach at night, text reads: So Many Ways by Maggie Umber"
+    button_id: MBGBEUSTSYPUN
 
 portrait:
   - title: Josephine Baker Portrait
