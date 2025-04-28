@@ -136,6 +136,13 @@ wholesale:
       alt: "a little baker and a bunny read a book in front of huge ice cream, text reads: Maggie Umber, Bunworld"
     price: <s>Retail $14</s> <br />Wholesale $8.40
     button_id: 38BCXYWAV5SM8
+  - title: So Many Ways
+    link: /wholesale-so-many-ways
+    cover:
+      path: /assets/images/books/maggie-umber-so-many-ways-cover.jpg
+      alt: "sea turtles crawling on a beach at night, text reads: So Many Ways, Maggie Umber copyright 2025"
+    price: <s>Retail $4</s> <br />Wholesale $2.40
+    button_id: 5ZXHLQQFE5Y2S
   - title: Jonesy
     link: /wholesale-jonesy
     cover:
