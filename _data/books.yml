@@ -78,13 +78,6 @@ zines:
       alt: "mother spider, baby spiders, text reads: WE ARE HUNGRY Maggie Umber"
     price: $13
     button_id: BJH77DSSH37AC
-  - title: Startled Maggie 1
-    link: /startled-maggie-1
-    cover:
-      path: /assets/images/books/maggie-umber-startled-maggie-issue-one-cover.jpg
-      alt: "mom, dad, baby, text reads: Startled Maggie issue one by meghan hogan"
-    price: $6
-    button_id: CRR9AECDM7XBU
   - title: "Chrysanthemum: <br />the Storyboards"
     link: /chrysanthemum-the-storyboards
     cover:
@@ -92,6 +85,13 @@ zines:
       alt: "chrysanthemum flowers, text reads: Chrysanthemum: the Storyboards, Maggie Umber"
     price: $10
     button_id: 423SNC57JXKAA
+  - title: Startled Maggie 1
+    link: /startled-maggie-1
+    cover:
+      path: /assets/images/books/maggie-umber-startled-maggie-issue-one-cover.jpg
+      alt: "mom, dad, baby, text reads: Startled Maggie issue one by meghan hogan"
+    price: $6
+    button_id: CRR9AECDM7XBU
 
 wholesale:
   - title: Chrysanthemum Under the Waves
