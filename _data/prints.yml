@@ -138,15 +138,15 @@ cutw:
     button_id: WVM8TRLD9APBU
 
 jonesy:
-  - title: Abandoned Train
+  - title: "Jonesy, Tube Man & Maggie"
     cover:
-      path: /assets/images/prints/maggie-umber-jonesy-abandoned-train.jpg
-      alt: abandoned train in the woods with a red smiling face
-    button_id: MED34J8NMGLMN
+      path: /assets/images/prints/maggie-umber-jonesy-jonesy-maggie-and-tubeman.jpg
+      alt: comic with a red tube man and Maggie on bottom and a cat face on top
+    button_id: 9CD7FY5GG6FSC
   - title: Tube Man and Jonesy
     cover:
       path: /assets/images/prints/maggie-umber-jonesy-tube-man-and-jonesy.jpg
-      alt: wo panel comic with a red tube man on top and a cat face on bottom
+      alt: comic with a red tube man on top and a cat face on bottom
     button_id: LPEVED9JKRUGQ
 
 nature:
@@ -185,6 +185,11 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-big-dipper-firefly.jpg
       alt: big dipper firefly male display in a field, bottom panel egg, larva, pupa
     button_id: 38A9MULQ6TPP8
+  - title: Mourning Dove
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-mourning-dove.jpg
+      alt: "mourning dove in profile perched on a log"
+    button_id: 5W8RX5HY33TH8
   - title: Bee Balm
     cover:
       path: /assets/images/prints/maggie-umber-nature-bee-balm.jpg
@@ -240,6 +245,11 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-dads-pumpkin-flowers.jpg
       alt: pumpkin flowers close up
     button_id: C2GRN4FXR6RVJ
+  - title: "Ruby-throated Hummingbird & Cone Flower"
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-ruby-throated-hummingbird-and-cone-flower.jpg
+      alt: "Ruby-throated Hummingbird hovering in front of a cone flower"
+    button_id: Z6K5W5KZ94KHU
   - title: Flowers in the Neighbors's Yard
     cover: 
       path: /assets/images/prints/maggie-umber-nature-flowers-in-the-neighbors-yard.jpg
@@ -275,6 +285,13 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-so-many-ways-print.jpg
       alt: "baby sea turtles hatching from eggs on a beach at night, text reads: So Many Ways by Maggie Umber"
     button_id: MBGBEUSTSYPUN
+
+pbe:
+  - title: "Pit Bull & Caster Beans"
+    cover:
+      path: /assets/images/prints/maggie-umber-pbe-pit-bull-and-caster-beans.jpg
+      alt: "a pit bull in front of a caster bean plant on a book cover, text reads: Pit Bull Eyes, Maggie Umber"
+    button_id: 5JBVD3D58NN9Y
 
 portrait:
   - title: Josephine Baker Portrait
@@ -396,11 +413,6 @@ tc:
       path: /assets/images/prints/maggie-umber-tc-butterfly-and-beetle.jpg
       alt: butterfly and beetle pollinating flowers
     button_id: XECFK8AY9CLXW
-  - title: Snake and Frog Parade
-    cover:
-      path: /assets/images/prints/maggie-umber-tc-snake-and-frog-parade.jpg
-      alt: snake curled up on a leaf pile, with a parade of frogs hopping past
-    button_id: WAMWXBWZ2ZLE6
   - title: Chimps Grooming
     cover:
       path: /assets/images/prints/maggie-umber-tc-chimps-grooming.jpg
@@ -411,11 +423,6 @@ tc:
       path: /assets/images/prints/maggie-umber-tc-cup-plants-being-pollinated.jpg
       alt: cup plants being pollinated
     button_id: Z3GNV8JN9UTYW
-  - title: Universe, Earth, Corn 
-    cover:
-      path: /assets/images/prints/maggie-umber-tc-universe-earth-corn.jpg
-      alt: stars and galaxies, planet earth, and corn plants
-    button_id: 6VKBPLGG57Y28
   - title: Baby Blue Jay
     cover:
       path: /assets/images/prints/maggie-umber-tc-baby-blue-jay.jpg
@@ -436,3 +443,8 @@ tc:
       path: /assets/images/prints/maggie-umber-tc-sea-turtles-swim.jpg
       alt: sea turtles swimming in the ocean
     button_id: 4DMJTK35EECL4
+  - title: Barn Owl and Bat
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-barn-owl-bat.jpg
+      alt: barn owl standing and bat face
+    button_id: HT8YBCK3FL6UG
