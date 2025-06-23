@@ -108,13 +108,6 @@ wholesale:
       alt: "a woman in profile with long hair floating up, text reads: Chrysanthemum Under the Waves"
     price: "<s>Retail $35</s> <br />Wholesale $17.50"
     button_id: 5LFEPSPQT2VSJ
-  - title: Sound of Snow Falling
-    link: /wholesale-sound-of-snow-falling
-    cover:
-      path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover.jpg
-      alt: "a great horned owl in a tree hooting on the cover, text reads: Maggie Umber Sound of Snow Falling"
-    price: <s>Retail $23</s> <br /> Wholesale $11.50
-    button_id: B4BG3UL7DAWT2
   - title: 270°
     link: /wholesale-270
     cover:
@@ -122,6 +115,13 @@ wholesale:
       alt: "a northern saw-whet owl in a pine tree on the cover, with text that reads: maggie umber 270°"
     price: <s>Retail $15</s> <br /> Wholesale $7.50
     button_id: X4QLZHSEEMFEQ
+  - title: Sound of Snow Falling
+    link: /wholesale-sound-of-snow-falling
+    cover:
+      path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover.jpg
+      alt: "a great horned owl in a tree hooting on the cover, text reads: Maggie Umber Sound of Snow Falling"
+    price: <s>Retail $23</s> <br /> Wholesale $11.50
+    button_id: B4BG3UL7DAWT2
   - title: Time Capsule
     link: /wholesale-time-capsule
     cover:
@@ -150,6 +150,13 @@ wholesale:
       alt: "sea turtles crawling on a beach at night, text reads: So Many Ways, Maggie Umber copyright 2025"
     price: <s>Retail $4</s> <br />Wholesale $2.40
     button_id: 5ZXHLQQFE5Y2S
+  - title: Strange Star
+    link: /wholesale-strange-star
+    cover:
+      path: /assets/images/books/maggie-umber-strange-star-cover.jpg
+      alt: "Mary Shelley portrait, text reads: Maggie Umber, Strange Star"
+    price: <s>Retail $9</s> <br />Wholesale $5.40 <br />PREORDER SHIPS AFTER CAKE 2025
+    button_id: 4L9MRS5XQVB82
   - title: Jonesy
     link: /wholesale-jonesy
     cover:
