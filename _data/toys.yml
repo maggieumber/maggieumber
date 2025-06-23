@@ -6,13 +6,6 @@ minibuns:
     size: 2 x 2 x 3.5 inches
     price: $35
     button_id: EHHCB6AGGA9JW
-  - title: Candy Coated Walnut <br /> Mini Bun
-    cover:
-      path: /assets/images/toys/maggie-umber-candy-coated-walnut.jpg
-      alt: blue, purple and green crocheted mini bun in a rippling skirt
-    size: 2 x 2 x 3.5 inches
-    price: $35
-    button_id: EMT9UY3EZGYVN
 
 cupcakes:
   - title: Blueberry Toffee <br /> Cupcake
