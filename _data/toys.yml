@@ -17,14 +17,14 @@ cupcakes:
     button_id: WZ57ZJ7B6AFEE
 
 
-rocketpods:
-  - title: Metal Berry Crunch <br /> Rocket Pod and Bun
-    cover:
-      path: /assets/images/toys/maggie-umber-metal-berry-crunch.jpg
-      alt: pink, gray and metal crocheted toy bun alien in a rocket pod
-    size: 3.5 x 2 x 1.5 inches
-    price: $50
-    button_id: 464HYZVEJHSFA
+# rocketpods:
+#   - title: Metal Berry Crunch <br /> Rocket Pod and Bun
+#     cover:
+#       path: /assets/images/toys/maggie-umber-metal-berry-crunch.jpg
+#       alt: pink, gray and metal crocheted toy bun alien in a rocket pod
+#     size: 3.5 x 2 x 1.5 inches
+#     price: $50
+#     button_id: 464HYZVEJHSFA
 
 rocketships:
   - title: Plum Apricot Jam <br /> Rocket Ship and Bun

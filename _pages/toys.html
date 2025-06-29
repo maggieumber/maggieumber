@@ -7,9 +7,11 @@ redirect_from: /pages/toys.html
 {% include view-cart.html %}
 
 <div class="gallery">
-  {% assign all_toys = site.data.toys.minibuns | concat: 
-    site.data.toys.rocketpods | concat: 
+  {% assign all_toys = site.data.toys.minibuns  | concat: 
     site.data.toys.cupcakes | concat: site.data.toys.flyingsaucers | concat: 
   site.data.toys.nunions | concat: site.data.toys.rocketships %} {% assign random_items = all_toys | sample: 20
   %} {% for item in random_items %} {% include products-toys.html %} {% endfor %}
 </div>
+
+<!-- | concat: 
+    site.data.toys.rocketpods -->
