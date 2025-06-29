@@ -40,8 +40,8 @@ zines:
     link: /strange-star
     cover:
       path: /assets/images/books/maggie-umber-strange-star-cover.jpg
-      alt:
-    price: PREORDER SHIPS SUMMER 2025 <br />$9
+      alt: "Mary Shelley portrait, text reads: Maggie Umber, Strange Star"
+    price: $9
     button_id: RQJQPBRB258D8
   - title: Pit Bull Eyes
     link: /pit-bull-eyes
@@ -155,7 +155,7 @@ wholesale:
     cover:
       path: /assets/images/books/maggie-umber-strange-star-cover.jpg
       alt: "Mary Shelley portrait, text reads: Maggie Umber, Strange Star"
-    price: <s>Retail $9</s> <br />Wholesale $5.40 <br />PREORDER SHIPS AFTER CAKE 2025
+    price: <s>Retail $9</s> <br />Wholesale $5.40
     button_id: 4L9MRS5XQVB82
   - title: Jonesy
     link: /wholesale-jonesy
