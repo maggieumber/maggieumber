@@ -1,17 +1,16 @@
 ---
-title: Reviews
-permalink: /reviews
+title: Interviews
+permalink: /interviews
 ---
 
 <p>
-  Critics' reviews of my graphic novels, comics, and zines. Plus, my own 
-  reviews of other artists' work.
+  Press interviews with me, Maggie Umber, including podcasts, articles, and more.
 </p>
 <hr />
 
-<h3>Reviews Archive</h3>
+<h3>Interviews Archive</h3>
 <div class="gallery">
-  {% for post in site.posts %} {% if post.categories contains 'reviews' %}
+  {% for post in site.posts %} {% if post.categories contains 'interviews' %}
   <figure class="gallery-item">
     <a href="{{ post.url }}">
       <img class="thumbnail-300" src="{{ post.cover.path }}" alt="{{ post.cover.alt }}" title="copyright Maggie Umber"/></a>
