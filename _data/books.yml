@@ -48,7 +48,7 @@ zines:
     cover:
       path: /assets/images/books/maggie-umber-pit-bull-eyes-cover.jpg
       alt: "a pit bull in front of a caster bean plant on a book cover, text reads: Pit Bull Eyes, Maggie Umber"
-    price: PREORDER SHIPS SUMMER 2025 <br />$8
+    price: $8
     button_id: 77ZM4SPPW293A
   - title: Bunworld 2
     link: /bunworld-2
