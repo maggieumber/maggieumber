@@ -270,21 +270,11 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-buster-comic-painting.jpg
       alt: buster a small white dog on a green blanket comic painting
     button_id: R4MJQY9JN5ZPY
-  - title: River Kayak Double Portrait
-    cover:
-      path: /assets/images/prints/maggie-umber-nature-river-kayak-double-portrait.jpg
-      alt: a woman kayaking on a river, a man seated on a rock in the river
-    button_id: PTTR7P9VYBE2U
   - title: "Vita's Gecko"
     cover:
       path: /assets/images/prints/maggie-umber-nature-vitas-gecko.jpg
       alt: "Vita's hand holding her gecko"
     button_id: D9S32DSWNU5NE
-  - title: So Many Ways Print
-    cover:
-      path: /assets/images/prints/maggie-umber-nature-so-many-ways-print.jpg
-      alt: "baby sea turtles hatching from eggs on a beach at night, text reads: So Many Ways by Maggie Umber"
-    button_id: MBGBEUSTSYPUN
 
 pbe:
   - title: "Pit Bull & Caster Beans"
