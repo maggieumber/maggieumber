@@ -29,20 +29,6 @@ graphicnovels:
     button_id: NEJS4GG7L2YYJ
 
 zines:
-  - title: So Many Ways
-    link: /so-many-ways
-    cover:
-      path: /assets/images/books/maggie-umber-so-many-ways-cover.jpg
-      alt: "sea turtles crawling on a beach at night, text reads: So Many Ways, Maggie Umber copyright 2025"
-    price: $4
-    button_id: VRP3W9JKGATGL
-  - title: Strange Star
-    link: /strange-star
-    cover:
-      path: /assets/images/books/maggie-umber-strange-star-cover.jpg
-      alt: "Mary Shelley portrait, text reads: Maggie Umber, Strange Star"
-    price: $9
-    button_id: RQJQPBRB258D8
   - title: Pit Bull Eyes
     link: /pit-bull-eyes
     cover:
@@ -50,6 +36,20 @@ zines:
       alt: "a pit bull in front of a caster bean plant on a book cover, text reads: Pit Bull Eyes, Maggie Umber"
     price: $8
     button_id: 77ZM4SPPW293A
+  - title: Strange Star
+    link: /strange-star
+    cover:
+      path: /assets/images/books/maggie-umber-strange-star-cover.jpg
+      alt: "Mary Shelley portrait, text reads: Maggie Umber, Strange Star"
+    price: $9
+    button_id: RQJQPBRB258D8
+  - title: So Many Ways
+    link: /so-many-ways
+    cover:
+      path: /assets/images/books/maggie-umber-so-many-ways-cover.jpg
+      alt: "sea turtles crawling on a beach at night, text reads: So Many Ways, Maggie Umber copyright 2025"
+    price: $4
+    button_id: VRP3W9JKGATGL
   - title: Bunworld 2
     link: /bunworld-2
     cover:
@@ -129,27 +129,13 @@ wholesale:
       alt: "a tortoise in a display case on the cover, text reads: Time Capsule Maggie Umber"
     price: <s>Retail $12</s> <br /> Wholesale $6
     button_id: 3QFF49T6Z3D6A
-  - title: Bunworld 1
-    link: /wholesale-bunworld-1
+  - title: Pit Bull Eyes
+    link: /wholesale-pit-bull-eyes
     cover:
-      path: /assets/images/books/maggie-umber-bunworld-1-cover.jpg
-      alt: "a little baker and a bunny read a book in front of huge ice cream, text reads: Maggie Umber, Bunworld"
-    price: <s>Retail $14</s> <br />Wholesale $8.40
-    button_id: 5Z8JCWWVMLB5C
-  - title: Bunworld 2
-    link: /wholesale-bunworld-2
-    cover:
-      path: /assets/images/books/maggie-umber-bunworld-2-cover.jpg
-      alt: "a little baker and a bunny read a book in front of huge ice cream, text reads: Maggie Umber, Bunworld"
-    price: <s>Retail $14</s> <br />Wholesale $8.40
-    button_id: 38BCXYWAV5SM8
-  - title: So Many Ways
-    link: /wholesale-so-many-ways
-    cover:
-      path: /assets/images/books/maggie-umber-so-many-ways-cover.jpg
-      alt: "sea turtles crawling on a beach at night, text reads: So Many Ways, Maggie Umber copyright 2025"
-    price: <s>Retail $4</s> <br />Wholesale $2.40
-    button_id: 5ZXHLQQFE5Y2S
+      path: /assets/images/books/maggie-umber-pit-bull-eyes-cover.jpg
+      alt: "a pit bull in front of a caster bean plant on a book cover, text reads: Pit Bull Eyes, Maggie Umber"
+    price: <s>Retail $8</s> <br />Wholesale $4.80
+    button_id: 9CX2WGNA369XQ
   - title: Strange Star
     link: /wholesale-strange-star
     cover:
@@ -157,6 +143,27 @@ wholesale:
       alt: "Mary Shelley portrait, text reads: Maggie Umber, Strange Star"
     price: <s>Retail $9</s> <br />Wholesale $5.40
     button_id: 4L9MRS5XQVB82
+  - title: So Many Ways
+    link: /wholesale-so-many-ways
+    cover:
+      path: /assets/images/books/maggie-umber-so-many-ways-cover.jpg
+      alt: "sea turtles crawling on a beach at night, text reads: So Many Ways, Maggie Umber copyright 2025"
+    price: <s>Retail $4</s> <br />Wholesale $2.40
+    button_id: 5ZXHLQQFE5Y2S
+  - title: Bunworld 2
+    link: /wholesale-bunworld-2
+    cover:
+      path: /assets/images/books/maggie-umber-bunworld-2-cover.jpg
+      alt: "a little baker and a bunny read a book in front of huge ice cream, text reads: Maggie Umber, Bunworld"
+    price: <s>Retail $14</s> <br />Wholesale $8.40
+    button_id: 38BCXYWAV5SM8
+  - title: Bunworld 1
+    link: /wholesale-bunworld-1
+    cover:
+      path: /assets/images/books/maggie-umber-bunworld-1-cover.jpg
+      alt: "a little baker and a bunny read a book in front of huge ice cream, text reads: Maggie Umber, Bunworld"
+    price: <s>Retail $14</s> <br />Wholesale $8.40
+    button_id: 5Z8JCWWVMLB5C
   - title: Jonesy
     link: /wholesale-jonesy
     cover:
