@@ -148,6 +148,16 @@ jonesy:
       path: /assets/images/prints/maggie-umber-jonesy-tube-man-and-jonesy.jpg
       alt: comic with a red tube man on top and a cat face on bottom
     button_id: LPEVED9JKRUGQ
+  - title: Pit Bull Eyes Cover
+    cover:
+      path: /assets/images/prints/maggie-umber-jonesy-pit-bull-eyes-cover.jpg
+      alt: "a pit bull in front of a caster bean plant on a book cover, text reads: Pit Bull Eyes, Maggie Umber"
+    button_id: SLJKQJZYP589N
+  - title: "Pit Bull & Caster Beans"
+    cover:
+      path: /assets/images/prints/maggie-umber-jonesy-pit-bull-and-caster-beans.jpg
+      alt: "a pit bull in front of a caster bean plant on a book cover, text reads: Pit Bull Eyes, Maggie Umber"
+    button_id: 5JBVD3D58NN9Y
 
 nature:
   - title: Honey Bee Pollinating Lavender
@@ -215,11 +225,11 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-a-fall-day-in-the-woods.jpg
       alt: blue and green trees with red and orange leaves on a sunny fall day
     button_id: XXKDT9373853Y
-  - title: Rock Island
+  - title: Twelve-spotted Skimmer
     cover:
-      path: /assets/images/prints/maggie-umber-nature-rock-island.jpg
-      alt: rock island in the ocean
-    button_id: GD2PYJ9HTF4F2
+      path: /assets/images/prints/maggie-umber-nature-twelve-spotted-skimmer.jpg
+      alt: twelve-spotted skimmer dragonfly
+    button_id: AP3XKMRZKBSRE
   - title: Honey Bee Dance
     cover:
       path: /assets/images/prints/maggie-umber-nature-honey-bee-dance.jpg
@@ -270,13 +280,6 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-vitas-gecko.jpg
       alt: "Vita's hand holding her gecko"
     button_id: D9S32DSWNU5NE
-
-pbe:
-  - title: "Pit Bull & Caster Beans"
-    cover:
-      path: /assets/images/prints/maggie-umber-pbe-pit-bull-and-caster-beans.jpg
-      alt: "a pit bull in front of a caster bean plant on a book cover, text reads: Pit Bull Eyes, Maggie Umber"
-    button_id: 5JBVD3D58NN9Y
 
 portrait:
   - title: Josephine Baker Portrait
