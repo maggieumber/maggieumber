@@ -9,11 +9,6 @@ prints270:
       path: /assets/images/prints/maggie-umber-270-short-eared-owl.jpg
       alt: short-eared owl portrait
     button_id: CTPJS5H98WA3U
-  - title: Elf Owl
-    cover:
-      path: /assets/images/prints/maggie-umber-270-elf-owl.jpg
-      alt: elf owl portrait
-    button_id: HD6BDQ9AYPBT2
   - title: Northern Saw-whet Owl
     cover:
       path: /assets/images/prints/maggie-umber-270-northern-saw-whet-owl.jpg
@@ -59,11 +54,6 @@ prints270:
       path: /assets/images/prints/maggie-umber-270-great-horned-owlets-threat-display.jpg
       alt: two great horned owlets crouched down with wings up, feathers raised, eyes wide
     button_id: WH5KS37VRXFSG
-  - title: Owlet
-    cover:
-      path: /assets/images/prints/maggie-umber-270-owlet.jpg
-      alt: brown and white owlet roosting in fall leaves
-    button_id: 7WU25Y8ZZTE22
   - title: Barn Owl on the Wing
     cover:
       path: /assets/images/prints/maggie-umber-270-barn-owl-on-the-wing.jpg
@@ -74,26 +64,6 @@ prints270:
       path: /assets/images/prints/maggie-umber-270-great-gray-owl-hunt.jpg
       alt: great gray owl hunting over a field on the edge of the woods with orange sky
     button_id: GWBY7ZAH8T832
-  - title: Barred Owl Reflection
-    cover:
-      path: /assets/images/prints/maggie-umber-270-barred-owl-reflection.jpg
-      alt: barred owl looking down into its own reflection
-    button_id: GPL2BJL6HNX3W
-  - title: Boreal Owlet
-    cover:
-      path: /assets/images/prints/maggie-umber-270-boreal-owlet.jpg
-      alt: boreal owlet roosting on a branch near its sibling
-    button_id: 3QT9TVWJY7J2L
-  - title: Long-eared Owl
-    cover:
-      path: /assets/images/prints/maggie-umber-270-long-eared-owl.jpg
-      alt: long-eared owl roosting on a stump
-    button_id: SF75XJRQ55VHL
-  - title: Northern Saw-whet Owl Watercolor
-    cover:
-      path: /assets/images/prints/maggie-umber-270-northern-saw-whet-owl-watercolor.jpg
-      alt: northern saw-whet owl roosting in a tree
-    button_id: P7GLYXYA8D7HU
 
 cutw:
   - title: Castle Room
@@ -111,21 +81,6 @@ cutw:
       path: /assets/images/prints/maggie-umber-cutw-the-wooded-path.jpg
       alt: wooded path that leads to a large estate
     button_id: Y5AK2FVDA6QKQ
-  - title: Chrysanthemum Finale
-    cover:
-      path: /assets/images/prints/maggie-umber-cutw-chrysanthemum-finale.jpg
-      alt: a woman stands in a doorway, with an intense emotion on her face
-    button_id: PCYWTYWFWJRSQ
-  - title: CUTW Front Cover
-    cover:
-      path: /assets/images/prints/maggie-umber-cutw-chrysanthemum-under-the-waves-front-cover.jpg
-      alt: face in profile, with her hair floating above her head
-    button_id: 8MH2LTGXTK98U
-  - title: Chrysanthemum Opening
-    cover:
-      path: /assets/images/prints/maggie-umber-cutw-chrysanthemum-opening.jpg
-      alt: a cropped image of a man embracing a woman, with the focus on the woman's face
-    button_id: FSEEMWW53KTDJ
   - title: "Epigraph: I Sought My Image"
     cover:
       path: /assets/images/prints/maggie-umber-cutw-epigraph-i-sought-my-image.jpg
@@ -138,21 +93,11 @@ cutw:
     button_id: WVM8TRLD9APBU
 
 jonesy:
-  - title: "Jonesy, Tube Man & Maggie"
-    cover:
-      path: /assets/images/prints/maggie-umber-jonesy-jonesy-maggie-and-tubeman.jpg
-      alt: comic with a red tube man and Maggie on bottom and a cat face on top
-    button_id: 9CD7FY5GG6FSC
   - title: Tube Man and Jonesy
     cover:
       path: /assets/images/prints/maggie-umber-jonesy-tube-man-and-jonesy.jpg
       alt: comic with a red tube man on top and a cat face on bottom
     button_id: LPEVED9JKRUGQ
-  - title: Pit Bull Eyes Cover
-    cover:
-      path: /assets/images/prints/maggie-umber-jonesy-pit-bull-eyes-cover.jpg
-      alt: "a pit bull in front of a caster bean plant on a book cover, text reads: Pit Bull Eyes, Maggie Umber"
-    button_id: SLJKQJZYP589N
   - title: "Pit Bull & Caster Beans"
     cover:
       path: /assets/images/prints/maggie-umber-jonesy-pit-bull-and-caster-beans.jpg
@@ -200,11 +145,6 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-mourning-dove.jpg
       alt: "mourning dove in profile perched on a log"
     button_id: 5W8RX5HY33TH8
-  - title: Bee Balm
-    cover:
-      path: /assets/images/prints/maggie-umber-nature-bee-balm.jpg
-      alt: red bee balm flower on green background
-    button_id: WPZJLNGC4W4Q4
   - title: Big Dipper with Milkweed
     cover:
       path: /assets/images/prints/maggie-umber-nature-big-dipper-with-milkweed.jpg
@@ -275,11 +215,6 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-buster-comic-painting.jpg
       alt: buster a small white dog on a green blanket comic painting
     button_id: R4MJQY9JN5ZPY
-  - title: "Vita's Gecko"
-    cover:
-      path: /assets/images/prints/maggie-umber-nature-vitas-gecko.jpg
-      alt: "Vita's hand holding her gecko"
-    button_id: D9S32DSWNU5NE
 
 portrait:
   - title: Josephine Baker Portrait
@@ -359,21 +294,6 @@ sosf:
       path: /assets/images/prints/maggie-umber-sosf-great-horned-owl-dreams-a-starling.jpg
       alt: great horned owl dreaming of a starling while brooding eggs in a nest
     button_id: BCHS4MJA4B2VW
-  - title: Owlets and GHO in Nest
-    cover:
-      path: /assets/images/prints/maggie-umber-sosf-owlets-and-gho-in-nest.jpg
-      alt: great horned owl nest with three owlets and the mother
-    button_id: 5NVB5C7NJMTR6
-  - title: Stars and Owl
-    cover:
-      path: /assets/images/prints/maggie-umber-sosf-stars-and-owl.jpg
-      alt: great horned owl roosting in a tree with stars in the sky
-    button_id: NZ7C2ZKBRS9EY
-  - title: Hairy Woodpecker
-    cover:
-      path: /assets/images/prints/maggie-umber-sosf-hairy-woodpecker.jpg
-      alt: hairy woodpecker on a tree trunk
-    button_id: M72K62UZ257PN
   - title: Wood Ducks
     cover: 
       path: /assets/images/prints/maggie-umber-sosf-wood-ducks.jpg
