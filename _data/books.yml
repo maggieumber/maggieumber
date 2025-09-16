@@ -4,7 +4,7 @@ graphicnovels:
     cover:
       path: /assets/images/books/maggie-umber-chrysanthemum-under-the-waves-cover.jpg
       alt: "a woman in profile with long hair floating up, text reads: Chrysanthemum Under the Waves"
-    price: "$35"
+    price: Stoker Nominee <br /> $35
     button_id: SB5W5DNEJC7LS
   - title: "270°"
     link: /270
@@ -18,7 +18,7 @@ graphicnovels:
     cover:
       path: /assets/images/books/maggie-umber-sound-of-snow-falling-cover.jpg
       alt: "a great horned owl in a tree hooting on the cover, text reads: Maggie Umber Sound of Snow Falling"
-    price: $23
+    price: BEST AMERICAN COMICS 2018 Notable title <br /> $23
     button_id: T6AXKMD4KA6JW
   - title: Time Capsule
     link: /time-capsule
