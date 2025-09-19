@@ -140,11 +140,6 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-big-dipper-firefly.jpg
       alt: big dipper firefly male display in a field, bottom panel egg, larva, pupa
     button_id: 38A9MULQ6TPP8
-  - title: Mourning Dove
-    cover:
-      path: /assets/images/prints/maggie-umber-nature-mourning-dove.jpg
-      alt: "mourning dove in profile perched on a log"
-    button_id: 5W8RX5HY33TH8
   - title: Big Dipper with Milkweed
     cover:
       path: /assets/images/prints/maggie-umber-nature-big-dipper-with-milkweed.jpg
@@ -165,11 +160,6 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-a-fall-day-in-the-woods.jpg
       alt: blue and green trees with red and orange leaves on a sunny fall day
     button_id: XXKDT9373853Y
-  - title: Twelve-spotted Skimmer
-    cover:
-      path: /assets/images/prints/maggie-umber-nature-twelve-spotted-skimmer.jpg
-      alt: twelve-spotted skimmer dragonfly
-    button_id: AP3XKMRZKBSRE
   - title: Honey Bee Dance
     cover:
       path: /assets/images/prints/maggie-umber-nature-honey-bee-dance.jpg
@@ -180,11 +170,6 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-charlottes-couch-now.jpg
       alt: big brown rabbit sitting on her couch
     button_id: BVTRF4UVA56SL
-  - title: Cone Flowers in Fall
-    cover:
-      path: /assets/images/prints/maggie-umber-nature-cone-flowers-in-fall.jpg
-      alt: purple cone flowers in the fall
-    button_id: Y9KBPCKCECYJQ
   - title: Dad's Pumpkin Flowers
     cover:
       path: /assets/images/prints/maggie-umber-nature-dads-pumpkin-flowers.jpg
@@ -232,11 +217,6 @@ portrait:
       path: /assets/images/prints/maggie-umber-portrait-afternoon-crocheting.jpg
       alt: victorian woman in a hat with a flower, crocheting outdoors on a bench in the afternoon
     button_id: LCQZYG3XYLHC6
-  - title: Henri's One Horse Carriage
-    cover:
-      path: /assets/images/prints/maggie-umber-portrait-henris-one-horse-carriage.jpg
-      alt: one horse carriage with two men standing in it, riding through woodland scenery
-    button_id: 4KM3D6GFMUKNY
   - title: John Coltrane Portrait
     cover:
       path: /assets/images/prints/maggie-umber-portrait-john-coltrane-portrait.jpg
