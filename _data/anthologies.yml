@@ -4,6 +4,12 @@
     path: assets/images/books/anthologies/maggie-umber-bernadette-2.jpg
     alt: "black and white abstract textured book cover, text reads: Bernadette 2"
   info: Debuts at SPX <br /> ed. Katie Lane, Angela Fanche
+- title: Canon 5
+  link: https://canonzine.bigcartel.com/product/canon-5
+  cover:
+    path: /assets/images/books/anthologies/maggie-umber-canon-5.jpg
+    alt: "black and white image of woman falling off a stool on book cover, text reads: Canon 5"
+  info: Available from <br /> Canon Zine
 - title: 'Lumpen Comics Issue #143'
   link: https://www.lumpenmagazine.org/blog/lumpen-comics-issue-143
   cover:
