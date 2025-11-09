@@ -29,6 +29,13 @@ graphicnovels:
     button_id: NEJS4GG7L2YYJ
 
 zines:
+  - title: The GOK Specials
+    link: /the-gok-specials
+    cover:
+      path: /assets/images/books/maggie-umber-the-gok-specials-cover.jpg
+      alt: "three panels with abstract swirls,text reads: The GOK Specials, Maggie Umber"
+    price: $9
+    button_id: TBSRBZRRC75JJ
   - title: Pit Bull Eyes
     link: /pit-bull-eyes
     cover:
@@ -129,6 +136,13 @@ wholesale:
       alt: "a tortoise in a display case on the cover, text reads: Time Capsule Maggie Umber"
     price: <s>Retail $12</s> <br /> Wholesale $6
     button_id: 3QFF49T6Z3D6A
+  - title: The GOK Specials
+    link: /wholesale-the-gok-specials
+    cover:
+      path: /assets/images/books/maggie-umber-the-gok-specials-cover.jpg
+      alt: "three panels with abstract swirls,text reads: The GOK Specials, Maggie Umber"
+    price: <s>Retail $9</s> <br />Wholesale $5.40
+    button_id: 8KSUE5GG8VG5C
   - title: Pit Bull Eyes
     link: /wholesale-pit-bull-eyes
     cover:
