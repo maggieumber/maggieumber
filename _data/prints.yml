@@ -98,6 +98,11 @@ jonesy:
       path: /assets/images/prints/maggie-umber-jonesy-tube-man-and-jonesy.jpg
       alt: comic with a red tube man on top and a cat face on bottom
     button_id: LPEVED9JKRUGQ
+  - title: "The GOK Specials Storyboards"
+    cover:
+      path: /assets/images/prints/maggie-umber-jonesy-the-gok-specials-storyboards.jpg
+      alt: storyboards for the GOK specials
+    button_id: HT24DMHEUQ5W8
   - title: "Pit Bull & Caster Beans"
     cover:
       path: /assets/images/prints/maggie-umber-jonesy-pit-bull-and-caster-beans.jpg
