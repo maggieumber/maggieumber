@@ -1,24 +1,24 @@
 prints270:
-  - title: Great Horned Owl
-    cover:
-      path: /assets/images/prints/maggie-umber-270-great-horned-owl.jpg
-      alt: great horned owl roosting in profile
-    button_id: P7RP5UFB2Y8SG
-  - title: Short-eared Owl
-    cover:
-      path: /assets/images/prints/maggie-umber-270-short-eared-owl.jpg
-      alt: short-eared owl portrait
-    button_id: CTPJS5H98WA3U
   - title: Northern Saw-whet Owl
     cover:
       path: /assets/images/prints/maggie-umber-270-northern-saw-whet-owl.jpg
       alt: northern saw-whet owl roosting in a tree
     button_id: M3NSR4BKLUUXY
+  - title: Great Horned Owl
+    cover:
+      path: /assets/images/prints/maggie-umber-270-great-horned-owl.jpg
+      alt: great horned owl roosting in profile
+    button_id: P7RP5UFB2Y8SG
   - title: Burrowing Owl Parliament
     cover:
       path: /assets/images/prints/maggie-umber-270-burrowing-owl-parliament.jpg
       alt: eight burrowing owls hanging out together
     button_id: X6J8Y4987URNS
+  - title: Short-eared Owl
+    cover:
+      path: /assets/images/prints/maggie-umber-270-short-eared-owl.jpg
+      alt: short-eared owl portrait
+    button_id: CTPJS5H98WA3U
   - title: Barn Owl Flight
     cover:
       path: /assets/images/prints/maggie-umber-270-barn-owl-flight.jpg
