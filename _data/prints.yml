@@ -135,6 +135,11 @@ nature:
       path: /assets/images/prints/maggie-umber-nature-the-georgian-star.jpg
       alt: multiple views of Uranus, the Georgian Star planet
     button_id: JGBCF2AVWSYT2
+  - title: Ginko
+    cover:
+      path: /assets/images/prints/maggie-umber-nature-ginko.jpg
+      alt: Ginko leaves with fruit
+    button_id: WYRWSCJX8LDBU
   - title: Big Dipper Firefly
     cover:
       path: /assets/images/prints/maggie-umber-nature-big-dipper-firefly.jpg
@@ -326,6 +331,11 @@ tc:
       path: /assets/images/prints/maggie-umber-tc-wandering-snails-meandering-goats.jpg
       alt: snails and goats wandering and meandering
     button_id: M4CDYM9TWEHK6
+  - title: Vulture and Opossum
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-vulture-and-opossum.jpg
+      alt: vulture and opossum
+    button_id: 47ZTKH2XSLMJ8
   - title: Sea Turtles Swim
     cover:
       path: /assets/images/prints/maggie-umber-tc-sea-turtles-swim.jpg
@@ -336,3 +346,8 @@ tc:
       path: /assets/images/prints/maggie-umber-tc-barn-owl-bat.jpg
       alt: barn owl standing and bat face
     button_id: HT8YBCK3FL6UG
+  - title: Insect Friends
+    cover:
+      path: /assets/images/prints/maggie-umber-tc-insect-friends.jpg
+      alt: various insects
+    button_id: 6E8DE99QTW7ML
