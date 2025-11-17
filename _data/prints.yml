@@ -294,6 +294,16 @@ sosf:
       path: /assets/images/prints/maggie-umber-sosf-chickadee-eating-sumac-berries.jpg
       alt: chickadee eating sumac berries
     button_id: CMFJ7QBUW5TQ6
+  - title: Canada Goose on Nest
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-canada-goose-on-nest.jpg
+      alt: canada goose on nest
+    button_id: KZ3FBTRW7NL7S
+  - title: Horned Larks on Winter Fields
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-horned-larks-on-winter-fields.jpg
+      alt: horned larks on winter fields
+    button_id: 4GT92S247J3BJ
 
 tc:
   - title: Lonesome George
