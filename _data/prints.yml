@@ -304,6 +304,11 @@ sosf:
       path: /assets/images/prints/maggie-umber-sosf-horned-larks-on-winter-fields.jpg
       alt: horned larks on winter fields
     button_id: 4GT92S247J3BJ
+  - title: GHO Stretching on Nest
+    cover:
+      path: /assets/images/prints/maggie-umber-sosf-gho-stretching-on-nest.jpg
+      alt: great horned owl stretching on its nest
+    button_id: STJ4ZRE92AE6E
 
 tc:
   - title: Lonesome George
