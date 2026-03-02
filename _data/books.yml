@@ -29,6 +29,13 @@ graphicnovels:
     button_id: NEJS4GG7L2YYJ
 
 zines:
+  - title: Pollination
+    link: /pollination
+    cover:
+      path: /assets/images/books/maggie-umber-pollination-cover.jpg
+      alt: "honey bee pollinating a tulip tree flower, text reads: pollination"
+    price: $10
+    button_id: QZDMMZF5L6M5J
   - title: The GOK Specials
     link: /the-gok-specials
     cover:
@@ -136,6 +143,13 @@ wholesale:
       alt: "a tortoise in a display case on the cover, text reads: Time Capsule Maggie Umber"
     price: <s>Retail $12</s> <br /> Wholesale $6
     button_id: 3QFF49T6Z3D6A
+  - title: Pollination
+    link: /wholesale-pollination
+    cover:
+      path: /assets/images/books/maggie-umber-pollination-cover.jpg
+      alt: "honey bee pollinating a tulip tree flower, text reads: pollination"
+    price: <s>Retail $10</s> <br />Wholesale $6.00
+    button_id: AZQHH9S33RSGW
   - title: The GOK Specials
     link: /wholesale-the-gok-specials
     cover:
