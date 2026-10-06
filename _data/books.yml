@@ -29,6 +29,13 @@ graphicnovels:
     button_id: NEJS4GG7L2YYJ
 
 zines:
+  - title: The Heaviness of <br /> Glowing Blue Clouds
+    link: /the-heaviness-of-glowing-blue-clouds
+    cover:
+      path: /assets/images/books/maggie-umber-the-heaviness-of-glowing-blue-clouds-cover.jpg
+      alt: "blue clouds on an orange background, text reads: The Heaviness of Glowing Blue Clouds, Maggie Umber"
+    price: "mini kuš! #148 <br /> PREORDER $8"
+    button_id: QNV3JNJQG7LF2
   - title: Pollination
     link: /pollination
     cover:

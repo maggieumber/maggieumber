@@ -4,6 +4,12 @@
     path: /assets/images/books/anthologies/maggie-umber-fantagraphics-now-14.jpg
     alt: "text reads: NOW 14, the new comics anthology"
   info: Preorder from <br /> Fantagraphics
+- title: "Peripheries No. 8"
+  link: https://www.hup.harvard.edu/books/9780674305090
+  cover:
+    path: /assets/images/books/anthologies/maggie-umber-peripheries-a-journal-of-word-image-and-sound-no-8.jpg
+    alt: "text reads: Peripheries: A Journal of Word, Image, and Sound, No. 8"
+  info: Preorder from <br /> Harvard University Press
 - title: Bernadette 2
   link: https://www.angelafanche.work/shopping/bernadette-magazine-wl5aa
   cover: 
