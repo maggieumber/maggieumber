@@ -1,0 +1,20 @@
+---
+title: Exhibitions
+permalink: /exhibitions
+---
+
+<p>
+  Here are some the recent exhibitions my original comic pages have been featured in. 
+</p>
+<hr />
+
+<h3>Exhibitions</h3>
+<div class="gallery">
+  {% for post in site.posts %} {% if post.categories contains 'exhibitions' %}
+  <figure class="gallery-item">
+    <a href="{{ post.url }}">
+      <img class="thumbnail-300" src="{{ post.cover.path }}" alt="{{ post.cover.alt }}" title="copyright Maggie Umber"/></a>
+      <figcaption><a href="{{ post.url }}">{{ post.date | date: "%m/%d/%y" }}<br />{{ post.title }}</a></figcaption>
+  </figure>
+  {% endif %} {% endfor %}
+</div>
